@@ -10,15 +10,15 @@ tags:
 
 Video version of this document is available here
 
-<!--kg-card-begin: html--><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/exExQstfhsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--kg-card-end: html-->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/exExQstfhsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 _but does have some outdated information so reading may be a better format_
 
-## **What are sensitivities**
+## What are sensitivities
 
 Sensitivity in FPS games is a simple concept; it fundamentally describes how much you will turn in-game when you move your mouse an arbitrary distance. When talking about sensitivity, there are many ways to express it with the sensitivity value + mouse counts per inch + games yaw value, but because not every game has the same yaw value. I like to use a universal measurement like cm/rev (Turn Circumference) which is how many centimetres it takes to do one full 360/revolution in-game and deg/mm (Aim Curvature) is how many degrees of in-game movement is with 1mm of mouse movement on your mousepad. Most modern games use the formula [Sensitivity \* Yaw = Rotation increment per count].
 
-**Conversion**
+## Conversion
 
 Because not all of the yaw values are the same, we have to convert them if you want the same sensitivity, the way we can do this is with a converter or using the yaw values. Here are some ways you can convert them between games and to universal values like cm/rev and deg/mm:
 
@@ -32,13 +32,13 @@ While you can convert between games, you might find that the sensitivity feels o
 
 * * *
 
-## **Perfect sensitivity and other misconceptions**
+## Perfect sensitivity and other misconceptions
 
 Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best. Other misconceptions are around Muscle memory and not changing sensitivity. This is a big thing that new people in the community get told which is a complete fad. A player with reasonable mouse control will be able to change their sensitivity and mouse without any significant problems, so long as they don’t go into extremes. There can be a noticeable difference, but that’s not related to memory, but more related to comfort and preference. So don’t have the mindset to train and use one sensitivity for the rest of your life. The benefits of that sensitivity might change. Also, higher or lower sensitivity has a higher skill ceiling, this is wrong for many reasons because if that were the case, you would see all the top players using a high sensitivity. Still, they don’t work because of the many downsides and upsides to the sensitivity even if they could control it. “You should choose your sensitivity off your mousepad size” this is not the best way to decide the quality of a sensitivity because it neglects the skill of repositioning and the true nature of the sensitivity and its benefits.
 
 * * *
 
-## **Speed vs Control**
+## Speed vs Control
 
 Here I can start talking about the differences in sensitivities. For this, I am going to use 25–35cm/360 as a mid-range balanced sensitivity to determine faster and slower sensitivity as it uses a mix of arm and wrist, but I will talk about that later in this document. So for a quicker sensitivity(\<25cm), the benefits are:
 
@@ -52,17 +52,15 @@ And for a lower sensitivity(\>35cm)
 - Better for click timing and lower the games
 - Like cs/Val
 
-**Use of different parts of the body**
+### Use of different parts of the body
 
 Like above, each sensitivity uses different parts of the body to aim. The main components that get used are the wrist, arm, and fingertips and this should be taken into account when you are deciding on what sensitivity you should use or what sensitivity range you should play in. For higher sensitivity(\<25cm), there is more use of the wrist for more angle sizes and less arm movement and the opposite for low sensitivity(\>35cm). Let’s just use a graph to show this with the use of either wrist or arm with the range while this can’t be perfect because it is **SUPER generalized** on the angles of movement and other factors like knowing how to use the parts etc.
-
-<figure class="kg-card kg-image-card"><img src=" __GHOST_URL__ /content/images/2021/07/unknown-bQ6uoXH.png" class="kg-image" alt loading="lazy" width="937" height="556" srcset=" __GHOST_URL__ /content/images/size/w600/2021/07/unknown-bQ6uoXH.png 600w, __GHOST_URL__ /content/images/2021/07/unknown-bQ6uoXH.png 937w" sizes="(min-width: 720px) 720px"></figure>
 
 Now with this, you can see that the 25–35cm range is right in the middle so that they should use equal amounts of wrist and arm. The above assumes that you can use all the different parts equally and generally for people that when above 35cm they use all arm and for below 25cm they use all wrist, but this isn’t the best way. You should try to use the different parts for different movements and angles of movements like wrist for small micro-corrections and then arm for fast close-range tracking. This synergy should and can be learned through training, but I do like to say that you should be able to use them if you are bad at arm aiming and not suitable for large angles. Try to use lower sensitivity for a bit and the opposite if you use more of your arm. This is the first step in choosing a sensitivity.
 
 * * *
 
-## **Choosing a sensitivity**
+## Choosing a sensitivity
 
 Now you know the benefits of the different sensitivity and see that the benefits will never be perfect for everything so far it is time to look at how to choose a good sensitivity that has the benefits and the training type that you want. Like above, training for equal use of the wrist and arm is excellent, but the balanced range might be skewed to one side depending on what type of game and aiming style that you want more. Then we can use what I said at the top of the document about the benefits of speed and for the game and so let us do some suitable ranges to use as a baseline for games which I have to credit Ins for, from his [Aiming FAQ](https://docs.google.com/document/d/1JNxtnqlLq6ijDd3rXZQRFEp0SslVHNdbc2RWCWwMHZ4/edit):
 
@@ -84,10 +82,9 @@ The last point which sometimes can be useful is to change your sensitivity often
 
 ### Mouse Accelleration
 
-If you want the best of both worlds, there is mouse acceleration which can give the advantages of both but worse for things that don’t require the speed like cs/Val. Plus it takes a while to adapt to it.   
+If you want the best of both worlds, there is mouse acceleration which can give the advantages of both but worse for things that don’t require the speed like cs/Val. Plus it takes a while to adapt to it.
 See [N.R.K’s guide on it](https://docs.google.com/document/d/1wuQln99lQVBU9L8_QbpifrarpJ1xjPuKsKD2FY026Hc/edit#)
 
 ### DPI/CPI
 
-While I am not going to cover dpi/cpi choice as there are many variables and things to explain in [this document/article]( __GHOST_URL__ /why-higher-cpi-is-better/) you can see my other one on the topic
-
+While I am not going to cover dpi/cpi choice as there are many variables and things to explain in [this document/article]({% post_url 2021-06-04-why-higher-cpi-is-better %}) you can see my other one on the topic

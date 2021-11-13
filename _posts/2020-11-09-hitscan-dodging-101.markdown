@@ -54,4 +54,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-<!--kg-card-begin: html--><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SGhsap8TjD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--kg-card-end: html-->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SGhsap8TjD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

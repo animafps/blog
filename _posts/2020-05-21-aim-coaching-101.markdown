@@ -5,14 +5,13 @@ date: '2020-05-21 09:00:00'
 tags:
 - aiming
 - guides
-comments: true
 ---
 
 The primary purpose of this is to show what aim coaches are, which services are available, how it can help, how it doesn’t, and what makes a good coach and what makes a lousy coach. As I have talked and ranted about plenty of times on my Twitter about the amount of misinformation so I have decided to share how people can know how some coaches will help you and how some may be scams and a waste of money and time. Also, help future coaches create a valuable service to help people that might use it. This isn’t for telling about what a coach is but rather what aim coaches are if you’re going to learn about that read all about it in [RESPRiT’s what is a coach document](https://docs.google.com/document/d/10ZzH0-QiD45Zh9gqxOBp0585q7YkqkKccSKx2en84mI/edit) which is a good read before continuing. One thing that I have tried to do in this document is to remove as much bias and to give information without many opinions so that you can make your own decisions.
 
 * * *
 
-## **Common misconceptions with aim coaches**
+## Common misconceptions with aim coaches
 
 Aim coaches will not always be the most efficient path to improvement for the price that some coaches may charge (see How to choose an aim coach)
 
@@ -35,7 +34,7 @@ While there are many coaches in the community, they usually fall into one or a c
 
 **Routine Coaches/ Routine Providers** :
 
-These are very talked-about coaches within the community for their sometimes controversial actions. Still, they are coaches that give a method of training through a routine of times/ numbers of runs to play through with specific scenarios in Kovaaks or Aim Lab to train overall mouse control or specific personalised routine to improve your weaknesses. While this can be good when you start training is my personal opinion. However, there are [plenty of free routines]( __GHOST_URL__ /aim-resources) around plus many more which you can use as a perfect base to then adapt to focus on your weaknesses. But one downside of this kind of coaching is that it does not improve or detect bad habits or specific mistakes that you might be having during your training.
+These are very talked-about coaches within the community for their sometimes controversial actions. Still, they are coaches that give a method of training through a routine of times/ numbers of runs to play through with specific scenarios in Kovaaks or Aim Lab to train overall mouse control or specific personalised routine to improve your weaknesses. While this can be good when you start training is my personal opinion. However, there are [plenty of free routines]({% post_url 2021-07-15-aim-resources %}) around plus many more which you can use as a perfect base to then adapt to focus on your weaknesses. But one downside of this kind of coaching is that it does not improve or detect bad habits or specific mistakes that you might be having during your training.
 
 **General Advisors for Aiming** :
 
@@ -65,13 +64,13 @@ There are not many other coaches, but there may be some in the future like menta
 
 * * *
 
-## **How can aim coaching help**
+## How can aim coaching help
 
 Aim coaching can be beneficial to speed up your progress and efficiency in your progression to gain mouse control and game-specific skills, but Aim Coaching isn’t always the fastest way, but it can be, and the type of aim coach might also influence. So you should do your research and see if you think you can benefit from a VOD review coach, for example, can be helpful when you reach a point of initial mouse control like Voltaic gold/ plat and have reached a plateau of improvement(where you don’t seem to be improving over some time). Still, it also might be useful if you want to talk and ask questions more openly with the coach so that live coaching might be a better way. I have to point out here that routine services might be useful to start. But with all of this, if you are thinking about aim coaching, you have to weigh the price to how much you might improve from it. At the same time, most of this information can be obtained like every coaching that exists IRL a coach is a convenient way to learn and gain knowledge faster. Aim coaching might help with more applied advice for games and specific types of aiming that a general guide or document can’t always help.
 
 * * *
 
-## **How to choose an aim coach**
+## How to choose an aim coach
 
 If you understand the types of coaches that are out there, it is a good thing to see what coaches are available then check the prices for their services. Then you should see their experience and maybe even a sample of their work if they have one available and then you can roughly choose the type and style of coach that you think would benefit you the best. I can’t tell you who will be the best for you and it might take you some time to choose a coach for you, but the results may be better in the end. Just because a coach is popular doesn't mean they are credible or helpful do your checks.
 
@@ -87,7 +86,7 @@ Example (from my comment):
 8. Then contact the coach through their preferred platform.
 9. Done
 
-**How to check for scammers**
+### How to check for scammers
 
 While I don’t think there are many direct scammers in the community, there are some people that are a bit dodgy with their business practices. So make sure that you are getting what you want and that the coach is credible and with experience. This is an essential point if a coach requires you to sign an NDA, then they might be a scam or just not a high-quality coach. One thing to point out here I do not think that Routine Coaches are scammers. Still, there has been evidence that when they say personalised routine that they have been giving back a generic routine that has been given to many clients, so that is a thing to consider if you are going that route. And use common sense in these situations if they are charging a lot of money for an unknown amount of review or a strange routine they might be trying to rip you off. Make sure to ask or check if they have a sample of their work to check what you might be getting scammed or at least something that you might not expect.
 
@@ -110,5 +109,4 @@ There are plenty of places to find a coach your needs main places but not limite
 
 * * *
 
-Thanks for reading this. I hope this can help you find a coach or make your decision more accessible if you want to get better. This is an option that should be explored if you want the best. If you have any issues or feedback, feel free to DM me as this is a document for you, so I want only the highest quality. I love this format to get information out so I will most likely be making more documents/ guides in the future. Also, if you have ideas for documents/ guides that I should make then just dm me — also, thanks to [**Sini**](https://twitter.com/sinizap) for helping me with editing and giving feedback on the updated document.
-
+Thanks for reading this. I hope this can help you find a coach or make your decision more accessible if you want to get better. This is an option that should be explored if you want the best. If you have any issues or feedback, feel free to DM me as this is a document for you, so I want only the highest quality. I love this format to get information out so I will most likely be making more documents/ guides in the future. Also, if you have ideas for documents/ guides that I should make then just dm me — also, thanks to [Sini](https://twitter.com/sinizap) for helping me with editing and giving feedback on the updated document.
