@@ -13,4 +13,3 @@ Two major components make up the performance of a pad:
 ### Dynamic Friction
 
 The first of the two is dynamic friction, this is the friction
-
