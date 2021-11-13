@@ -1,0 +1,25 @@
+---
+layout: post
+title: FPSMath
+date: '2021-09-04 03:39:45'
+tags:
+- coding
+- hash-portfolio
+- math
+- gaming
+---
+
+ **FPSMath** is a project that is everything I love with math, gaming, and coding all combining into something that I think to be a really helpful service. This bot does everything that is required or even thinkable relating to video games and conversions.
+
+It was created after using a similar bot called [Sensitivity-Converter-Bot](https://github.com/JSanchezIO/Sensitivity-Converter-Bot) which was the only one at the time with a good amount of features and conversions available but it lacked so many and the command structure was a tiny bit unintuitive so started this bot.
+
+So the first revision was released on Dec 29, 2020, which had not many features and only a handful of games and units supported but it was good(I am a little biased). This release got a little bit of traction and got added to a huge Discord: Kovaak's FPS Aim Trainer's official discord server which had like 20,000 people in it at the time but it still had a long path ahead to fill in the gaps.
+
+So after a long time with many revisions and going through 3 changes of framework and complete overhauls we come to where we are now with the bot in 270 servers totaling over 100,000 people within them with more examples as the 3d Aim Trainer discord which has over 50,000 members.
+
+If you want to have the bot on your server go to the documentation and getting-started and you can get converting conveniently
+
+**[Documentation](https://fpsmath.xyz)**
+
+[**Source code**](https://github.com/animafps/fpsmath)
+

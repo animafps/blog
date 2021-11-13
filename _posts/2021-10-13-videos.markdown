@@ -1,0 +1,10 @@
+---
+layout: post
+title: Videos
+date: '2021-10-13 21:51:21'
+---
+
+The various videos I have published for topics about gaming and gaming mostly. Not including frag/highlight videos.
+
+[<svg class="icon"><use xlink:href="#icon-youtube"></use></svg>YouTube](https://youtube.com/c/AnimaFPS)
+<!--kg-card-end: html-->

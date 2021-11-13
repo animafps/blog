@@ -1,0 +1,42 @@
+<footer class="footer">
+    <a class="footer_item" href="/feed.xml">rss</a>
+    <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+    <small class="footer_copyright">
+      <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
+      <a
+        href="https://github.com/piharpi/jekyll-klise"
+        target="_blank"
+        rel="noreferrer noopener"
+        >klisé</a
+      >
+      theme on
+      <a href="https://jekyllrb.com" target="_blank" rel="noreferrer noopener"
+        >jekyll</a
+      >
+    </small>
+  </footer>
+  <script src="/assets/js/main.js" defer="defer"></script>
+  {%- if page.comments -%}
+  <script>
+    const gitalk = new Gitalk({
+        clientID: "{{ site.gitalk.clientID }}",
+        clientSecret: "{{ site.gitalk.clientSecret }}",
+        repo: "{{ site.repo }}",
+        owner: "{{ site.author.github }}",
+        id: location.pathname,
+        distractionFreeMode: false
+      });
+      
+    gitalk.render('gitalk-container');
+  </script>
+  {%- endif -%}
+  {%- if page.url == '/archive/' -%}
+    <script src="/assets/js/search.min.js"></script>
+    <script>
+      var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/assets/search.json',
+      });
+    </script>
+  {%- endif -%}
