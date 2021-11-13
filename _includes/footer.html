@@ -1,33 +1,33 @@
 <footer class="footer">
-    <a class="footer_item" href="{{ 'feed.xml' | relative_url }}">rss</a>
-    <a class="footer_item" href="{{ site.repo }}">source</a>
-    <small class="footer_copyright">
-      {{ site.copyright }}
-    </small>
-  </footer>
-  <script src="{{ '/assets/js/main.js' | relative_url }}" defer="defer"></script>
-  {%- if page.comments -%}
-  <script>
-    const gitalk = new Gitalk({
-        clientID: "{{ site.gitalk.clientID }}",
-        clientSecret: "{{ site.gitalk.clientSecret }}",
-        repo: "{{ site.gitalk.repoName }}",
-        owner: "{{ site.author.github }}",
-        admin: ["{{ site.author.github }}"],
-        id: location.pathname,
-        distractionFreeMode: false
-      });
+  <a class="footer_item" href="{{ 'feed.xml' | relative_url }}">rss</a>
+  <a class="footer_item" href="{{ site.repo }}">source</a>
+  <small class="footer_copyright">
+    {{ site.copyright }}
+  </small>
+</footer>
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer="defer"></script>
+{%- if page.comments -%}
+<script>
+  const gitalk = new Gitalk({
+    clientID: "{{ site.gitalk.clientID }}",
+    clientSecret: "{{ site.gitalk.clientSecret }}",
+    repo: "{{ site.gitalk.repoName }}",
+    owner: "{{ site.author.github }}",
+    admin: ["{{ site.author.github }}"],
+    id: location.pathname,
+    distractionFreeMode: false
+  });
       
-    gitalk.render('gitalk-container');
+  gitalk.render('gitalk-container');
+</script>
+{%- endif -%}
+{%- if page.url == '/archive/' -%}
+  <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: "{{ '/assets/search.json' | relative_url }}",
+    });
   </script>
-  {%- endif -%}
-  {%- if page.url == '/archive/' -%}
-    <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
-    <script>
-      var sjs = SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('search-results'),
-        json: "{{ '/assets/search.json' | relative_url }}",
-      });
-    </script>
-  {%- endif -%}
+{%- endif -%}

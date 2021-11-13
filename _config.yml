@@ -33,6 +33,7 @@ author:
 mode: dark
 sass:
   style: compressed
+  sass_dir: _sass
 
 # Collection setting
 collections:
