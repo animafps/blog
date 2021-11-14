@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-comments: false
 ---
 
 Hey my nickname is Anima and I am an 18y/o student from a small country of New Zealand, my hobbies include playing video games (not much anymore), maths, philosophy (with writing some small essays which I might post here), and a small amount of writing random snippets of code for various projects.

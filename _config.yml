@@ -35,12 +35,7 @@ sass:
   style: compressed
   sass_dir: _sass
 
-# Collection setting
-collections:
-  posts:
-    output: true
-
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Markdown settings
 markdown: kramdown

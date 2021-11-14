@@ -4,7 +4,6 @@ title: glicko2.ts
 date: '2021-09-04 02:15:28'
 tags:
 - coding
-- hash-portfolio
 - math
 ---
 
