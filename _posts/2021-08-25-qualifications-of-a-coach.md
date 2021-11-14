@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Qualifications of a Gaming Coach
-featured: true
 date: '2021-08-25 04:40:00'
 tags:
 - gaming

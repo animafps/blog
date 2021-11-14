@@ -30,12 +30,5 @@ gitalk:
 
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Anima's Stuff</span> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> unless stated otherwise.</p>
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: post
-      comments: true
-
 exclude:
   - readme.md

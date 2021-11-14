@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mouse Sensitivity 101
-featured: true
 date: '2020-06-22 09:00:00'
 tags:
 - aiming
