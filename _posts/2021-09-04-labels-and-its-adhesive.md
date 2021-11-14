@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Labels and its Adhesive
-date: '2021-09-04 01:24:27'
+date: "2021-09-04 01:24:27"
 tags:
-- essays
-- philosophy
-- queer-theory
+  - essays
+  - philosophy
+  - queer-theory
 ---
 
 Labels are a direct extension of someone's perception, often used to supplement and explain common traits about a person and how they should be perceived as their default. Now while this is looking at just queer labels and my analysis of its application and its fundamental ideas, this can be applied to such a range of things.
@@ -26,12 +26,8 @@ Now for a lot of people they just call themselves queer to avoid all this nonsen
 
 I do believe in bi/pan normativity till people sort the stuff out around the extremes. Plus we need to provide support independent of labels and come from a perspective where a lot of people can experience a lot of the same shit if they do not fall under the same label and if we talk and teach about the issues of people in the community we can truly get rid of the toxic discourse that happens so much.
 
-<!--kg-card-begin: html--> 
+[Labels and Its Adhesive Essay]({{ post.url }}) is licensed under [CC BY-ND 4.0](http://creativecommons.org/licenses/by-nd/4.0/)
 
-[Labels and Its Adhesive Essay]( __GHOST_URL__ /labels-and-its-adhesive/) by [Anima.]( __GHOST_URL__ /) is licensed under [CC BY-ND 4.0 ![](https://mirrors.creativecommons.org/presskit/icons/cc.svg) ![](https://mirrors.creativecommons.org/presskit/icons/by.svg) ![](https://mirrors.creativecommons.org/presskit/icons/nd.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
-
- <!--kg-card-end: html-->
-* * *
+---
 
 This is kinda something different from the normal gaming content but I hope some people find interest in this. I have a lot of essays and weird stuff like this in my notes that I share with my closest friends but I think a lot of people may learn stuff and I want to add to the discourse.
-
