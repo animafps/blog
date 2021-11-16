@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#131418" />
   <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}" />
+  <link rel="icon" href="{{ '/assets/img/icon.png' | relative_url }}" />
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   {%- if page.layout == 'post' -%}
@@ -33,7 +34,7 @@
     onload="renderMathInElement(document.body);"
   ></script>
   {% endif %} {% include analytics.html %}
-  <script>
+  <script async>
     if ("serviceWorker" in navigator) {
       if (navigator.serviceWorker.controller) {
         console.log("An active service worker found, no need to register");

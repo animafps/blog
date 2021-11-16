@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "Anima's Stuff",
   "short_name": "Anima's Stuff",
   "theme_color": "#131418",
@@ -8,5 +9,12 @@
   "orientation": "natural",
   "description": "Just a random 18y/o from NZ talking about gaming, aiming, philosophy, coding/computer science and queer theory",
   "lang": "en",
-  "dir": "ltr\rtl"
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/assets/img/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
 }
