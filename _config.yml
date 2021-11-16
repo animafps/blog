@@ -1,8 +1,8 @@
 title: Anima's Stuff
 description: Just a random 18y/o from NZ talking about gaming, aiming, philosophy, coding/computer science and queer theory
-baseurl: "/blog"
+baseurl: ""
 url: "https://animafps.github.io"
-repo: https://github.com/animafps/blog
+repo: https://github.com/animafps/animafps.github.io
 author:
   name: Anima
   username: AnimaFPS
@@ -25,7 +25,7 @@ kramdown:
 gitalk:
   clientID: c7e84bc3bc4553c3add5
   clientSecret: 2f07ea7d2782826a33e0d91b94277955c892ef53
-  repoName: blog
+  repoName: animafps.github.io
 
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Anima's Stuff</span> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> unless stated otherwise.</p>
 
