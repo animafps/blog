@@ -8,7 +8,7 @@ tags:
 
 - **Bold** are recommended resources
 - This project is deprecated and no longer maintained as of August 2021, some information may be missing and will not be updated but if you want to manage and maintain this list or port it to another format or website please contact me at [animafps@protonmail.com](mailto:anima@animafps.xyz) and I will be happy to help out. For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](https://github.com/riddbtw/kovaaks-playlists)
-<!--kg-card-begin: html-->
+
 ### Documents/Benchmarks
 
 | Title/Link | Description | Author(s) |
@@ -96,5 +96,3 @@ tags:
 | [FPSMath discord bot](https://fpsmath.animafps.xyz) | A Discord bot designed to convert video game sensitivities, fovs, mouse feel across themselves and preset games | [Anima](https://twitter.com/AnimaFPS) |
 | [Lapu4's Library](https://discord.gg/8T6VctsV5P) | Lapu4's routines, playlists, other resources, documents, links to useful websites and videos, etc. are all in one place. Primarily for Japanese speakers but has also been translated. | [Lapu4](https://twitter.com/lapu4lapua) |
 | [**Pumpkin's Routine Finder**](https://routines.pumpkinql.xyz) | A website to find and upload KovaaK specific playlist files | [Pumpkin](https://twitter.com/Pumpkin60lg) |
-
-<!--kg-card-end: html-->

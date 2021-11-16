@@ -10,7 +10,7 @@ tags:
 
 My Own Video with basic strats
 
-<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/_LG0uAQTcwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<iframe width="200" height="113" src="https://www.youtube.com/embed/_LG0uAQTcwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Thanks to Blindlight for the basics of this part
 
@@ -71,11 +71,11 @@ Might be strat to respawn in a better place if you are behind the carrier
 
 ### Map specific
 
-**Sunken**
+#### Sunken
 
 Holding Rocket is really strong especially for the first minute for 3 reds macguffin and vindi spawns and Base A is the best unless you have control of that rocket position
 
-**Marina**
+#### Marina
 
 Holding red and pillars/ blaster is so powerful with more pncr
 
@@ -117,4 +117,3 @@ Sal Strats by Fishy [https://clips.twitch.tv/SavoryIntelligentGarlicRiPepperonis
 As well these strats were used in the NA finals
 
 Where they primarily were split from one another taking angles then pushing on one target all together especially aimscamz.gg this will help with aggressive play and to stop getting wiped all off the start
-

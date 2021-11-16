@@ -14,4 +14,3 @@ Now the other method is matching the true sensitivity increment for both hip fir
 It's also used so you can know the exact sens of your ads to change but that still can be easily calculated. And the last point is that it's a smooth transition between the ads and hipfire but it's clear that in reality, the feel changes even if the sensitivity stays the same.
 
 While focal length scaling is not perfect it can get quite close to matching the perceived feel.
-

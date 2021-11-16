@@ -40,4 +40,3 @@ It's the term that most people associate with the concept of CPI, but DPI doesn�
 ## Pixel Skipping
 
 Now a common fad that goes along with CPI’s is pixel skipping which while helps the idea of higher CPI’s helping for a better experience/performance but it misrepresents the issues of lower CPI and spreads bad information. Pixel skipping cant happen because you cant rotate by a pixel angle that just doesn’t exist and it's rather the effect of a low CPI and its large distance per count being more exaggerated with a higher sensitivity value(larger rotation per count).
-

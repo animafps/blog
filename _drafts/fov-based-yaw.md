@@ -5,6 +5,7 @@ tags:
 - math
 - gaming
 - coding
+latex: true
 ---
 
 The major issue that I have run into while writing the [FPSMath Discord bot](https://fpsmath.animafps.xyz) is the lack of standardization of ADS sensitivity scaling especially when it interacts with and changes the internal yaw value. Which messes up all sensitivity-based calculations to convert to and from that game.
@@ -26,4 +27,3 @@ But this way of scaling the sensitivity isn't really useful because it kind of s
 ## Why should games standardize
 
 Firstly the change of standardizing this method means that engines have a better system of supporting changes of FoV without removing the quality of life of being able to easily transfer between games
-

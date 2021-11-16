@@ -43,11 +43,10 @@ While you can also conclude that ShareAlike is restrictive for all the licensing
 
 ## Works of Opinion
 
-This model might not work for every bit of my work though. Like my essays of opinion. Like my [labels essay]( __GHOST_URL__ /lables-and-its-adhesive/) which expresses just a bit of my opinion and the issue that arises is if it gets modified and kind of loses its original meaning. Where the no derivatives clause comes in, which prohibits the distribution of modified copies and has to be copied and shared verbatim. While the information might be shared that is noteworthy in terms of content that is theories which could be added on to by derivatives with another license it's just not worth and can still have excerpts extracted.
+This model might not work for every bit of my work though. Like my essays of opinion. Like my [labels essay]({% post_url 2021-09-04-labels-and-its-adhesive %}) which expresses just a bit of my opinion and the issue that arises is if it gets modified and kind of loses its original meaning. Where the no derivatives clause comes in, which prohibits the distribution of modified copies and has to be copied and shared verbatim. While the information might be shared that is noteworthy in terms of content that is theories which could be added on to by derivatives with another license it's just not worth and can still have excerpts extracted.
 
 ## Conclusion: Freedom of Information
 
 All information should be free to be accessed and redistributed so no one entity owns the power and the knowledge. I for one am going to share my thoughts so it can help all who might be interested and share, collate and create better ways to unite information to be free and accessible for you.
 
 If we get more information and code out the more we all benefit so if you are writing an essay or some code or a blog think if it could be a little freer.
-

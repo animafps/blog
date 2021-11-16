@@ -2,10 +2,10 @@
   url: /
   external: false
 
-- title: about
-  url: /about/
-  external: false
-
 - title: tags
   url: /tags/
+  external: false
+
+- title: about
+  url: /about/
   external: false

@@ -11,7 +11,7 @@ Video version of this document is available here
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/exExQstfhsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_but does have some outdated information so reading may be a better format_
+*but does have some outdated information so reading may be a better format*
 
 ## What are sensitivities
 
@@ -54,6 +54,8 @@ And for a lower sensitivity(\>35cm)
 ### Use of different parts of the body
 
 Like above, each sensitivity uses different parts of the body to aim. The main components that get used are the wrist, arm, and fingertips and this should be taken into account when you are deciding on what sensitivity you should use or what sensitivity range you should play in. For higher sensitivity(\<25cm), there is more use of the wrist for more angle sizes and less arm movement and the opposite for low sensitivity(\>35cm). Let’s just use a graph to show this with the use of either wrist or arm with the range while this can’t be perfect because it is **SUPER generalized** on the angles of movement and other factors like knowing how to use the parts etc.
+
+![Sensitivity vs Body usage](sensitivity_vs_bodyusage.png)
 
 Now with this, you can see that the 25–35cm range is right in the middle so that they should use equal amounts of wrist and arm. The above assumes that you can use all the different parts equally and generally for people that when above 35cm they use all arm and for below 25cm they use all wrist, but this isn’t the best way. You should try to use the different parts for different movements and angles of movements like wrist for small micro-corrections and then arm for fast close-range tracking. This synergy should and can be learned through training, but I do like to say that you should be able to use them if you are bad at arm aiming and not suitable for large angles. Try to use lower sensitivity for a bit and the opposite if you use more of your arm. This is the first step in choosing a sensitivity.
 

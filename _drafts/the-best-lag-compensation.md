@@ -6,4 +6,3 @@ tags:
 ---
 
 For every multiplayer game there is secret algorithms
-

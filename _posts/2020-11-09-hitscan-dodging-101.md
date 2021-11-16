@@ -38,12 +38,13 @@ Just going to touch on some bad things that are quite obvious but you should sti
 I am just going to leave some examples of good dodging  
 As an example, I got from [pumpkin](https://twitter.com/pumkin60lg): &nbsp;
 
-<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/bx3A3pCO7eo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<iframe width="200" height="113" src="https://www.youtube.com/embed/bx3A3pCO7eo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 with an LG thunderstruck which this dodging is most prominent  
 And the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/LRMxq4qY46g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<iframe width="200" height="113" src="https://www.youtube.com/embed/LRMxq4qY46g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * * *
 
 ## **Dodging vs Strafe Aim**

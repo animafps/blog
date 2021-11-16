@@ -17,4 +17,3 @@ For me, I fixate on choosing and taking any opportunities I can if that be a sch
 You need time to relax and not burn out in life. No matter the issues with this supposed Chinese proverb "it's not a bowl if it's full". So the utility of nothing is reducing burnout, stopping the endless cycle to one-up your experiences, and provides a place for time and emotions to catch up (no matter how you want to run from them). This gives it value and merit so use it, I know I need to.
 
 > A text pings their phone "Let's go out tonight". It's not the night, last week for them has been a bender, it's tiring, and it's affecting everything else in their life. "Not tonight, I think I will just chill and do nothing".
-

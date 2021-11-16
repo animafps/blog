@@ -10,9 +10,9 @@ Gaming coaches especially aim coaches popping up in the immensely toxic/gatekeep
 
 Recommended Prerequisite reading by RESPRiT: [What is a Coach, Really?](https://docs.google.com/document/d/10ZzH0-QiD45Zh9gqxOBp0585q7YkqkKccSKx2en84mI/edit)
 
-* * *
+---
 
-# Basic Qualifications
+## Basic Qualifications
 
 - Have qualification or experience in teaching, analysis, or tutoring.
 - Have significant experience, understanding and active involvement in the specified activity.
@@ -39,7 +39,6 @@ Now with a lot of the gaming community(even more so in the aiming community), th
 
 To overcome this see when popular coaches do this and if they are focusing on the right things and use the steps of evaluation to help with this. We need to get rid of it in every field and promote quality coaches for their coaching ability, not their ability to promote themselves. Plus with this, you can help out coaches who you think do good coaching by recommending them to others and such so we can get past these coaches who may not always be worth people's money.
 
-* * *
+---
 
-**Coaches should be seen as good and uplifted for their coaching, not because of their reputation and popularity**
-
+> Coaches should be seen as good and uplifted for their coaching, not because of their reputation and popularity

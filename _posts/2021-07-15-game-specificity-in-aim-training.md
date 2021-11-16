@@ -13,9 +13,8 @@ There are more than just patterns in games. Every game, every interaction is dif
 
 But how does that transfer? It does by your learning and identifying how to adapt your aim and the skills that you have learned to that situation. Not to say that you're future-proofing your skills and abilities to whatever situation.
 
-### Side point: recoil 
+### Side point: recoil
 
 Recoil is one of these game-specific aspects that people want to train with but it's still just aim but you are adapting and offsetting your crosshair to that recoil pattern not training the mixture of the two.
 
 So for Aim Lab and people to obsess over the direct application rather than the improvement of general useful skills plus learning how to adapt and read the specific game to fully utilize initially indirect training.
-

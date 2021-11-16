@@ -10,7 +10,6 @@ author:
   github: animafps
   avatar: /assets/img/avatar.jpg
 
-mode: dark
 sass:
   style: compressed
   sass_dir: _sass

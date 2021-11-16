@@ -29,4 +29,3 @@ Polished games can hold a player base but a good game can create a player base.
 Diabotical is polished and to an extent but the popularity will never come. I will probably stop playing which sucks, but the fundamental genre is dead and is too hard for people to pick up.
 
 [Another great article](https://www.esportsearnings.com/articles/the-problem-with-influencers-negatively-affecting-the-arena-fps-community-and-how-diabotical-will-revive-arena-shooters) by esports earnings covers more of how influencers can help
-
