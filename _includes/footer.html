@@ -3,10 +3,27 @@
   <a class="footer_item" href="{{ site.repo }}">source</a>
   <small class="footer_copyright"> {{ site.copyright }} </small>
 </footer>
-<script src="{{ '/assets/js/main.js' | relative_url }}" defer="defer"></script>
+<script defer>
+  if ("serviceWorker" in navigator) {
+    if (navigator.serviceWorker.controller) {
+      console.log("An active service worker found, no need to register");
+    } else {
+      navigator.serviceWorker
+        .register("{{ site.baseurl }}/serviceworker.js", {
+          scope: "./",
+        })
+        .then(function (reg) {
+          console.log(
+            "Service worker has been registered for scope: " + reg.scope
+          );
+        });
+    }
+  }
+</script>
 {%- if page.layout == 'post' -%}
-<script>
-  const gitalk = new Gitalk({
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script defer>
+  new Gitalk({
     clientID: "{{ site.gitalk.clientID }}",
     clientSecret: "{{ site.gitalk.clientSecret }}",
     repo: "{{ site.gitalk.repoName }}",
@@ -14,17 +31,29 @@
     admin: ["{{ site.author.github }}"],
     id: location.pathname,
     distractionFreeMode: false,
-  });
-
-  gitalk.render("gitalk-container");
+  }).render("gitalk-container");
 </script>
 {%- endif -%} {%- if page.url == '/archive/' -%}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
-<script>
+<script defer>
   var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById("search-input"),
     resultsContainer: document.getElementById("search-results"),
     json: "{{ '/assets/search.json' | relative_url }}",
   });
 </script>
-{%- endif -%}
+{%- endif -%} {% if page.latex %}
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+  integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
+{% endif %}
