@@ -14,12 +14,14 @@
     {
       "src": "/assets/img/icon-512px.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
       "sizes": "192x192",
       "src": "/assets/img/icon.png",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
