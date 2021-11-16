@@ -34,7 +34,7 @@
     onload="renderMathInElement(document.body);"
   ></script>
   {% endif %} {% include analytics.html %}
-  <script async>
+  <script async defer>
     if ("serviceWorker" in navigator) {
       if (navigator.serviceWorker.controller) {
         console.log("An active service worker found, no need to register");
