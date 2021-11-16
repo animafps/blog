@@ -236,6 +236,10 @@ a {
   &:hover {
     color: $text-link-blue;
   }
+
+  b {
+    color: inherit !important;
+  }
 }
 
 // Del
