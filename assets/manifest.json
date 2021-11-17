@@ -21,7 +21,7 @@
       "sizes": "192x192",
       "src": "/assets/img/icon.png",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ]
 }
