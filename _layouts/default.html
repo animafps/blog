@@ -3,7 +3,7 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{% include_cached header.html %}
+{% include header.html %}
   <body data-theme="{{ site.mode }}" class="notransition">
     <script>
       const body = document.body;
@@ -25,6 +25,6 @@ layout: compress
     </script>
     {% include_cached navbar.html %}
     {{ content }}
-    {% include_cached footer.html %}
   </body>
+  {% include footer.html %}
 </html>

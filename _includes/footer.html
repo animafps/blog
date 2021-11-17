@@ -1,7 +1,7 @@
 <footer class="footer">
   <a class="footer_item" href="{{ 'feed.xml' | relative_url }}">rss</a>
   <a class="footer_item" href="{{ site.repo }}">source</a>
-  <small class="footer_copyright"> {{ site.copyright }} </small>
+  <small class="footer_copyright"> <span>{{ site.copyright }}</span> </small>
 </footer>
 <script defer async src="{{ '/assets/js/main.js' | relative_url }}"></script>
 <script defer>
@@ -21,7 +21,7 @@
     }
   }
 </script>
-{%- if page.layout == 'post' -%}
+{% if page.layout == 'post' %}
 <script
   defer
   async
@@ -36,7 +36,7 @@
     distractionFreeMode: false,
   }).render("gitalk-container")'
 ></script>
-{%- endif -%} {%- if page.url == '/archive/' -%}
+{% endif -%} {%- if page.url == '/archive/' %}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
 <script defer>
   var sjs = SimpleJekyllSearch({
@@ -45,7 +45,7 @@
     json: "{{ '/assets/search.json' | relative_url }}",
   });
 </script>
-{%- endif -%} {% if page.latex %}
+{% endif %} {% if page.latex %}
 <script
   defer
   src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"

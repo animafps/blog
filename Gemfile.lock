@@ -54,6 +54,9 @@ GEM
       octokit (~> 4.2)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-loading-lazy (0.1.1)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (>= 1.10, < 2.0)
     jekyll-postfiles (3.1.0)
       jekyll (>= 3.8.6, < 5)
     jekyll-sass-converter (2.1.0)
@@ -64,13 +67,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.3)
-      addressable (~> 2.6)
-      jekyll (~> 4.0)
-      mime-types (~> 3.0)
-      objective_elements (~> 1.1)
-      rainbow (~> 3.0)
-      ruby-vips (~> 2.0.17)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -80,25 +76,21 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mime-types (3.4.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.1115)
     multipart-post (2.1.1)
-    objective_elements (1.1.2)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    rainbow (3.0.0)
+    racc (1.6.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.26.1)
-    ruby-vips (2.0.17)
-      ffi (~> 1.9)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sassc (2.4.0-x64-mingw32)
@@ -125,10 +117,10 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
+  jekyll-loading-lazy
   jekyll-postfiles
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll_picture_tag
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
