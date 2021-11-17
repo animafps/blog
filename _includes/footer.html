@@ -11,7 +11,7 @@
     } else {
       navigator.serviceWorker
         .register("{{ site.baseurl }}/serviceworker.js", {
-          scope: "./",
+          scope: "/",
         })
         .then(function (reg) {
           console.log(
