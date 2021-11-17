@@ -7,7 +7,7 @@ home: true
   <div class="author">
     <img
       class="author-avatar"
-      src="https://images.weserv.nl/?url={{ site.author.avatar | absolute_url }}&w=300&h=300&output=webp"
+      src="{{ site.author.avatar | relative_url }}"
       alt="{{ site.author.username }}"
     />
     <h2 class="author-name">{{ site.title }}</h2>
