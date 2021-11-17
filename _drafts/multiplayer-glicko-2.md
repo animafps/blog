@@ -22,4 +22,3 @@ This was the first one to implement. For all matches that get parsed into the ra
 ## Team versus Team
 
 Most of my implementation was thanks to [a great article](https://rhetoricstudios.com/cyrad/thesis/)and associated [master's thesis by Cyrad](https://rhetoricstudios.com/downloads/AbstractingGlicko2ForTeamGames.pdf). In the thesis linked above, there were 3 methods outlined
-

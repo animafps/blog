@@ -12,7 +12,7 @@ The major issue that I have run into while writing the [FPSMath Discord bot](htt
 
 The biggest culprit is unreal engine-based games which has it enabled by default!
 
-### What is Yaw
+## What is Yaw
 
 Yaw is the coefficient to the sensitivity value for the increment of rotation per mouse count. Often we use degrees per count as the unit of yaw.
 
