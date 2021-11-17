@@ -129,7 +129,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll_picture_tag
-  ruby-vips
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

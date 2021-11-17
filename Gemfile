@@ -22,10 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-postfiles"
   gem "jekyll-gist"
   gem "jekyll-include-cache"
-  gem "jekyll_picture_tag"
 end
-
-gem "ruby-vips"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

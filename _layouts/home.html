@@ -5,8 +5,12 @@ home: true
 
 <div class="wrapper">
   <div class="author">
-    {% picture "{{ site.author.avatar | relative_url }}" class="author-avatar"
-    --alt "{{ site.author.username }}"%}
+    <img
+      class="author-avatar"
+      src="{{ site.author.avatar | relative_url }}"
+      alt="{{ site.author.username }}"
+      loading="lazy"
+    />
     <h2 class="author-name">{{ site.title }}</h2>
     <p class="author-bio">{{ site.description }}</p>
   </div>
