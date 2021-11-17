@@ -37,6 +37,10 @@ layout: default
           >
             <span itemprop="name">{{ site.author.name }}</span>
           </span>
+          &middot;
+          <span itemprop="timeToRead">
+            {% include_cached time_to_read.html words=content %}
+          </span>
           <time
             hidden
             datetime="{{ page.modified | date_to_xmlschema }}"
@@ -54,18 +58,18 @@ layout: default
       </header>
 
       <div class="page-content" itemprop="articleBody">
-        {% include anchor_headings.html html=content anchorClass="anchor-head"
-        beforeHeading=true h_min=1 h_max=4 %}
+        {% include_cached anchor_headings.html html=content
+        anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
       </div>
     </article>
 
-    {% include comments.html %}
+    {% include_cached comments.html %}
   </main>
 
   {% if page.modified %}
   <small class="post-updated-at"
     >updated_at {{page.modified | date: "%d-%m-%Y"}}</small
   >
-  {% endif %} {% if page.next or page.previous %} {% include navigation.html %}
-  {% endif %}
+  {% endif %} {% if page.next or page.previous %} {% include_cached
+  navigation.html %} {% endif %}
 </div>
