@@ -62,14 +62,13 @@ layout: default
         anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
       </div>
     </article>
+    <hr />
 
-    {% include_cached comments.html %}
+    {% if page.modified %}
+    <p class="post-updated-at">
+      Updated: {{page.modified | date: '%B %d, %Y'}}
+    </p>
+    {% endif %} {% include_cached comments.html %}
   </main>
-
-  {% if page.modified %}
-  <small class="post-updated-at"
-    >updated_at {{page.modified | date: "%d-%m-%Y"}}</small
-  >
-  {% endif %} {% if page.next or page.previous %} {% include navigation.html %}
-  {% endif %}
+  {% if page.next or page.previous %} {% include navigation.html %} {% endif %}
 </div>

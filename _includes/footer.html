@@ -1,4 +1,20 @@
 <footer class="footer">
+  {% if site.author.mastodon %}
+  <a
+    class="footer_item"
+    rel="me"
+    href="https://mastodon.social/{{ site.author.mastodon }}"
+    >mastodon</a
+  >
+  {% endif %} {% if site.author.twitter %}
+  <a class="footer_item" href="https://twitter.com/{{ site.author.twitter }}"
+    >twitter</a
+  >
+  {% endif %} {% if site.author.youtube %}
+  <a class="footer_item" href="https://youtube.com/c/{{ site.author.youtube }}"
+    >youtube</a
+  >
+  {% endif %}
   <a class="footer_item" href="{{ 'feed.xml' | relative_url }}">rss</a>
   <a class="footer_item" href="{{ site.repo }}">source</a>
   <small class="footer_copyright"> <span>{{ site.copyright }}</span> </small>
@@ -36,7 +52,7 @@
     distractionFreeMode: false,
   }).render("gitalk-container")'
 ></script>
-{% endif -%} {%- if page.url == '/archive/' %}
+{% endif %} {% if page.url == '/archive/' %}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
 <script defer>
   var sjs = SimpleJekyllSearch({
