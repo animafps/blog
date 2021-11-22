@@ -39,6 +39,4 @@ Now with a lot of the gaming community(even more so in the aiming community), th
 
 To overcome this see when popular coaches do this and if they are focusing on the right things and use the steps of evaluation to help with this. We need to get rid of it in every field and promote quality coaches for their coaching ability, not their ability to promote themselves. Plus with this, you can help out coaches who you think do good coaching by recommending them to others and such so we can get past these coaches who may not always be worth people's money.
 
----
-
 > Coaches should be seen as good and uplifted for their coaching, not because of their reputation and popularity

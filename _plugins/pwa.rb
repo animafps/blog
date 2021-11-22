@@ -1,5 +1,5 @@
 class SWHelper
-    WORKBOX_VERSION = 'v5.1.4'
+    WORKBOX_VERSION = 'v6.4.1'
     def initialize(site, config)
         @site = site
         @config = config
@@ -12,27 +12,27 @@ class SWHelper
         sw_register_file = File.new(@site.in_dest_dir(sw_register_filename), 'w')
         # add build version in url params
         sw_register_file.puts(
-        <<-SCRIPT
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('#{@site.baseurl.to_s}/#{@sw_filename}?v=#{@site.time.to_i.to_s}').then(function(reg) {
-                reg.onupdatefound = function() {
-                    var installingWorker = reg.installing;
-                    installingWorker.onstatechange = function() {
-                        switch (installingWorker.state) {
-                            case 'installed':
-                                if (navigator.serviceWorker.controller) {
-                                    var event = new Event('sw.update');
-                                    window.dispatchEvent(event);
-                                }
-                                break;
+<<-SCRIPT
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('#{@site.baseurl.to_s}/#{@sw_filename}?v=#{@site.time.to_i.to_s}').then(function(reg) {
+        reg.onupdatefound = function() {
+            var installingWorker = reg.installing;
+            installingWorker.onstatechange = function() {
+                switch (installingWorker.state) {
+                    case 'installed':
+                        if (navigator.serviceWorker.controller) {
+                            var event = new Event('sw.update');
+                            window.dispatchEvent(event);
                         }
-                    };
-                };
-            }).catch(function(e) {
-                console.error('Error during service worker registration:', e);
-            });
-        }
-        SCRIPT
+                    break;
+                }
+            };
+        };
+    }).catch(function(e) {
+        console.error('Error during service worker registration:', e);
+    });
+}
+SCRIPT
         )
         sw_register_file.close
     end
@@ -112,65 +112,65 @@ class SWHelper
         sw_src_file_str = File.read(@site.in_source_dir(@sw_src_filepath))
         workbox_dir = File.join(@site.baseurl.to_s, dest_js_directory, "workbox-#{SWHelper::WORKBOX_VERSION}")
         import_scripts_str = 
-        <<-SCRIPT
-            importScripts("#{workbox_dir}/workbox-sw.js");
-            workbox.setConfig({modulePathPrefix: "#{workbox_dir}"});
-        SCRIPT
+<<-SCRIPT
+importScripts("#{workbox_dir}/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "#{workbox_dir}"});
+SCRIPT
 
         sw_dest_file = File.new(@site.in_dest_dir(@sw_filename), 'w')
         sw_dest_file.puts(
-        <<-SCRIPT
-            #{import_scripts_str}
-            self.__precacheManifest = [#{precache_list_str}];
-            #{sw_src_file_str}
-        SCRIPT
+<<-SCRIPT
+#{import_scripts_str}
+self.__precacheManifest = [#{precache_list_str}];
+#{sw_src_file_str}
+SCRIPT
         )
         sw_dest_file.close
     end
 
     def self.insert_sw_register_into_body(page)
         page.output = page.output.sub('</body>',
-        <<-SCRIPT
-            <script>
-                window.onload = function () {
-                    var script = document.createElement('script');
-                    var firstScript = document.getElementsByTagName('script')[0];
-                    script.type = 'text/javascript';
-                    script.async = true;
-                    script.src = '#{page.site.baseurl.to_s}/sw-register.js?v=' + Date.now();
-                    firstScript.parentNode.insertBefore(script, firstScript);
-                };
-            </script>
-            </body>
-        SCRIPT
+<<-SCRIPT
+<script>
+window.onload = function () {
+    var script = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = '#{page.site.baseurl.to_s}/sw-register.js?v=' + Date.now();
+    firstScript.parentNode.insertBefore(script, firstScript);
+};
+</script>
+</body>
+SCRIPT
         )
     end
 end
 
 Jekyll::Hooks.register :pages, :post_render do |page|
-      enabled = (page.site.config.dig('pwa', 'enabled') != false)
-      if enabled
+    enabled = (page.site.config.dig('pwa', 'enabled') != false)
+    if enabled
         # append <script> for sw-register.js in <body>
         SWHelper.insert_sw_register_into_body(page)
-      end
     end
+end
 
-    Jekyll::Hooks.register :documents, :post_render do |document|
-      enabled = (document.site.config.dig('pwa', 'enabled') != false)
-      if enabled
+Jekyll::Hooks.register :documents, :post_render do |document|
+    enabled = (document.site.config.dig('pwa', 'enabled') != false)
+    if enabled
         # append <script> for sw-register.js in <body>
         SWHelper.insert_sw_register_into_body(document)
-      end
     end
+end
 
-    Jekyll::Hooks.register :site, :post_write do |site|
-      enabled = (site.config.dig('pwa', 'enabled') != false)
-      if enabled
+Jekyll::Hooks.register :site, :post_write do |site|
+    enabled = (site.config.dig('pwa', 'enabled') != false)
+    if enabled
         pwa_config = site.config['pwa'] || {}
         sw_helper = SWHelper.new(site, pwa_config)
 
         sw_helper.write_sw_register()
         sw_helper.generate_workbox_precache()
         sw_helper.write_sw()
-      end
     end
+end
