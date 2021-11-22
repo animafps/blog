@@ -38,3 +38,14 @@ exclude:
 pwa:
   dest_js_directory: assets/js
   precache_recent_posts_num: 50
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "/**/*.{css,js,json,xml}"
+    - "/**/*.{ico,jpg,jpeg,png,svg}"
+    - "/**/*.mp4"
+    - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "{401,403,404,500,legal-notice,privacy-policy}.html"
+    - "/**/assets/js/workbox-v5.1.3/**/*"
+    - "/**/*.xml"
