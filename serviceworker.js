@@ -1,8 +1,5 @@
 const CACHE = "pwabuilder-offline";
 
-const offlineFallbackPage = "index.html";
-
-// Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener("install", function (event) {
   console.log("Install Event processing");
 
@@ -10,59 +7,39 @@ self.addEventListener("install", function (event) {
     caches.open(CACHE).then(function (cache) {
       console.log("Cached offline page during install");
 
-      if (offlineFallbackPage === "ToDo-replace-this-name.html") {
-        return cache.add(
-          new Response(
-            "Update the value of the offlineFallbackPage constant in the serviceworker."
-          )
-        );
-      }
-
-      return cache.add(offlineFallbackPage);
+      return cache.addAll([
+        "/",
+        "/index.html",
+        "/assets/css/style.css",
+        "/assets/js/main.js",
+        "/assets/img/avatar.jpg",
+        "/assets/img/icon.png",
+      ]);
     })
   );
 });
 
-// If any fetch fails, it will look for the request in the cache and serve it from there first
 self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
+  const request = event.request;
+  const url = new URL(event.request.url);
+
+  // Don't cache anything that is not on this origin.
+  if (url.origin !== location.origin) return;
 
   event.respondWith(
-    fetch(event.request)
-      .then(function (response) {
-        console.log("Add page to offline cache: " + response.url);
+    caches.open(CACHE).then((cache) => {
+      return cache.match(request).then((response) => {
+        var fetchPromise = fetch(request).then((networkResponse) => {
+          cache.put(request, networkResponse.clone());
+          return networkResponse;
+        });
+        // We need to ensure that the event doesn't complete until we
+        // know we have fetched the data
+        event.waitUntil(fetchPromise);
 
-        // If request was success, add or update it in the cache
-        event.waitUntil(updateCache(event.request, response.clone()));
-
-        return response;
-      })
-      .catch(function (error) {
-        console.log(
-          "Network request Failed. Serving content from cache: " + error
-        );
-        return fromCache(event.request);
-      })
+        // Return the response from cache or wait for network.
+        return response || fetchPromise;
+      });
+    })
   );
 });
-
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return error page
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        return Promise.reject("no-match");
-      }
-
-      return matching;
-    });
-  });
-}
-
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}
