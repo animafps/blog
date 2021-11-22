@@ -20,23 +20,6 @@
   <small class="footer_copyright"> <span>{{ site.copyright }}</span> </small>
 </footer>
 <script defer async src="{{ '/assets/js/main.js' | relative_url }}"></script>
-<script defer>
-  if ("serviceWorker" in navigator) {
-    if (navigator.serviceWorker.controller) {
-      console.log("An active service worker found, no need to register");
-    } else {
-      navigator.serviceWorker
-        .register("{{ site.baseurl }}/serviceworker.js", {
-          scope: "/",
-        })
-        .then(function (reg) {
-          console.log(
-            "Service worker has been registered for scope: " + reg.scope
-          );
-        });
-    }
-  }
-</script>
 {% if page.layout == 'post' %}
 <script
   defer
@@ -54,7 +37,7 @@
 ></script>
 {% endif %} {% if page.url == '/archive/' %}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
-<script defer>
+<script async>
   var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById("search-input"),
     resultsContainer: document.getElementById("search-results"),
