@@ -4,3 +4,8 @@ workbox.core.clientsClaim();
 
 // let Workbox handle our precache list
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+workbox.routing.registerRoute(
+  /^https?:\/\//,
+  new workbox.strategies.CacheFirst()
+);

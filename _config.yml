@@ -37,11 +37,4 @@ exclude:
 
 pwa:
   dest_js_directory: assets/js
-  precache_glob_directory: /
   precache_recent_posts_num: 50
-  precache_glob_patterns:
-    - "/assets/**/*.{js,css,json,png,jpg}"
-    - /index.html
-    - /about/index.html
-    - /404.html
-    - /tags/index.html
