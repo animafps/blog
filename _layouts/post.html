@@ -59,7 +59,8 @@ layout: default
 
       <div class="page-content" itemprop="articleBody">
         {% include_cached anchor_headings.html html=content
-        anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
+        anchorClass="anchor-head" anchorAttrs='aria-label="Permalink to
+        %heading%"' beforeHeading=true h_min=1 h_max=4 %}
       </div>
     </article>
     <hr />
