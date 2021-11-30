@@ -106,9 +106,6 @@ GEM
       faraday (> 0.8, < 2.0)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    therubyrhino (2.1.2)
-      therubyrhino_jar (>= 1.7.4, < 1.7.9)
-    therubyrhino_jar (1.7.8)
     thread_safe (0.3.6)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
@@ -133,7 +130,6 @@ DEPENDENCIES
   jekyll-sitemap
   katex
   kramdown-math-katex
-  therubyrhino
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
