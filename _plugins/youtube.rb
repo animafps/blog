@@ -6,14 +6,6 @@ class YouTube < Liquid::Tag
   
       if markup =~ Syntax then
         @id = $1
-  
-        if $2.nil? then
-            @width = 640
-            @height = 360
-        else
-            @width = $2.to_i
-            @height = $3.to_i
-        end
       else
         raise "No YouTube ID provided in the \"youtube\" tag"
       end
@@ -21,7 +13,7 @@ class YouTube < Liquid::Tag
   
     def render(context)
       # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
-      "<iframe width='#{@width}' height='#{@height}' data-src='https://www.youtube-nocookie.com/embed/#{@id}?color=black&theme=dark' frameborder='0' title='YouTube Video Content'></iframe>"
+      "<div class='embed-responsive'><iframe data-src='https://www.youtube-nocookie.com/embed/#{@id}?color=black&theme=dark' frameborder='0' title='YouTube Video Content'></iframe></div>"
     end
   
     Liquid::Template.register_tag "youtube", self
