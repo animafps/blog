@@ -39,7 +39,7 @@ $wide-size: 890px;
 $narrow-size: 720px;
 
 // Padding unit
-$spacing-full: 30px;
+$spacing-full: 20px;
 $spacing-half: $spacing-full / 2;
 
 // State of devices
@@ -59,5 +59,5 @@ $on-widescreen: 1152px;
 }
 
 // Import sass files
-@import "klise/base", "klise/layout", "klise/post", "klise/miscellaneous",
-  "klise/syntax", "klise/dark";
+@import "theme/base", "theme/layout", "theme/post", "theme/miscellaneous",
+  "theme/syntax", "theme/dark";

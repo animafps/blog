@@ -40,12 +40,12 @@ Just going to touch on some bad things that are quite obvious but you should sti
 I am just going to leave some examples of good dodging  
 As an example, I got from [pumpkin](https://twitter.com/pumkin60lg): &nbsp;
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bx3A3pCO7eo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube bx3A3pCO7eo %}
 
 with an LG thunderstruck which this dodging is most prominent  
 And the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LRMxq4qY46g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube LRMxq4qY46g %}
 
 * * *
 
@@ -57,4 +57,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SGhsap8TjD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube SGhsap8TjD4 %}

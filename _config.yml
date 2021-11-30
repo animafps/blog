@@ -24,6 +24,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
+  math_engine: katex
 
 gitalk:
   clientID: c7e84bc3bc4553c3add5
@@ -49,3 +50,6 @@ pwa:
     - "{401,403,404,500,legal-notice,privacy-policy}.html"
     - "/**/assets/js/workbox-v5.1.3/**/*"
     - "/**/*.xml"
+
+katex:
+  js_path: "{{ Gem::lib_path }}/assets/js"

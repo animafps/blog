@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Is 400 DPI or even 800 DPI enough?
+title: Why Higher CPI is Always Better
 date: '2021-06-04 00:00:00'
 tags:
 - periphirals
 - guides
 ---
 
-Well As more and more people pick up a gaming mouse it's important to understand what all the settings mean for your mouse and if 400 dpi or 800 dpi is good enough or is there better. But the main reason is to dispute the crazy amount of weird and sometimes incorrect info and to collate and aggregate all of the information that is out there about this important setting and function on a gaming mouse and how it can even help you in its application in video games.
+Well As more and more people pick up a gaming mouse it's important to understand what all the settings mean for your mouse and if 400 DPI or 800 DPI is good enough or is there better. But the main reason is to dispute the crazy amount of weird and sometimes incorrect info and to collate and aggregate all of the information that is out there about this important setting and function on a gaming mouse and how it can even help you in its application in video games.
 
 ## Definition
 
-CPI(Counts per inch) or more commonly referred to as DPI(Dots per Inch) (which doesn’t really represent how mouse functions but more on that later on) is a unit of measurement of the number of counts a computer mouse outputs per inch of linear movement.
+CPI or more commonly referred to as DPI (which doesn’t really represent how mouse functions but more on that later on) is a unit of measurement of the number of counts a computer mouse outputs per inch of linear movement.
 
 * * *
 
@@ -40,3 +40,6 @@ It's the term that most people associate with the concept of CPI, but DPI doesn�
 ## Pixel Skipping
 
 Now a common fad that goes along with CPI’s is pixel skipping which while helps the idea of higher CPI’s helping for a better experience/performance but it misrepresents the issues of lower CPI and spreads bad information. Pixel skipping cant happen because you cant rotate by a pixel angle that just doesn’t exist and it's rather the effect of a low CPI and its large distance per count being more exaggerated with a higher sensitivity value(larger rotation per count).
+
+*[CPI]: Counts Per Inch
+*[DPI]: Dots Per Inch
