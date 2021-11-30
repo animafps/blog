@@ -53,3 +53,8 @@ pwa:
 
 katex:
   js_path: "{{ Gem::lib_path }}/assets/js"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

@@ -28,4 +28,7 @@
       ? area.classList.add("blurry")
       : area.classList.remove("blurry");
   });
+  mediumZoom("p>img", {
+    background: "#131418",
+  });
 })();
