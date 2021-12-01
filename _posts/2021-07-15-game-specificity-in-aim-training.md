@@ -28,7 +28,7 @@ But how does that transfer? It does by your learning and identifying how to
 adapt your aim and the skills that you have learned to that situation.
 Not to say that you're future-proofing your skills and abilities to whatever situation.
 
-### Side point: recoil
+## Side point: recoil
 
 Recoil is one of these game-specific aspects that people want to train with but
 it's still just aim but you are adapting and offsetting your crosshair to that

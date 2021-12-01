@@ -27,4 +27,6 @@ I will try to keep this blog/articles maintained and with some good content
 for the internet and to hold my thoughts which are often only contained
 in my plethora of notes.
 
+Email: [animafps@pm.me](mailto:animafps@pm.me)
+
 <iframe src="https://github.com/sponsors/animafps/card" title="Sponsor animafps" height="225" width="600" style="border: 0;"></iframe>
