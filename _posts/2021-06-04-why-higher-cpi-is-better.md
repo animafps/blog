@@ -22,7 +22,7 @@ in video games.
 CPI or more commonly referred to as DPI
 (which doesn’t really represent how mouse functions but more on that later on)
 is a unit of measurement of
-the number of counts a computer mouse outputsper inch of linear movement.
+the number of counts a computer mouse outputs per inch of linear movement.
 
 * * *
 
