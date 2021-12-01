@@ -69,7 +69,7 @@ layout: default
     <p class="post-updated-at">
       Updated: {{page.modified | date: '%B %d, %Y'}}
     </p>
-    {% endif %} {% include_cached comments.html %}
+    {% endif %}
   </main>
   {% if page.next or page.previous %} {% include navigation.html %} {% endif %}
 </div>

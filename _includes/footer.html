@@ -20,22 +20,7 @@
   <small class="footer_copyright"> <span>{{ site.copyright }}</span> </small>
 </footer>
 <script defer async src="{{ '/assets/js/bundle.js' | relative_url }}"></script>
-{% if page.layout == 'post' %}
-<script
-  defer
-  async
-  src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"
-  onload='new Gitalk({
-    clientID: "{{ site.gitalk.clientID }}",
-    clientSecret: "{{ site.gitalk.clientSecret }}",
-    repo: "{{ site.gitalk.repoName }}",
-    owner: "{{ site.author.github }}",
-    admin: ["{{ site.author.github }}"],
-    id: location.pathname,
-    distractionFreeMode: false,
-  }).render("gitalk-container")'
-></script>
-{% endif %} {% if page.url == '/archive/' %}
+{% if page.url == '/archive/' %}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
 <script async>
   var sjs = SimpleJekyllSearch({

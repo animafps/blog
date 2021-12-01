@@ -11,14 +11,7 @@
   />
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-  {% if page.layout == 'post' %}
-  <link
-    rel="preload"
-    href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  />
-  {% endif %} {% if page.latex %}
+  {% if page.latex %}
   <link
     rel="preload"
     href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
