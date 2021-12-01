@@ -8,7 +8,7 @@ tags:
 latex: true
 ---
 
-The major issue that I have run into while writing the [FPSMath Discord bot](https://fpsmath.animafps.xyz) is the lack of standardization of ADS sensitivity scaling especially when it interacts with and changes the internal yaw value. Which messes up all sensitivity-based calculations to convert to and from that game.
+The major issue that I have run into while writing the [FPSMath Discord bot](https://fpsmath.xyz) is the lack of standardization of ADS sensitivity scaling especially when it interacts with and changes the internal yaw value. Which messes up all sensitivity-based calculations to convert to and from that game.
 
 The biggest culprit is unreal engine-based games which has it enabled by default!
 

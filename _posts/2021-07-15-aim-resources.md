@@ -7,9 +7,14 @@ tags:
 ---
 
 - **Bold** are recommended resources
-- This project is deprecated and no longer maintained as of August 2021, some information may be missing and will not be updated but if you want to manage and maintain this list or port it to another format or website please contact me at [animafps@protonmail.com](mailto:animafps@protonmail.com) and I will be happy to help out. For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](https://github.com/riddbtw/kovaaks-playlists)
+- This project is deprecated and no longer maintained as of August 2021, some
+information may be missing and will not be updated but if you want to manage
+and maintain this list or port it to another format or website
+please contact me at [animafps@protonmail.com](mailto:animafps@protonmail.com)
+and I will be happy to help out.
+For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](https://github.com/riddbtw/kovaaks-playlists)
 
-### Documents/Benchmarks
+## Documents/Benchmarks
 
 <table>
     <thead>
@@ -242,7 +247,6 @@ tags:
                         Apex Routine</b></a></td>
             <td>A fantastic new routine using 1b1 method and a great set of specifically made
                 scenarios for a hard training routine for Apex Legends but it maybe too hard for new players</td>
-
         </tr>
         <tr>
             <td><a href="https://bit.ly/gameroutines"><b>Voltaic

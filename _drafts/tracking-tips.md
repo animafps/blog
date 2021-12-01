@@ -29,9 +29,15 @@ Intermediate is focusing on doing a lot of the beginner stuff faster. Like utili
 
 With more advanced players you have a lot of control but it's about maximizing that for the longest time. You have to reduce the average distance of correction needed when a target changes speed or direction. This means if the target is moving horizontally only then track on the trailing edge or as close as you can to that point or when it is moving both horizontally and vertically then the point changes to the exact middle of the target.
 
-As well while this may contradict the beginner advice, you can put a little more tension into your arm to jitter aim but use it consciously for micro-adjustments back onto that point I talked about earlier.
+As well while this may contradict the beginner advice,
+you can put a little more tension into your arm to jitter aim but use it consciously for micro-adjustments back onto that point I talked about earlier.
 
-* * *
+---
 
-[The definitions of the terminology used in this article](https://aiming-taxonomy.github.io/glossary/)
+[The full definitions of the terminology used in this article](https://aiming-taxonomy.github.io/glossary/)
 
+*[trailing edge]: The back edge of the target's hitbox relative to its movement
+*[tracking]: The skill to maintain your crosshair on a target for a long period of time while it moves and can reacquire the same target after it changes direction
+*[trailing]: Aiming behind a target’s path
+*[leading]: Aiming in front a target's path
+*[micro-adjustments]: A small movement of the mouse to correct the crosshair onto a target due to incorrect crosshair placement

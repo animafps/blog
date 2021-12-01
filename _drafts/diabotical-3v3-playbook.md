@@ -10,7 +10,7 @@ tags:
 
 My Own Video with basic strats
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/_LG0uAQTcwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube _LG0uAQTcwk %}
 
 Thanks to Blindlight for the basics of this part
 

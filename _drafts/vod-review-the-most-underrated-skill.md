@@ -7,4 +7,3 @@ tags:
 ---
 
 So you started training a skill for a game or are seeing yourself fall into the trap of unfocused practice
-
