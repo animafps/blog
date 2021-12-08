@@ -1,5 +1,7 @@
 <footer class="footer">
-  {% if site.author.mastodon %}
+  {% if site.discordServer %}
+  <a class="footer_item" href="{{ site.discordServer }}">discord</a>
+  {% endif %} {% if site.author.mastodon %}
   <a
     class="footer_item"
     rel="me"
@@ -20,6 +22,10 @@
   <small class="footer_copyright"> <span>{{ site.copyright }}</span> </small>
 </footer>
 <script defer async src="{{ '/assets/js/bundle.js' | relative_url }}"></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.3.0/lite-youtube.js"
+></script>
 {% if page.url == '/archive/' %}
 <script src="{{ '/assets/js/search.min.js' | relative_url }}"></script>
 <script async>
