@@ -57,9 +57,6 @@ GEM
       octokit (~> 4.2)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-loading-lazy (0.1.1)
-      jekyll (>= 3.0, < 5.0)
-      nokogiri (>= 1.10, < 2.0)
     jekyll-postfiles (3.1.0)
       jekyll (>= 3.8.6, < 5)
     jekyll-sass-converter (2.1.0)
@@ -84,22 +81,13 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.6.1)
     multipart-post (2.1.1)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
-      racc (~> 1.4)
-    nokogiri (1.12.5-x64-mingw32)
-      racc (~> 1.4)
-    nokogiri (1.12.5-x86_64-linux)
-      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    racc (1.6.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -136,7 +124,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
-  jekyll-loading-lazy
   jekyll-postfiles
   jekyll-seo-tag
   jekyll-sitemap
