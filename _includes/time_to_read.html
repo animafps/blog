@@ -1,3 +1,3 @@
 {% assign time = content | strip_html | number_of_words | divided_by: 180.0 |
-round %} {% if time <= 1 %} < 1 min to read {% else %} {{ time }} min to read {%
-endif %}
+round %} {% if time <= 1 %} &lt; 1 min to read {% else %} {{ time }} min to read
+{% endif %}
