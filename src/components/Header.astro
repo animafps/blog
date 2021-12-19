@@ -1,8 +1,13 @@
 ---
-import Nav from './Nav.astro'
+import Nav from "./Nav.astro";
 
-const { current = '' } = Astro.props;
+const { current = "" } = Astro.props;
 ---
+
+<header>
+  <h3><a href="/">Anima's Stuff</a></h3>
+  <Nav {current} />
+</header>
 
 <style>
   header {
@@ -16,8 +21,3 @@ const { current = '' } = Astro.props;
     text-decoration: none;
   }
 </style>
-
-<header>
-  <h3><a href="/" >Anima's Stuff</a></h3>
-  <Nav current={current} />
-</header>

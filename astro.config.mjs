@@ -1,3 +1,5 @@
+import * as shiki from "shiki";
+
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ {
   // projectRoot: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
@@ -14,7 +16,12 @@ export default /** @type {import('astro').AstroUserConfig} */ {
       "@astrojs/markdown-remark",
       {
         remarkPlugins: [
-          "remark-prism",
+          [
+            "@stefanprobst/remark-shiki",
+            {
+              highlighter: await shiki.getHighlighter({ theme: "github-dark" }),
+            },
+          ],
           "remark-smartypants",
           "remark-gfm",
           "remark-math",

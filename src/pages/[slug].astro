@@ -1,37 +1,47 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import getPostData from '../utils/getPostData';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import getPostData from "../utils/getPostData";
 
-export function getStaticPaths({rss}) {
-  const posts = Astro.fetchContent('../posts/*.md');
-  const sortedPosts = posts.sort((a, b) => new Date(b.date).getMilliseconds() - new Date(a.date).getMilliseconds());
+export function getStaticPaths({ rss }) {
+  const posts = Astro.fetchContent("../posts/*.md");
+  const sortedPosts = posts.sort(
+    (a, b) =>
+      new Date(b.date).getMilliseconds() - new Date(a.date).getMilliseconds()
+  );
   rss({
     // The RSS Feed title, description, and custom metadata.
     title: "Anima's stuff",
-    description: 'An example blog on Astro',
+    description: "An example blog on Astro",
     customData: `<language>en-us</language>`,
     // The list of items for your RSS feed, sorted.
-    items: sortedPosts.map(item => ({
+    items: sortedPosts.map((item) => ({
       title: item.title,
-      description: item.astro.html + `<hr>\n<i>Originally published at <a href="${Astro.site + item.file.pathname.split('/').pop().split('.').shift()}">animafps</a></i>`,
-      link: item.file.pathname.split('/').pop().split('.').shift(),
+      description:
+        item.astro.html +
+        `<hr>\n<i>Originally published at <a href="${
+          Astro.site + item.file.pathname.split("/").pop().split(".").shift()
+        }">animafps</a></i>`,
+      link: item.file.pathname.split("/").pop().split(".").shift(),
       pubDate: item.publishDate,
     })),
   });
-  return posts.map(p => ({
-    params: { slug: p.file.pathname.split('/').pop().split('.').shift() },
+  return posts.map((p) => ({
+    params: { slug: p.file.pathname.split("/").pop().split(".").shift() },
     props: { post: p },
   }));
-  
 }
 
 const { Content, title, description, date, heroImage } = Astro.props.post;
 const { slug, readingTime } = getPostData(Astro.props.post);
 const permalink = `${Astro.site.href}${slug}`;
-const publishDate = new Date(date).toLocaleString('en', { day: 'numeric', month: 'short', year: 'numeric' })
+const publishDate = new Date(date).toLocaleString("en", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+});
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="">
+<BaseLayout {title} {description} {permalink} current="">
   <header>
     <p>{publishDate} ~ {readingTime}</p>
     <h1>{title}</h1>
