@@ -7,13 +7,20 @@ tags:
 - guides
 ---
 
-About 2 years ago I started aim training and one thing that I found extremely helpful was a gist by Nut outlining 3 levels of tracking technique and tips to improve at each level. But unfortunately, they have taken it down so I am going to try to do the same and a little better with the knowledge that they didn't have back 2 years ago.
+About 2 years ago I started aim training and
+one thing that I found extremely helpful was a gist by Nut
+outlining 3 levels of tracking technique and tips to improve at each level.
+But unfortunately, they have taken it down so I am going to try to do the same and
+a little better with the knowledge that they didn't have back 2 years ago.
 
 Just like their document, this is going to be split into 3 parts consisting of
 
-- Beginner - For people who have just started learning about technique and don't have much of an idea of a correct technique/style
-- Intermediate - For people who are well into their aim journey and understand the basic terminologies and techniques but lack the application
-- Advanced - People who are reaching the top and are looking for that little bit more edge on their technique
+- Beginner - For people who have just started learning about technique and
+  don't have much of an idea of a correct technique/style
+- Intermediate - For people who are well into their aim journey and
+  understand the basic terminologies and techniques but lack the application
+- Advanced - People who are reaching the top and
+  are looking for that little bit more edge on their technique
 
 ## Beginner
 

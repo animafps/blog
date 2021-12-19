@@ -31,3 +31,7 @@ in my mind is the major one to look for.
 The static friction of a mousepad describes
 the force required to move the mouse from rest to any velocity.
 We look at this as the jerk required to start moving your mouse.
+
+## Fast versus Slow
+
+So we got the
