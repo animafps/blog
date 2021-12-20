@@ -1,16 +1,19 @@
 <script>
+  import { onMount } from "svelte";
   const rootEl =
     typeof document !== "undefined" ? document.documentElement : null;
   let theme = "";
 
-  if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-    theme = localStorage.getItem("theme");
-  } else if (
-    typeof window !== "undefined" &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  ) {
-    theme = "dark";
-  }
+  onMount(async () => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      theme = localStorage.getItem("theme");
+    } else if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      theme = "dark";
+    }
+  });
 
   function handleChange(event) {
     theme = event.target.value;

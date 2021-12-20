@@ -221,6 +221,10 @@ td {
   box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
 }
 
+.theme-toggle > label:hover {
+  opacity: 70%;
+}
+
 .theme-toggle > label {
   color: var(--theme-code-inline-text);
   position: relative;

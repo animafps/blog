@@ -9,18 +9,17 @@ export function getStaticPaths({ rss }) {
       new Date(b.date).getMilliseconds() - new Date(a.date).getMilliseconds()
   );
   rss({
-    // The RSS Feed title, description, and custom metadata.
     title: "Anima's stuff",
-    description: "An example blog on Astro",
+    description:
+      "A random 18y/o writing about gaming, philosophy, programming and mathematics.",
     customData: `<language>en-us</language>`,
-    // The list of items for your RSS feed, sorted.
     items: sortedPosts.map((item) => ({
       title: item.title,
       description:
         item.astro.html +
         `<hr>\n<i>Originally published at <a href="${
           Astro.site + item.file.pathname.split("/").pop().split(".").shift()
-        }">animafps</a></i>`,
+        }">animafps.xyz</a></i>`,
       link: item.file.pathname.split("/").pop().split(".").shift(),
       pubDate: item.publishDate,
     })),

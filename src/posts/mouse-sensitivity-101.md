@@ -1,4 +1,6 @@
 ---
+setup: |
+  import Youtube from "../components/youtube.svelte"
 title: How to Find the Best Sensitivity
 date: '2020-06-22 09:00:00'
 tags:
@@ -9,7 +11,7 @@ description: Contrary to popular beliefs, there is no perfect sensitivity. Still
 
 Video version of this document is available here:
 
-<lite-youtube videoid="exExQstfhsE" nocookie params="modestbranding=1&rel=0"></lite-youtube>
+<Youtube videoId="exExQstfhsE" client:load/>
 
 but does have some outdated information so reading may be a better format
 
