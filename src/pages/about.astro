@@ -7,7 +7,7 @@ const permalink = `${Astro.site.href}about`;
 ---
 
 <BaseLayout {title} {description} {permalink} current="about">
-  <div class="container">
+  <div class="max-w-3xl mx-auto">
     <h1>About</h1>
     <p>
       Hey my nickname is Anima and I am an 18y/o student from a small country of
@@ -27,7 +27,10 @@ const permalink = `${Astro.site.href}about`;
       whole year of 2019 and the start of 2020 so the only evolution to harness
       this power would be in Quake and the new indie game on the horizon at the
       time called Diabotical which I quickly hopped into for 2020-2021 where
-      again <a href="https://liquipedia.net/arenafps/Anima"
+      again <a
+        target="_blank"
+        rel="noopener"
+        href="https://liquipedia.net/arenafps/Anima"
         >placed in some tournaments</a
       >.
     </p>
@@ -38,6 +41,10 @@ const permalink = `${Astro.site.href}about`;
       the internet and to hold my thoughts which are often only contained in my
       plethora of notes.
     </p>
-    <p>Email: <a href="mailto:animafps@pm.me">animafps@pm.me</a></p>
+    <p>
+      Email: <a target="_blank" rel="noopener" href="mailto:animafps@pm.me"
+        >animafps@pm.me</a
+      >
+    </p>
   </div>
 </BaseLayout>

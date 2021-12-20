@@ -62,7 +62,7 @@
   bind:this={embed}
   on:click|once|preventDefault={addIframe}
   on:pointerover|once|preventDefault={warmConnections}
-  class={clicked ? "lyt-activated" : ""}
+  class={clicked ? "lyt-activated aspect-video" : "aspect-video"}
 >
   <picture>
     <source
@@ -110,15 +110,6 @@
     padding-bottom: 50px;
     width: 100%;
     transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
-  }
-
-  /* responsive iframe with a 16:9 aspect ratio
-    thanks https://css-tricks.com/responsive-iframes/
-*/
-  lite-youtube::after {
-    content: "";
-    display: block;
-    padding-bottom: calc(100% / (16 / 9));
   }
 
   /* play button */

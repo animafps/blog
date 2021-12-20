@@ -40,7 +40,7 @@ const publishDate = new Date(date).toLocaleString("en", {
 });
 ---
 
-<BaseLayout {title} {description} {permalink} current="posts">
+<BaseLayout {title} {description} {permalink} current="posts" ogType="article">
   <main itemscope itemtype="https://schema.org/Article">
     <meta itemprop="description" content={description} />
     <header>
@@ -48,9 +48,9 @@ const publishDate = new Date(date).toLocaleString("en", {
         <time datetime={date} itemprop="datePublished">{publishDate}</time> ~ {readingTime}
       </p>
       <h1 itemprop="headline">{title}</h1>
-      <hr />
+      <hr class="mx-auto" />
     </header>
-    <div class="container">
+    <div class="max-w-3xl mx-auto">
       <article class="content" itemprop="articleBody">
         <Content />
       </article>

@@ -204,14 +204,14 @@ be able to play in a broader range of sensitivities while being comfortable.
 
 * * *
 
-### Mouse Accelleration
+## Mouse Accelleration
 
 If you want the best of both worlds, there is mouse acceleration which
 can give the advantages of both but worse for things that don’t require
 the speed like cs/Val. Plus it takes a while to adapt to it.
 See [N.R.K’s guide on it](https://docs.google.com/document/d/1wuQln99lQVBU9L8_QbpifrarpJ1xjPuKsKD2FY026Hc/edit#)
 
-### DPI/CPI
+## DPI/CPI
 
 While I am not going to cover DPI/CPI choice as there are many variables and
 things to explain in

@@ -1,8 +1,8 @@
 ---
-import { socials } from "../config";
+import { socials } from "../config.json";
 ---
 
-<footer>
+<footer class="mt-auto mx-auto">
   {socials.map((val) => {
     return (
       <a href={val.href} target="_blank" rel={val.rel + "noopener"}>
@@ -33,8 +33,6 @@ import { socials } from "../config";
   footer {
     color: var(--text-secondary);
     font-size: 1em;
-    font-family: var(--font-family-sans);
-    margin: 1em auto;
     max-width: 1400px;
     padding: 1em 2em;
     text-align: center;

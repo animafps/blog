@@ -12,7 +12,7 @@ allPosts = allPosts.sort(
 ---
 
 <BaseLayout {title} {description} {permalink} current="posts">
-  <div class="container">
+  <div class="max-w-3xl mx-auto">
     <h1>Posts</h1>
     {allPosts.map((post, index) => {
       const href = `/${post.file.pathname.split("/").pop().split(".").shift()}`;
@@ -38,6 +38,7 @@ allPosts = allPosts.sort(
         </div>
       );
     })}
+    <hr />
   </div>
 </BaseLayout>
 

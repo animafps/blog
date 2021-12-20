@@ -8,13 +8,14 @@ export interface Props {
   description: string;
   permalink: string;
   current?: string;
+  ogType?: string;
 }
-const { title, description, permalink, current } = Astro.props;
+const { title, description, permalink, current, ogType } = Astro.props;
 ---
 
 <html lang="en" itemscope itemtype="https://schema.org/Blog">
   <head>
-    <BaseHead {title} {description} {permalink} />
+    <BaseHead {title} {description} {permalink} {ogType} />
   </head>
   <body>
     <div class="layout">
@@ -33,6 +34,7 @@ const { title, description, permalink, current } = Astro.props;
     flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    position: relative;
   }
 
   main {
