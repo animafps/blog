@@ -60,8 +60,8 @@
 
 <lite-youtube
   bind:this={embed}
-  on:click|once={addIframe}
-  on:pointerover|once={warmConnections}
+  on:click|once|preventDefault={addIframe}
+  on:pointerover|once|preventDefault={warmConnections}
   class={clicked ? "lyt-activated" : ""}
 >
   <picture>
