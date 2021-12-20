@@ -227,13 +227,7 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.5;
   cursor: pointer;
-}
-
-.theme-toggle .checked {
-  color: var(--theme-accent);
-  opacity: 1;
 }
 
 input[name="theme-toggle"] {

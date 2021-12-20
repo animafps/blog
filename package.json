@@ -18,6 +18,7 @@
     "rehype-autolink-headings": "^6.1.0",
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1",
+    "sass": "^1.45.0",
     "shiki": "^0.9.15"
   },
   "packageManager": "yarn@3.1.1",

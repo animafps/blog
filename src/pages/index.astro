@@ -1,61 +1,70 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "Anima's Stuff";
-const description = "Latest articles.";
-const permalink = `${Astro.site.href}`;
-
-let allPosts = await Astro.fetchContent("../posts/*.md");
-allPosts = allPosts.sort(
-  (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
-);
+const title = "My Astro Blog";
+const description = "The perfect starter for your perfect blog.";
+const permalink = Astro.site.href;
 ---
 
-<BaseLayout {title} {description} {permalink} current="">
-  <div class="container">
-    <h1>Posts</h1>
-    {allPosts.map((post, index) => {
-      const href = `/${post.file.pathname.split("/").pop().split(".").shift()}`;
-      return (
-        <div>
-          {index !== 0 && <hr />}
-          <div class="post-item">
-            <h2>
-              <a href={href}>{post.title}</a>
-            </h2>
-            <p>{post.description}</p>
-            <div class="post-item-footer">
-              <span class="post-item-date">
-                —{" "}
-                {new Date(post.date).toLocaleString("en", {
-                  day: "numeric",
-                  month: "short",
-                  year: "numeric",
-                })}
-              </span>
-            </div>
-          </div>
-        </div>
-      );
-    })}
+<BaseLayout {title} {description} {permalink}>
+  <div class="home-container">
+    <div class="home-copy">
+      <h1>Welcome to my Website</h1>
+      <p></p>
+    </div>
   </div>
 </BaseLayout>
 
 <style>
-  h2,
-  .post-item-footer {
-    font-family: var(--font-family-sans);
+  .home-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 2em 0;
+    min-height: 400px;
+  }
+  .home-copy {
+    flex: 1;
+  }
+  h1 {
     font-weight: 700;
+    margin-bottom: 0.5em;
   }
-
-  .post-item-date {
-    color: var(--text-secondary);
+  p {
+    font-size: 1.4em;
+    line-height: 1.5;
+  }
+  figure {
+    margin: 0 1em;
+    text-align: center;
+  }
+  figcaption {
+    font-size: 0.8em;
+    font-style: italic;
     text-align: left;
-    text-transform: uppercase;
-    margin-right: 16px;
   }
-
-  hr {
-    margin: 60px auto;
+  img {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 1em;
+  }
+  @media (max-width: 1200px) {
+    p {
+      font-size: 1.2em;
+    }
+    img {
+      max-width: 400px;
+    }
+  }
+  @media (max-width: 800px) {
+    .home-container {
+      flex-direction: column;
+    }
+    .home-copy {
+      flex: 0;
+      padding-bottom: 2em;
+      text-align: center;
+    }
   }
 </style>

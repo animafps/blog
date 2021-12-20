@@ -1078,6 +1078,7 @@ __metadata:
     rehype-autolink-headings: ^6.1.0
     rehype-katex: ^6.0.2
     remark-math: ^5.1.1
+    sass: ^1.45.0
     shiki: ^0.9.15
   languageName: unknown
   linkType: soft
@@ -5300,7 +5301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.43.4":
+"sass@npm:^1.43.4, sass@npm:^1.45.0":
   version: 1.45.0
   resolution: "sass@npm:1.45.0"
   dependencies:

@@ -1,5 +1,17 @@
+---
+import { socials } from "../config";
+---
+
 <footer>
-  <span>
+  {socials.map((val) => {
+    return (
+      <a href={val.href} target="_blank" rel={val.rel + "noopener"}>
+        {val.name}
+      </a>
+    );
+  })}
+  <br />
+  <small>
     <span
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dct="http://purl.org/dc/terms/"
@@ -13,11 +25,11 @@
     ><br />
     Powered by <a href="https://astro.build" target="_blank" rel="noopener"
       >Astro</a
-    >.
-  </span>
+    >.</small
+  >
 </footer>
 
-<style>
+<style lang="scss">
   footer {
     color: var(--text-secondary);
     font-size: 1em;
@@ -27,5 +39,9 @@
     padding: 1em 2em;
     text-align: center;
     width: 100%;
+    a:not(small *) {
+      text-decoration: none;
+      margin: 1em 0.2em;
+    }
   }
 </style>

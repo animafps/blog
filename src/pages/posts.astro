@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Anima's Stuff";
+const description = "Latest articles.";
+const permalink = `${Astro.site.href}`;
+
+let allPosts = await Astro.fetchContent("../posts/*.md");
+allPosts = allPosts.sort(
+  (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
+);
+---
+
+<BaseLayout {title} {description} {permalink} current="posts">
+  <div class="container">
+    <h1>Posts</h1>
+    {allPosts.map((post, index) => {
+      const href = `/${post.file.pathname.split("/").pop().split(".").shift()}`;
+      return (
+        <div>
+          {index !== 0 && <hr />}
+          <div class="post-item">
+            <h2>
+              <a href={href}>{post.title}</a>
+            </h2>
+            <p>{post.description}</p>
+            <div class="post-item-footer">
+              <span class="post-item-date">
+                —{" "}
+                {new Date(post.date).toLocaleString("en", {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric",
+                })}
+              </span>
+            </div>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>
+
+<style>
+  h2,
+  .post-item-footer {
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+  }
+
+  .post-item-date {
+    color: var(--text-secondary);
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 16px;
+  }
+
+  hr {
+    margin: 60px auto;
+  }
+</style>
