@@ -9,13 +9,11 @@
   },
   "dependencies": {
     "@astrojs/renderer-svelte": "^0.2.1",
-    "@justinribeiro/lite-youtube": "^1.3.0",
     "@stefanprobst/remark-shiki": "^2.0.2",
     "astro": "^0.21.5",
     "autoprefixer": "^10.4.0",
     "normalize.css": "^8.0.1",
     "reading-time": "^1.5.0",
-    "rehype-autolink-headings": "^6.1.0",
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1",
     "sass": "^1.45.0",
