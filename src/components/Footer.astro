@@ -5,7 +5,7 @@ import { socials } from "../config.json";
 <footer class="mt-auto mx-auto">
   {socials.map((val) => {
     return (
-      <a href={val.href} target="_blank" rel={val.rel + "noopener"}>
+      <a href={val.href} target="_blank" rel={val.rel ?? "noopener"}>
         {val.name}
       </a>
     );

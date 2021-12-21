@@ -1103,6 +1103,7 @@ __metadata:
     "@stefanprobst/remark-shiki": ^2.0.2
     astro: ^0.21.5
     autoprefixer: ^10.4.0
+    katex: ^0.15.1
     prettier: ^2.5.1
     prettier-plugin-astro: ^0.0.11
     prettier-plugin-svelte: ^2.5.1
@@ -3648,7 +3649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"katex@npm:^0.15.0":
+"katex@npm:^0.15.0, katex@npm:^0.15.1":
   version: 0.15.1
   resolution: "katex@npm:0.15.1"
   dependencies:
