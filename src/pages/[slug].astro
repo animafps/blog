@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import getPostData from "../utils/getPostData";
+
+export function getStaticPaths({ rss }) {
+  const posts = Astro.fetchContent("../posts/*.md");
+  const sortedPosts = posts.sort(
+    (a, b) =>
+      new Date(b.date).getMilliseconds() - new Date(a.date).getMilliseconds()
+  );
+  rss({
+    title: "Anima's stuff",
+    description:
+      "A random 18y/o writing about gaming, philosophy, programming and mathematics.",
+    customData: `<language>en-us</language>`,
+    items: sortedPosts.map((item) => ({
+      title: item.title,
+      description:
+        item.astro.html +
+        `<hr>\n<i>Originally published at <a href="${
+          Astro.site + item.file.pathname.split("/").pop().split(".").shift()
+        }">animafps.xyz</a></i>`,
+      link: item.file.pathname.split("/").pop().split(".").shift(),
+      pubDate: item.publishDate,
+    })),
+  });
+  return posts.map((p) => ({
+    params: { slug: p.file.pathname.split("/").pop().split(".").shift() },
+    props: { post: p },
+  }));
+}
+
+const { Content, title, description, date, heroImage } = Astro.props.post;
+const { slug, readingTime } = getPostData(Astro.props.post);
+const permalink = `${Astro.site.href}${slug}`;
+const publishDate = new Date(date).toLocaleString("en", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+});
+---
+
+<BaseLayout {title} {description} {permalink} current="posts" ogType="article">
+  <main itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="description" content={description} />
+    <header>
+      <p>
+        <time datetime={date} itemprop="datePublished">{publishDate}</time> ~ {readingTime}
+      </p>
+      <h1 itemprop="headline">{title}</h1>
+      <hr class="mx-auto" />
+    </header>
+    <div class="max-w-3xl mx-auto">
+      <article class="content" itemprop="articleBody">
+        <Content />
+      </article>
+      <hr />
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  header {
+    text-align: center;
+  }
+
+  header h1 {
+    margin-bottom: 0.7em;
+  }
+
+  header p {
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-family: var(--font-family-sans);
+    font-weight: 600;
+  }
+
+  header hr {
+    min-width: 100px;
+    width: 30%;
+  }
+</style>

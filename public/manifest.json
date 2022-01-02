@@ -1,0 +1,21 @@
+{
+  "short_name": "Anima's Stuff",
+  "name": "Anima's Stuff",
+  "icons": [
+    {
+      "src": "/assets/img/icon-512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/img/icon.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "description": "Just some stuff from Anima"
+}
