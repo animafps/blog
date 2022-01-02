@@ -29,6 +29,7 @@
 
 <div class="theme-toggle">
   <input
+    aria-label="Theme Toggle"
     id="theme-toggle"
     name="theme-toggle"
     type="checkbox"

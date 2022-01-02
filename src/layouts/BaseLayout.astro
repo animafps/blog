@@ -21,7 +21,9 @@ const { title, description, permalink, current, ogType } = Astro.props;
     <div class="layout">
       <Header {current} />
 
-      <slot />
+      <div class="px-20 container">
+        <slot />
+      </div>
 
       <Footer />
     </div>
