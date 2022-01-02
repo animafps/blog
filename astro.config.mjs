@@ -1,4 +1,4 @@
-import * as shiki from "shiki";
+import { getHighlighter } from "shiki";
 
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ {
@@ -19,7 +19,7 @@ export default /** @type {import('astro').AstroUserConfig} */ {
           [
             "@stefanprobst/remark-shiki",
             {
-              highlighter: await shiki.getHighlighter({ theme: "github-dark" }),
+              highlighter: await getHighlighter({ theme: "github-dark" }),
             },
           ],
           "remark-smartypants",

@@ -1,4 +1,6 @@
 ---
+setup: |
+    import "katex/dist/katex.min.css";
 title: Why Higher CPI is Always Better
 date: '2021-06-04 00:00:00'
 tags:

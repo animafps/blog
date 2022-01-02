@@ -5,11 +5,13 @@ tags:
 - gaming
 ---
 
-Gaming coaches especially aim coaches popping up in the immensely toxic/gatekeeping environment
+Gaming coaches especially aim coaches popping up in the
+immensely toxic/gatekeeping environment
 to start to help people develop and become a coach but
 what are the true qualifications/requirements to become one.
 People will always throw around arbitrary requirements such as
-needing to be a top performer but something like this should always be a tiny part of what makes a good coach.
+needing to be a top performer but something like this should always
+be a tiny part of what makes a good coach.
 
 Recommended Prerequisite reading by RESPRiT: [What is a Coach, Really?](https://docs.google.com/document/d/10ZzH0-QiD45Zh9gqxOBp0585q7YkqkKccSKx2en84mI/edit)
 

@@ -1,4 +1,6 @@
 ---
+setup: |
+  import Youtube from "../components/youtube.svelte"
 title: Hitscan Dodging 101
 date: '2020-11-09 09:07:00'
 tags:
@@ -57,12 +59,12 @@ Just going to touch on some bad things that are quite obvious but you should sti
 I am just going to leave some examples of good dodging  
 As an example, I got from [pumpkin](https://twitter.com/Pumpkin60LG):
 
-<lite-youtube videoid="bx3A3pCO7eo" nocookie params="modestbranding=1&rel=0"></lite-youtube>
+<Youtube videoId="bx3A3pCO7eo" />
 
 with an LG thunderstruck which this dodging is most prominent  
 And the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-<lite-youtube videoid="LRMxq4qY46g" nocookie params="modestbranding=1&rel=0"></lite-youtube>
+<Youtube videoId="LRMxq4qY46g" />
 
 * * *
 
@@ -74,4 +76,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-<lite-youtube videoid="SGhsap8TjD4" nocookie params="modestbranding=1&rel=0"></lite-youtube>
+<Youtube videoId="SGhsap8TjD4" />
