@@ -5,17 +5,25 @@
     {
       "src": "/assets/img/icon-512px.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/icon-512px.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/img/icon.png",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
-  "background_color": "#3367D6",
+  "background_color": "#202122",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6",
+  "theme_color": "#202122",
   "description": "Just some stuff from Anima"
 }

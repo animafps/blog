@@ -1,6 +1,4 @@
 ---
-setup: |
-  import Youtube from "../components/youtube.svelte"
 title: Hitscan Dodging 101
 date: '2020-11-09 09:07:00'
 tags:
@@ -15,7 +13,7 @@ Apex, Quake, Diabotical, Hyperscape, etc…
 but will mainly be using arena fps's LG type weapons as the basis of movement and
 aiming. This article will not cover the skills of the aiming component or
 strafe/movement aiming in detail which you can learn about in
-Aimer7’s strafe aim 101 doc [here](https://www.dropbox.com/s/sggvgbwpz9e5bih/Strafe%20Aiming%20101.pdf?dl=0).
+[Aimer7’s strafe aim 101 doc](https://www.dropbox.com/s/sggvgbwpz9e5bih/Strafe%20Aiming%20101.pdf?dl=0).
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 ---
 setup: |
-  import Youtube from "../components/youtube.svelte"
   import "katex/dist/katex.min.css";
 title: How to Find the Best Sensitivity
 date: '2020-06-22 09:00:00'
@@ -12,7 +11,7 @@ description: Contrary to popular beliefs, there is no perfect sensitivity. Still
 
 Video version of this document is available here:
 
-<Youtube videoId="exExQstfhsE" client:load/>
+<Youtube videoId="exExQstfhsE"/>
 
 but does have some outdated information so reading may be a better format
 

@@ -1,0 +1,10 @@
+---
+import Youtube from "./youtube.svelte";
+export interface Props {
+  videoId: string;
+  componentParams?: string;
+}
+const { videoId, componentParams } = Astro.props;
+---
+
+<Youtube {videoId} {componentParams} client:visible />

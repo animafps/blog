@@ -38,10 +38,6 @@
     params.append("autoplay", "1");
 
     const iframeEl = document.createElement("iframe");
-    iframeEl.width = "560";
-    iframeEl.height = "315";
-    iframeEl.style =
-      "width: 100%;height: 100%;position: absolute;top: 0;left: 0;border: 0;";
     iframeEl.title = "Play";
     iframeEl.allow =
       "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
@@ -62,7 +58,9 @@
   bind:this={embed}
   on:click|once|preventDefault={addIframe}
   on:pointerover|once|preventDefault={warmConnections}
-  class={clicked ? "lyt-activated aspect-video" : "aspect-video"}
+  class={clicked
+    ? "lyt-activated aspect-video mx-auto"
+    : "aspect-video mx-auto"}
 >
   <picture>
     <source
@@ -94,7 +92,6 @@
     background-position: center center;
     background-size: cover;
     cursor: pointer;
-    max-width: 720px;
   }
 
   /* gradient */
