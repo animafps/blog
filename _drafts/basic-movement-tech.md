@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Everyone Forgets Basic Movement Tech
 ---
 

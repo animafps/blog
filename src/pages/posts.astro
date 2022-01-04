@@ -3,15 +3,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const title = "Anima's Stuff";
 const description = "Latest articles.";
-const permalink = `${Astro.site.href}`;
 
 let allPosts = await Astro.fetchContent("../posts/*.md");
+if (process.env["DRAFTS"]) {
+  allPosts = allPosts.concat(Astro.fetchContent("../../_drafts/*.md"));
+}
 allPosts = allPosts.sort(
   (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
 );
 ---
 
-<BaseLayout {title} {description} {permalink} current="posts">
+<BaseLayout {title} {description} current="posts">
   <div class="max-w-3xl mx-auto">
     <h1>Posts</h1>
     {allPosts.map((post, index) => {

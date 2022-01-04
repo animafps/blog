@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'GNU/Linux: My Journey'
 ---
 

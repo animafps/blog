@@ -1,6 +1,4 @@
 ---
-setup: |
-  import "katex/dist/katex.min.css";
 title: How to Find the Best Sensitivity
 date: '2020-06-22 09:00:00'
 tags:

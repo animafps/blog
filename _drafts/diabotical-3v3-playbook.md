@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Diabotical 3v3 Playbook
 tags:
 - gaming
@@ -10,7 +9,7 @@ tags:
 
 My Own Video with basic strats
 
-{% youtube _LG0uAQTcwk %}
+<outube videoId="_LG0uAQTcwk" />
 
 Thanks to Blindlight for the basics of this part
 

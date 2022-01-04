@@ -3,7 +3,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import getPostData from "../utils/getPostData";
 
 export function getStaticPaths({ rss }) {
-  const posts = Astro.fetchContent("../posts/*.md");
+  let posts = Astro.fetchContent("../posts/*.md");
+  if (process.env["DRAFTS"]) {
+    posts = posts.concat(Astro.fetchContent("../../_drafts/*.md"));
+  }
   const sortedPosts = posts.sort(
     (a, b) =>
       new Date(b.date).getMilliseconds() - new Date(a.date).getMilliseconds()
@@ -15,11 +18,7 @@ export function getStaticPaths({ rss }) {
     customData: `<language>en-us</language>`,
     items: sortedPosts.map((item) => ({
       title: item.title,
-      description:
-        item.astro.html +
-        `<hr>\n<i>Originally published at <a href="${
-          Astro.site + item.file.pathname.split("/").pop().split(".").shift()
-        }">animafps.xyz</a></i>`,
+      description: item.description,
       link: item.file.pathname.split("/").pop().split(".").shift(),
       pubDate: item.publishDate,
     })),
@@ -30,7 +29,7 @@ export function getStaticPaths({ rss }) {
   }));
 }
 
-const { Content, title, description, date, heroImage } = Astro.props.post;
+const { Content, title, description, date } = Astro.props.post;
 const { readingTime } = getPostData(Astro.props.post);
 const publishDate = new Date(date).toLocaleString("en", {
   day: "numeric",

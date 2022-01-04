@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'VOD Review: The most Underrated Skill'
 tags:
 - gaming

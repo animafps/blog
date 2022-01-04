@@ -55,7 +55,7 @@ it may miss significant differences:
 **Routine Coaches/ Routine Providers** :
 
 These are very talked-about coaches within the community for their sometimes
-controversial actions. Still, they are coaches that give a method of training through a routine of times/ numbers of runs to play through with specific scenarios in Kovaaks or Aim Lab to train overall mouse control or specific personalised routine to improve your weaknesses. While this can be good when you start training is my personal opinion. However, there are [plenty of free routines](../aim-resources.md) around plus many more which you can use as a perfect base to then adapt to focus on your weaknesses. But one downside of this kind of coaching is that it does not improve or detect bad habits or specific mistakes that you might be having during your training.
+controversial actions. Still, they are coaches that give a method of training through a routine of times/ numbers of runs to play through with specific scenarios in Kovaaks or Aim Lab to train overall mouse control or specific personalised routine to improve your weaknesses. While this can be good when you start training is my personal opinion. However, there are [plenty of free routines](/aim-resources) around plus many more which you can use as a perfect base to then adapt to focus on your weaknesses. But one downside of this kind of coaching is that it does not improve or detect bad habits or specific mistakes that you might be having during your training.
 
 **General Advisors for Aiming** :
 

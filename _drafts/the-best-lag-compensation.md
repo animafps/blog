@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Best Lag Compensation
 tags:
 - gaming

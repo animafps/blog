@@ -1,11 +1,9 @@
 ---
-layout: post
 title: Issues With FoV Based Yaw
 tags:
 - math
 - gaming
 - coding
-latex: true
 ---
 
 The major issue that I have run into while writing the [FPSMath Discord bot](https://fpsmath.xyz)

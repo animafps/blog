@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tracking Tips
 tags:
 - aiming
@@ -41,10 +40,4 @@ you can put a little more tension into your arm to jitter aim but use it conscio
 
 ---
 
-[The full definitions of the terminology used in this article](https://aiming-taxonomy.github.io/glossary/)
-
-*[trailing edge]: The back edge of the target's hitbox relative to its movement
-*[tracking]: The skill to maintain your crosshair on a target for a long period of time while it moves and can reacquire the same target after it changes direction
-*[trailing]: Aiming behind a target’s path
-*[leading]: Aiming in front a target's path
-*[micro-adjustments]: A small movement of the mouse to correct the crosshair onto a target due to incorrect crosshair placement
+[The definitions of the terminology used in this article](https://aiming-taxonomy.github.io/glossary/)
