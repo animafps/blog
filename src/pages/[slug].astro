@@ -31,8 +31,7 @@ export function getStaticPaths({ rss }) {
 }
 
 const { Content, title, description, date, heroImage } = Astro.props.post;
-const { slug, readingTime } = getPostData(Astro.props.post);
-const permalink = `${Astro.site.href}${slug}`;
+const { readingTime } = getPostData(Astro.props.post);
 const publishDate = new Date(date).toLocaleString("en", {
   day: "numeric",
   month: "short",
@@ -40,7 +39,7 @@ const publishDate = new Date(date).toLocaleString("en", {
 });
 ---
 
-<BaseLayout {title} {description} {permalink} current="posts" ogType="article">
+<BaseLayout {title} {description} current="posts" ogType="article">
   <main itemscope itemtype="https://schema.org/Article">
     <meta itemprop="description" content={description} />
     <header>

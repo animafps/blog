@@ -6,16 +6,15 @@ import Footer from "../components/Footer.astro";
 export interface Props {
   title: string;
   description: string;
-  permalink: string;
   current?: string;
   ogType?: string;
 }
-const { title, description, permalink, current, ogType } = Astro.props;
+const { title, description, current, ogType } = Astro.props;
 ---
 
 <html lang="en" itemscope itemtype="https://schema.org/Blog">
   <head>
-    <BaseHead {title} {description} {permalink} {ogType} />
+    <BaseHead {title} {description} {ogType} />
   </head>
   <body>
     <div class="layout">

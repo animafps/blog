@@ -8,7 +8,6 @@ type Post = {
 
 export default function getPostData(post: Post) {
   return {
-    slug: post.file.pathname.split("/").pop().split(".").shift(),
     readingTime: readingTime(post.content.source).text,
   };
 }

@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from "svelte";
   export let videoId;
   export let componentParams = "modestbranding=1&rel=0";
 
@@ -13,10 +12,6 @@
     linkElem.crossOrigin = "true";
     document.head.append(linkElem);
   }
-
-  onMount(async () => {
-    addPrefetch("preconnect", "https://i.ytimg.com/");
-  });
 
   function warmConnections() {
     // Host that YT uses to serve JS needed by player, per amp-youtube
@@ -38,6 +33,10 @@
     params.append("autoplay", "1");
 
     const iframeEl = document.createElement("iframe");
+    iframeEl.width = "560";
+    iframeEl.height = "315";
+    iframeEl.style =
+      "width: 100%;height: 100%;position: absolute;top: 0;left: 0;border: 0;";
     iframeEl.title = "Play";
     iframeEl.allow =
       "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
@@ -62,6 +61,7 @@
     ? "lyt-activated aspect-video mx-auto"
     : "aspect-video mx-auto"}
 >
+  <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="true" />
   <picture>
     <source
       srcset="https://i.ytimg.com/vi_webp/{videoId}/hqdefault.webp"
