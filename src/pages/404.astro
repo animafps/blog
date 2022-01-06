@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Anima's Stuff";
+const description = "The perfect starter for your perfect blog.";
+const permalink = Astro.site.href;
+---
+
+<BaseLayout {title} {description} {permalink}>
+  <main aria-label="Content">
+    <div class="not-found">
+      <div class="title">404</div>
+      <p class="phrase">
+        <b>Page not found :(</b><br />The requested page could not be found.
+        <br />
+        <a href="/">back home</a>
+      </p>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .not-found {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+  }
+  .title {
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1.1;
+    text-shadow: 1px 0px 0px var(--primary-color);
+  }
+  .solution {
+    letter-spacing: 0.5px;
+  }
+</style>
