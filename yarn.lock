@@ -5,15 +5,6 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@antfu/utils@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@antfu/utils@npm:0.3.0"
-  dependencies:
-    "@types/throttle-debounce": ^2.1.0
-  checksum: 1f42790560e1768e16d05e302c9f1a69e64c3e048ab5a79d2d9f5c0d92d350e910f54c097475a0ed702a576ce0d306a6af68c7b0c53335df109358cf13f0cd0c
-  languageName: node
-  linkType: hard
-
 "@astrojs/compiler@npm:^0.5.4":
   version: 0.5.7
   resolution: "@astrojs/compiler@npm:0.5.7"
@@ -534,7 +525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.1.2":
+"@rollup/pluginutils@npm:^4.1.1":
   version: 4.1.2
   resolution: "@rollup/pluginutils@npm:4.1.2"
   dependencies:
@@ -821,13 +812,6 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 19eb71acc4b0d7db2170732a51ad18a34007021f42069652a5be8a3e3a448a470d2f970b9e85f734d1896bf3a25e48fb5132b4a989c101eb5df21cc171d426c5
-  languageName: node
-  linkType: hard
-
-"@types/throttle-debounce@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@types/throttle-debounce@npm:2.1.0"
-  checksum: 70e219d000595108fce0dc624c8296e37cdb174b528e09c939da18e619da1c6df86b088659f5eb93cb146bd5fe2954597823c2e1f0849dc8f6585d87cbbf71b7
   languageName: node
   linkType: hard
 
@@ -1254,7 +1238,6 @@ __metadata:
     start-server-and-test: ^1.14.0
     tailwindcss: ^3.0.7
     twemoji: ^13.1.0
-    unplugin-auto-import: ^0.5.5
   languageName: unknown
   linkType: soft
 
@@ -1584,15 +1567,6 @@ __metadata:
     base64-js: ^1.3.1
     ieee754: ^1.1.13
   checksum: e2cf8429e1c4c7b8cbd30834ac09bd61da46ce35f5c22a78e6c2f04497d6d25541b16881e30a019c6fd3154150650ccee27a308eff3e26229d788bbdeb08ab84
-  languageName: node
-  linkType: hard
-
-"builtins@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "builtins@npm:4.0.0"
-  dependencies:
-    semver: ^7.0.0
-  checksum: 3c8b3b96ed88dd8e21286a3590292862ad62a59085bbcd77a4470848fed0f59fcd67f366afdf9ca8d7e77abce7ccf336bf662c12ead949294aa03bc563a57a1c
   languageName: node
   linkType: hard
 
@@ -4220,15 +4194,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "import-meta-resolve@npm:1.1.1"
-  dependencies:
-    builtins: ^4.0.0
-  checksum: 2024161e169c45ed25a9f51d984a432a9cc342c35737f9410266bab237ca2f756c1f80c15e2297df83c92f585743d5105291f2ad24094a513f804c6023ea1472
-  languageName: node
-  linkType: hard
-
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -4864,15 +4829,6 @@ __metadata:
   version: 1.1.0
   resolution: "link-types@npm:1.1.0"
   checksum: 76f9fa1d25e6804af6a51ccd86d4a2665e862672bc342948102d93329226395d0f5bd8bd1385d7aa09b041d5e0237554053d980a2d8c15bba86fc1cebf0d3d47
-  languageName: node
-  linkType: hard
-
-"local-pkg@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "local-pkg@npm:0.4.0"
-  dependencies:
-    mlly: ^0.2.2
-  checksum: 46964cea4b5a2c83d4206cd2e8ea72a4caed444ac1ef51a27c6b545457cb734005768534032a67bca4249f50ee2d557dba2aa027eb594c409d1169f984dc89f8
   languageName: node
   linkType: hard
 
@@ -5836,15 +5792,6 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
-  languageName: node
-  linkType: hard
-
-"mlly@npm:^0.2.2":
-  version: 0.2.10
-  resolution: "mlly@npm:0.2.10"
-  dependencies:
-    import-meta-resolve: ^1.1.1
-  checksum: a7b9f9e046389eb8263ae57bf6738084dd40319ce1608b31dd66a72baf15e35bfb9d8a7dcde33f4c6f3b5da4788b8e94c65e9fa519c508ab5b339f4e6de255bc
   languageName: node
   linkType: hard
 
@@ -7364,7 +7311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.0.0, semver@npm:^7.3.5, semver@npm:~7.3.5":
+"semver@npm:^7.3.5, semver@npm:~7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
@@ -8553,45 +8500,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.5.5":
-  version: 0.5.5
-  resolution: "unplugin-auto-import@npm:0.5.5"
-  dependencies:
-    "@antfu/utils": ^0.3.0
-    "@rollup/pluginutils": ^4.1.2
-    local-pkg: ^0.4.0
-    magic-string: ^0.25.7
-    resolve: ^1.20.0
-    unplugin: ^0.2.21
-  peerDependencies:
-    "@vueuse/core": "*"
-  peerDependenciesMeta:
-    "@vueuse/core":
-      optional: true
-  checksum: 7969477400916e1dfa4ce2d6b42726f19cb30b22dbb3fff793231d72edda47d3bee8b4b56ed4f6b6862e191783834bd23de0d0c76964d366f134c39d1d55d181
-  languageName: node
-  linkType: hard
-
-"unplugin@npm:^0.2.21":
-  version: 0.2.21
-  resolution: "unplugin@npm:0.2.21"
-  dependencies:
-    webpack-virtual-modules: ^0.4.3
-  peerDependencies:
-    rollup: ^2.50.0
-    vite: ^2.3.0
-    webpack: 4 || 5
-  peerDependenciesMeta:
-    rollup:
-      optional: true
-    vite:
-      optional: true
-    webpack:
-      optional: true
-  checksum: 8f04d3939c0c8fa53e44b942650d1886034af3d74396b57fd7e9ba24774e75ff67036fcfc29531ae0669414f2a301a299168c2505278a48d8aec3281aac99393
-  languageName: node
-  linkType: hard
-
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1"
@@ -8940,13 +8848,6 @@ __metadata:
   version: 3.0.1
   resolution: "webidl-conversions@npm:3.0.1"
   checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
-  languageName: node
-  linkType: hard
-
-"webpack-virtual-modules@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "webpack-virtual-modules@npm:0.4.3"
-  checksum: 158d30633e0d9be3cfcde10fe959b28df5d5adb1068e0f057fcfb10b0b16ede6c892eba438f6ced089c7c442087748c2fcd1e3f035e4e2dc6760517a8c227714
   languageName: node
   linkType: hard
 

@@ -6,7 +6,6 @@ date: '2021-06-04 00:00:00'
 tags:
 - periphirals
 - guides
-latex: true
 ---
 
 Well As more and more people pick up a gaming mouse it's important to understand

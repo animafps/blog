@@ -1,5 +1,4 @@
 import { getHighlighter } from "shiki";
-import AutoImport from "unplugin-auto-import/vite";
 
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ {
@@ -12,14 +11,6 @@ export default /** @type {import('astro').AstroUserConfig} */ {
     sitemap: true, // Generate sitemap (set to "false" to disable)
   },
   renderers: ["@astrojs/renderer-svelte"],
-  vite: {
-    plugins: [
-      AutoImport({
-        include: [/\.astro$/, /\.md$/],
-        imports: [{ "../components/Youtube.astro": [["default", "Youtube"]] }],
-      }),
-    ],
-  },
   markdownOptions: {
     render: [
       "@astrojs/markdown-remark",
