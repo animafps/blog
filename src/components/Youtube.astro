@@ -1,5 +1,5 @@
 ---
-import youtube from "./Youtube.svelte";
+import Youtube from "./Youtube.svelte";
 export interface Props {
   videoId: string;
   componentParams?: string;
@@ -7,4 +7,4 @@ export interface Props {
 const { videoId, componentParams } = Astro.props;
 ---
 
-<youtube {videoId} {componentParams} client:visible></youtube>
+<Youtube {videoId} {componentParams} client:visible />
