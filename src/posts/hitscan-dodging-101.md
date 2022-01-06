@@ -4,8 +4,6 @@ date: '2020-11-09 09:07:00'
 tags:
 - gaming
 - guides
-setup: |
-    import Youtube from "../components/Youtube.astro"
 ---
 
 Dodging is a very important skill that can be applied to most modern games and
