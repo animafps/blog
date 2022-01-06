@@ -16,7 +16,7 @@ export default /** @type {import('astro').AstroUserConfig} */ {
     plugins: [
       AutoImport({
         include: [/\.astro$/, /\.md$/],
-        imports: [{ "../components/Youtube.astro": [["default", "Youtube"]] }],
+        imports: [{ "../components/youtube.astro": [["default", "Youtube"]] }],
       }),
     ],
   },
