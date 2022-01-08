@@ -1,14 +1,15 @@
 ---
-setup: |
-    import "katex/dist/katex.min.css";
 title: Why Higher CPI is Always Better
 date: '2021-06-04 00:00:00'
 tags:
 - periphirals
 - guides
+description: As more and more people pick up a gaming mouse it's important to understand
+what all the settings mean for your mouse and
+if 400 DPI or 800 DPI is good enough or is there better
 ---
 
-Well As more and more people pick up a gaming mouse it's important to understand
+As more and more people pick up a gaming mouse it's important to understand
 what all the settings mean for your mouse and
 if 400 DPI or 800 DPI is good enough or is there better.
 But the main reason is to dispute the crazy amount of weird and
@@ -65,7 +66,7 @@ to say that increasing it will be still better for latency.
 
 Now you're asking if higher CPI is so good
 should I just set my mouse’s CPI to the maximum?
-No of course not while it has all of the benefits that still get better the
+No, of course not while it has all of the benefits that still get better the
 higher the CPI you run into the issue
 I talked about with sensor interference/noise which gets exponentially worse
 with the increase of the set CPI.

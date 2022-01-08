@@ -6,6 +6,7 @@ tags:
 - guides
 setup: |
     import Youtube from "../components/Youtube.astro"
+description: AD strafe spamming is old and there is better
 ---
 
 Dodging is a very important skill that can be applied to most modern games and

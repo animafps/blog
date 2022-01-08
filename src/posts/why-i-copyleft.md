@@ -4,12 +4,13 @@ date: '2021-10-12 00:19:01'
 tags:
 - philosophy
 - meta
+description: Why everything I put on the internet is free in every aspect and why you should consider it too
 ---
 
 If you notice on the footer of this page, it shows a notice saying that this
 website is licensed under CC BY-SA which is quite an open license.
 It is the license that is regarded as a _CopyLeft_ license.
-&nbsp;As well as my many maintained and created software/library repositories
+As well as my many maintained and created software/library repositories
 are licensed under GPLv3 and AGPLv3 which are both copyleft licenses.
 
 Copyleft is a play on the normal term of copyright but to be much more open and

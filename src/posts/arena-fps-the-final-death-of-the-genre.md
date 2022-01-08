@@ -3,7 +3,7 @@ title: 'Arena FPS: The Final Death of the Genre'
 date: '2020-11-18 00:00:00'
 tags:
 - gaming
-excerpt: The player numbers for Arena FPS's have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
+description: The player numbers for Arena FPS's have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
 ---
 
 I am a new player and person in the arena fps scene and have been playing at
@@ -29,7 +29,7 @@ So the free advertising out of the way that sounds is amazing,
 right so the game and content around it should be thriving. Well not quite.
 The game averages around 30–300 viewers on twitch and
 only like 1 video a week for youtube as well the queues extending up to
-almost 2 hours (with most of the game modes selected just before peak time).
+almost 2 hours (with most of the game modes selected right before peak time).
 
 So that by itself is not so fantastic,
 especially with my content around the game not performing compared to
@@ -58,9 +58,9 @@ basics of strafe jumping, circle jumping, dodging, weapon selection,
 how to use each weapon, item timing, map control which are a lot and
 take like around 30hours just to learn them which are made harder by the
 fact that they are not really intuitive or well documented that
-are easily available to the new player and they raise the skill ceiling so
+are available to the new player and they raise the skill ceiling so
 players with a tiny bit more experience are much better.
-Now for modes that are even more insane cause, there are so many modes and
+Now for modes that are even more ludicrous cause, there are so many modes and
 so many different mechanics that are specifically tied to a single mode.
 Now for diabotical specifically you have to learn 3–4 separate modes if you
 want to get into the major esports circuit and for the casual player base,
@@ -74,8 +74,8 @@ This leads to long time and makes a lot of new players avoid the game modes that
 they enjoy because they cant play them and are forced into modes
 where veterans have so much more of an advantage.
 So from this, it takes so long to start to play the game and
-when you do you just get shit on by vets who have mastered the mechanics and
-the modes. This is especially obvious in the extreme modes of TDM and duel
+when you do you just get stomped by vets who have mastered the mechanics and
+the modes. This is especially apparent in the extreme modes of TDM and duel
 where people have been playing this for hundreds of hours and
 the skill limit has never been reached and they have never significantly been
 changed and will deny the proper change in the genre.
@@ -122,7 +122,7 @@ While these changes will help the game it’s unlikely to happen because
 the development is stuck in this mentality to be just like quake 3 arena but
 then somehow be better and still achieve which never works and
 never will without fundamental changes.
-And this will piss off a lot of fans of the Quake franchise and style who have
+And this will upset a lot of fans of the Quake franchise and style who have
 played for 15+ years but it’s dead. Quake was popular when there was
 nothing better to play so it was a monopoly on games and
 LAN parties were popular so it’s the only thing people knew about which had
@@ -134,8 +134,8 @@ redefine a genre built for the current times.
 Polished games can hold a player base but a good game can create a player base.
 
 Diabotical is polished and to an extent but the popularity will never come.
-I will probably stop playing which sucks, but the fundamental genre is dead and
-is too hard for people to pick up.
+I will probably stop playing which is unfortunate,
+but the fundamental genre is dead and is too hard for people to pick up.
 (hint. I did pretty quickly after the initial release of this article)
 
 [Another great article](https://www.esportsearnings.com/articles/the-problem-with-influencers-negatively-affecting-the-arena-fps-community-and-how-diabotical-will-revive-arena-shooters)

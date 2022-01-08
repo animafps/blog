@@ -5,11 +5,12 @@ tags:
   - essays
   - philosophy
   - queer-theory
+description: The issues with labels in the current queer spaces
 ---
 
 Labels are a direct extension of someone's perception, often used to supplement
 and explain common traits about a person and how they should be perceived as
-their default. Now while this is looking at just queer labels and my analysis
+their default. Now while this is looking at only queer labels and my analysis
 of its application and its fundamental ideas, this can be applied to such a
 range of things.
 
