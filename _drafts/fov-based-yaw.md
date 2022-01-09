@@ -19,7 +19,7 @@ Yaw is the coefficient to the sensitivity value for
 the increment of rotation per mouse count.
 Often we use degrees per count as the unit of yaw.
 
-$$Yaw \times Sensitivity = Increment$$
+Yaw \* Sensitivity = Increment
 
 ## Why games might do this
 

@@ -28,7 +28,7 @@ which is how many centimetres it takes to do one full 360/revolution in-game and
 `deg/mm` (Aim Curvature) is
 how many degrees of in-game rotation occurs with 1mm of mouse movement on your mousepad.
 Most modern games use the formula:
-$$Sensitivity \times Yaw = Rotation\space increment\space per\space count$$
+Sensitivity Yaw = Rotation increment per count
 
 ## Conversion
 

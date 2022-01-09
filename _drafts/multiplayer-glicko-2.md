@@ -5,7 +5,7 @@ tags:
 - math
 ---
 
-During the development of the [glicko2.ts]() a Typescript implementation of the Glicko-2 system, I realized there lacked a lot of functions for multiplayer games. Because the Glicko-2 system was designed for zero-sum 1v1 games so I had to adapt and include functionality so it could work in a multiplayer environment. Use with a rating system like this in multiplayer games is important so it can have a larger range of uses because most of the biggest online video games are multiplayer and internally rate their players so I need to provide the same functionality on the better glicko-2 system.
+During the development of the [glicko2.ts](https://github.com/animafps/glicko2.ts) a Typescript implementation of the Glicko-2 system, I realized there lacked a lot of functions for multiplayer games. Because the Glicko-2 system was designed for zero-sum 1v1 games so I had to adapt and include functionality so it could work in a multiplayer environment. Use with a rating system like this in multiplayer games is important so it can have a larger range of uses because most of the biggest online video games are multiplayer and internally rate their players so I need to provide the same functionality on the better glicko-2 system.
 
 To start I needed to know if it was even possible which it was because of the fact that the multiplayer game CS:GO used a slightly modified version of the system. As well as Microsoft's TrueSkill which is an extension of the Glicko-2 system which was designed to be used for the XBox Live online gaming service. But their application isn't public so I couldn't use it as the basis of the library. Begin the time to plan.
 

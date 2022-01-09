@@ -24,14 +24,12 @@ export default /** @type {import('astro').AstroUserConfig} */ {
           ],
           "remark-smartypants",
           "remark-gfm",
-          "remark-math",
           "remark-twemoji",
           // Add a Remark plugin that you want to enable for your project.
           // If you need to provide options for the plugin, you can use an array and put the options as the second item.
           // ['remark-autolink-headings', { behavior: 'prepend'}],
         ],
         rehypePlugins: [
-          "rehype-katex",
           "rehype-slug",
           // Add a Rehype plugin that you want to enable for your project.
           // If you need to provide options for the plugin, you can use an array and put the options as the second item.

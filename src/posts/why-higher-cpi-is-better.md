@@ -28,7 +28,7 @@ the number of counts a computer mouse outputs per inch of linear movement.
 ## How mice count
 
 As the above definition states, a count is emitted by a mouse every
-CPI$$^{-1}$$ inches of linear movement.
+CPI^-1 inches of linear movement.
 So the larger the CPI the less the distance per one count emitted.
 This is going to be the main premise that will help with how it can help as
 well as why it is disadvantageous at lower CPI’s. Optical mice sensors use this
