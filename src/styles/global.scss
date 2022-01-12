@@ -110,12 +110,13 @@ li {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
-  a {
-    color: inherit;
-    transition: color linear 0.15s;
-    &:hover {
-      color: var(--primary-color);
-    }
+}
+
+a {
+  color: inherit;
+  transition: color linear 0.15s;
+  &:hover {
+    color: var(--primary-color);
   }
 }
 
