@@ -5,12 +5,12 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@astrojs/compiler@npm:^0.7.4":
-  version: 0.7.4
-  resolution: "@astrojs/compiler@npm:0.7.4"
+"@astrojs/compiler@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@astrojs/compiler@npm:0.8.1"
   dependencies:
     typescript: ^4.3.5
-  checksum: 4a06b2dd31c3d3f91d8e2d2795daf2da5f44ed7f751da5c5a8ade9ca25b42d4cb72b60569337bfb44eaba7e78a85c0d59a7dc7685701995c24f8412a8acfb434
+  checksum: 6168ff56f507ba4418770597176a3e65f2607a59f84303f68b7344ebdb2e7285aa93150b907855f6c7fbcbdcb1272d8423416b797a6da8a120238db2c0126ba5
   languageName: node
   linkType: hard
 
@@ -92,14 +92,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-react@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@astrojs/renderer-react@npm:0.4.0"
+"@astrojs/renderer-react@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@astrojs/renderer-react@npm:0.4.1"
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.16.0
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: f5583714b59dc66703b911f2ed7aa56a9ca9ced31b3787c55583215a2da04a0d39b2faa472bbe859a816b3cb4769957f8cccae9a764e8ddadd3ed22a06fc0a0a
+  checksum: c7f9bb79547a82e4eeeee5d52311a1e0002cde210babb37ccb529d89eba0d08afca82f22429a60e4da0222efe58a62de0ede997f9fd4f67a885ed3bf341e23ab
   languageName: node
   linkType: hard
 
@@ -1214,34 +1214,34 @@ __metadata:
   dependencies:
     "@astrojs/renderer-svelte": ^0.3.1
     "@stefanprobst/remark-shiki": ^2.0.2
-    astro: ^0.22.9
+    astro: ^0.22.13
     autoprefixer: ^10.4.2
     broken-link-checker: ^0.7.8
     pa11y-ci: ^3.0.1
     prettier: ^2.5.1
     prettier-plugin-astro: ^0.0.11
-    prettier-plugin-svelte: ^2.5.1
+    prettier-plugin-svelte: ^2.6.0
     reading-time: ^1.5.0
     remark-twemoji: ^0.1.1
-    sass: ^1.47.0
+    sass: ^1.48.0
     shiki: ^0.10.0
     start-server-and-test: ^1.14.0
-    tailwindcss: ^3.0.13
+    tailwindcss: ^3.0.15
     twemoji: ^13.1.0
-    vite: ^2.7.10
+    vite: ^2.7.12
   languageName: unknown
   linkType: soft
 
-"astro@npm:^0.22.9":
-  version: 0.22.9
-  resolution: "astro@npm:0.22.9"
+"astro@npm:^0.22.13":
+  version: 0.22.13
+  resolution: "astro@npm:0.22.13"
   dependencies:
-    "@astrojs/compiler": ^0.7.4
+    "@astrojs/compiler": ^0.8.0
     "@astrojs/language-server": ^0.8.6
     "@astrojs/markdown-remark": ^0.6.0
     "@astrojs/prism": 0.4.0
     "@astrojs/renderer-preact": ^0.4.0
-    "@astrojs/renderer-react": 0.4.0
+    "@astrojs/renderer-react": 0.4.1
     "@astrojs/renderer-svelte": 0.3.1
     "@astrojs/renderer-vue": 0.3.0
     "@astropub/webapi": ^0.10.1
@@ -1293,7 +1293,7 @@ __metadata:
     zod: ^3.8.1
   bin:
     astro: astro.js
-  checksum: f3c1ecae166262d24ef5b2f6d3af5b71b833c24178417052f66be890739e3dbd1dc1d0031b654aae8fd23a41f8a4a47a4d4bc049540a7354e67d7d44859add59
+  checksum: ca50bc7122a9bcc6899c216331fc1180f4a33c91b16eef8fac975b22bc7c186756a002aa8ac5cbbab8722b78d851fc34f4a2df697ca6f647850b5f8eeea1546a
   languageName: node
   linkType: hard
 
@@ -6468,13 +6468,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "prettier-plugin-svelte@npm:2.5.1"
+"prettier-plugin-svelte@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "prettier-plugin-svelte@npm:2.6.0"
   peerDependencies:
     prettier: ^1.16.4 || ^2.0.0
     svelte: ^3.2.0
-  checksum: 433c0008749043a0ef16ecc27371db9cdd616b700d071e8f26fc933d23e466b2703b129643fabe1072151cf84dfb6ccad39d0baaa9f93f522d3e6bebb5a06d9e
+  checksum: 1ee680cba9c9918a0d831e2161b774ac588bcd8ba8e87a27b33f0382873d2d8f4397bbf24968f777b48c281c97eba573c64087a8ed28eaaf17d083fa9fe6474d
   languageName: node
   linkType: hard
 
@@ -7135,7 +7135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.43.4, sass@npm:^1.47.0":
+"sass@npm:^1.43.4":
   version: 1.47.0
   resolution: "sass@npm:1.47.0"
   dependencies:
@@ -7145,6 +7145,19 @@ __metadata:
   bin:
     sass: sass.js
   checksum: e725a37eb7360ad5f96e6e6209d81beeb22ecec70c6f01a1acdf237dbbb6e05e50cc0a0851b16ee1dbc63fbdd7a90405cbbd9911f56b2dba3d5f934f7e291f10
+  languageName: node
+  linkType: hard
+
+"sass@npm:^1.48.0":
+  version: 1.48.0
+  resolution: "sass@npm:1.48.0"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 0fa57d17a9ac9eff914719a3c9cf986cb81c6714cc09214ace65e9f1af0bd47f750793dfc39bbd1b199c9b8c12b1e4aba669ba08dfbd649cfb581c55d20a839f
   languageName: node
   linkType: hard
 
@@ -7844,9 +7857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.13":
-  version: 3.0.13
-  resolution: "tailwindcss@npm:3.0.13"
+"tailwindcss@npm:^3.0.15":
+  version: 3.0.15
+  resolution: "tailwindcss@npm:3.0.15"
   dependencies:
     arg: ^5.0.1
     chalk: ^4.1.2
@@ -7874,7 +7887,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: ede2b886587be42ef2e3fdd6cc87a5f6853e8eb86c0124960e325c04aabb90d71bb037464f8dbb6b5a719f7602b48d829132a408469a952d2911700b519a7a35
+  checksum: acbf45202d3046e87c3a55e80ca93f7344960fb4d0daa3d5f5a2b28e8afd7a26d023f9142632168d1a3076eff701499bed40cafa3823c371de596f42e98ba84d
   languageName: node
   linkType: hard
 
@@ -8525,9 +8538,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.7.10":
-  version: 2.7.10
-  resolution: "vite@npm:2.7.10"
+"vite@npm:^2.7.12":
+  version: 2.7.12
+  resolution: "vite@npm:2.7.12"
   dependencies:
     esbuild: ^0.13.12
     fsevents: ~2.3.2
@@ -8550,7 +8563,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 1757108547ca34bd01a8ee3973cb04b484492c9e5690fc75f54bbcbde5965ab6e0a5b8355c336adf0a9117aa0fdae3053af3aafa9e5eb783282fffa948cfbe11
+  checksum: 56d62ae8131b02891f2dbd81f26a3ca28a02bfe390f9cb4e0c2d8dc831c2e2f8264dd3c45b14c7dd48e79d83d323a35148f92729e1f3385fae04fcd691f3f985
   languageName: node
   linkType: hard
 
