@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
   import { onMount } from "svelte";
   const rootEl =
     typeof document !== "undefined" ? document.documentElement : null;

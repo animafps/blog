@@ -1,8 +1,12 @@
-<script>
+<script lang="ts">
   export let videoId;
   export let componentParams = "modestbranding=1&rel=0";
 
-  function addPrefetch(kind, url, as) {
+  function addPrefetch(
+    kind: "preconnect" | "prefetch",
+    url: string,
+    as?: string
+  ) {
     const linkElem = document.createElement("link");
     linkElem.rel = kind;
     linkElem.href = url;
@@ -35,8 +39,6 @@
     const iframeEl = document.createElement("iframe");
     iframeEl.width = "560";
     iframeEl.height = "315";
-    iframeEl.style =
-      "width: 100%;height: 100%;position: absolute;top: 0;left: 0;border: 0;";
     iframeEl.title = "Play";
     iframeEl.allow =
       "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
