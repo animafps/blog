@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Revue from "../components/Revue.astro";
+import { MarkdownFrontmatter } from "../types";
 
 const title = "Anima's Stuff";
 const description = "Latest articles.";
@@ -42,6 +44,7 @@ allPosts = allPosts.sort(
     })}
     <hr />
   </div>
+  <Revue />
 </BaseLayout>
 
 <style>

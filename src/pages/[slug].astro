@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import getPostData from "../utils/getPostData";
+import Revue from "../components/Revue.astro";
+import { MarkdownFrontmatter } from "../types";
 
 export function getStaticPaths({ rss }) {
   let posts = Astro.fetchContent("../posts/*.md");
@@ -16,11 +18,12 @@ export function getStaticPaths({ rss }) {
     description:
       "A random 18y/o writing about gaming, philosophy, programming and mathematics.",
     customData: `<language>en-us</language>`,
+    stylesheet: true,
     items: sortedPosts.map((item) => ({
       title: item.title,
       description: item.description,
       link: item.file.pathname.split("/").pop().split(".").shift(),
-      pubDate: item.publishDate,
+      pubDate: item.date,
     })),
   });
   return posts.map((p) => ({
@@ -55,6 +58,7 @@ const publishDate = new Date(date).toLocaleString("en", {
       <hr />
     </div>
   </main>
+  <Revue />
 </BaseLayout>
 
 <style>

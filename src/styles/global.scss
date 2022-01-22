@@ -10,7 +10,7 @@
 }
 
 :root.theme-dark {
-  --background-body: #202122;
+  --background-body: #121212;
   --text-main: #fff;
   --text-secondary: #ccc;
   --primary-color: #d55672;
@@ -23,6 +23,18 @@
 
   .mode-light {
     display: block;
+  }
+
+  h1 {
+    color: #f2b3cf;
+  }
+
+  h2 {
+    color: #d2b3ff;
+  }
+
+  h3 {
+    color: #ff5582;
   }
 }
 

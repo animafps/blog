@@ -85,7 +85,7 @@
   >
 </lite-youtube>
 
-<style>
+<style lang="scss">
   lite-youtube {
     background-color: #000;
     position: relative;

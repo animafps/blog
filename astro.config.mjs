@@ -1,7 +1,13 @@
-import { getHighlighter } from "shiki";
+// Full Astro Configuration API Documentation:
+// https://docs.astro.build/reference/configuration-reference
+
+// @type-check enabled!
+// VSCode and other TypeScript-enabled text editors will provide auto-completion,
+// helpful tooltips, and warnings if your exported object is invalid.
+// You can disable this by removing "@ts-check" and `@type` comments below.
 
 // @ts-check
-export default /** @type {import('astro').AstroUserConfig} */ {
+export default /** @type {import('Astro').AstroUserConfig} */ {
   // projectRoot: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // pages: './src/pages', // Path to Astro components, pages, and data
   // dist: './dist',       // When running `astro build`, path to final static output
@@ -9,34 +15,12 @@ export default /** @type {import('astro').AstroUserConfig} */ {
   buildOptions: {
     site: "https://animafps.xyz", // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
     sitemap: true, // Generate sitemap (set to "false" to disable)
+    drafts: false,
   },
   renderers: ["@astrojs/renderer-svelte"],
-  markdownOptions: {
-    render: [
-      "@astrojs/markdown-remark",
-      {
-        remarkPlugins: [
-          [
-            "@stefanprobst/remark-shiki",
-            {
-              highlighter: await getHighlighter({ theme: "github-dark" }),
-            },
-          ],
-          "remark-smartypants",
-          "remark-gfm",
-          "remark-twemoji",
-          // Add a Remark plugin that you want to enable for your project.
-          // If you need to provide options for the plugin, you can use an array and put the options as the second item.
-          // ['remark-autolink-headings', { behavior: 'prepend'}],
-        ],
-        rehypePlugins: [
-          "rehype-slug",
-          // Add a Rehype plugin that you want to enable for your project.
-          // If you need to provide options for the plugin, you can use an array and put the options as the second item.
-          // 'rehype-slug',
-          // ['rehype-autolink-headings', { behavior: 'prepend'}],
-        ],
-      },
-    ],
+  vite: {
+    optimizeDeps: {
+      allowNodeBuiltins: true,
+    },
   },
 };
