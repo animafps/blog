@@ -1,13 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import getPostData from "../utils/getPostData";
-import Revue from "../components/Revue.astro";
-import { MarkdownFrontmatter } from "../types";
+import type { MarkdownFrontmatter } from "../types";
 
 export function getStaticPaths({ rss }) {
-  let posts = Astro.fetchContent("../posts/*.md");
+  let posts = Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
   if (process.env["DRAFTS"]) {
-    posts = posts.concat(Astro.fetchContent("../../_drafts/*.md"));
+    posts = posts.concat(
+      Astro.fetchContent<MarkdownFrontmatter>("../../_drafts/*.md")
+    );
   }
   const sortedPosts = posts.sort(
     (a, b) =>
@@ -58,7 +59,6 @@ const publishDate = new Date(date).toLocaleString("en", {
       <hr />
     </div>
   </main>
-  <Revue />
 </BaseLayout>
 
 <style>

@@ -1,14 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Revue from "../components/Revue.astro";
-import { MarkdownFrontmatter } from "../types";
+import type { MarkdownFrontmatter } from "../types";
 
 const title = "Anima's Stuff";
 const description = "Latest articles.";
 
-let allPosts = await Astro.fetchContent("../posts/*.md");
+let allPosts = await Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
 if (process.env["DRAFTS"]) {
-  allPosts = allPosts.concat(Astro.fetchContent("../../_drafts/*.md"));
+  allPosts = allPosts.concat(
+    Astro.fetchContent<MarkdownFrontmatter>("../../_drafts/*.md")
+  );
 }
 allPosts = allPosts.sort(
   (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
@@ -44,7 +45,6 @@ allPosts = allPosts.sort(
     })}
     <hr />
   </div>
-  <Revue />
 </BaseLayout>
 
 <style>
