@@ -63,14 +63,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/parser@npm:^0.20.2":
-  version: 0.20.3
-  resolution: "@astrojs/parser@npm:0.20.3"
+"@astrojs/parser@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@astrojs/parser@npm:0.22.0"
   dependencies:
-    acorn: ^7.4.0
+    acorn: ^8.6.0
     locate-character: ^2.0.5
     magic-string: ^0.25.3
-  checksum: 031650bd34dc535347d2971028a0659e5a61f07b065f434d21ea19a680944c4fb8da58193a6a7d3b74686392d5552b3096c2007755296920b54ee5fc79c05a74
+  checksum: 5636a06c9b0932a0e79a688aca28dab9006fc65b2c64e9679cd533c704741fed45b351a374b750c25117d0597d50be58620c1b475bee48699b333634a73b1acf
   languageName: node
   linkType: hard
 
@@ -1018,12 +1018,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^7.0.0, acorn@npm:^7.4.0":
+"acorn@npm:^7.0.0":
   version: 7.4.1
   resolution: "acorn@npm:7.4.1"
   bin:
     acorn: bin/acorn
   checksum: 1860f23c2107c910c6177b7b7be71be350db9e1080d814493fae143ae37605189504152d1ba8743ba3178d0b37269ce1ffc42b101547fdc1827078f82671e407
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.6.0":
+  version: 8.7.0
+  resolution: "acorn@npm:8.7.0"
+  bin:
+    acorn: bin/acorn
+  checksum: e0f79409d68923fbf1aa6d4166f3eedc47955320d25c89a20cc822e6ba7c48c5963d5bc657bc242d68f7a4ac9faf96eef033e8f73656da6c640d4219935fdfd0
   languageName: node
   linkType: hard
 
@@ -1261,14 +1270,14 @@ __metadata:
     broken-link-checker: ^0.7.8
     pa11y-ci: ^3.0.1
     prettier: ^2.5.1
-    prettier-plugin-astro: ^0.0.11
+    prettier-plugin-astro: ^0.0.12
     prettier-plugin-svelte: ^2.6.0
     reading-time: ^1.5.0
-    sass: ^1.48.0
+    sass: ^1.49.0
     start-server-and-test: ^1.14.0
     tailwindcss: ^3.0.15
     typescript: ^4.5.5
-    vite: ^2.7.12
+    vite: ^2.7.13
   languageName: unknown
   linkType: soft
 
@@ -6496,14 +6505,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "prettier-plugin-astro@npm:0.0.11"
+"prettier-plugin-astro@npm:^0.0.12":
+  version: 0.0.12
+  resolution: "prettier-plugin-astro@npm:0.0.12"
   dependencies:
-    "@astrojs/parser": ^0.20.2
+    "@astrojs/parser": ^0.22.0
     prettier: ^2.4.1
     sass-formatter: ^0.7.2
-  checksum: 50ab4b947cbaf9673c12ed2adf03e6793d48d922f27ae666425179ca5e9c9e3ba157801af4da98f03dcc07c4a5fbc6d83900264447669e584ea2598f069a91e4
+  checksum: cad4552e6b1b18a83f69a82d9f53963cbdbd37e41e4619cb00c6ec8abd514d22aa45ce7dc6c15f93c5a407bbf51bce52b37ce50f1dfebc6b65b0457c2e127fe1
   languageName: node
   linkType: hard
 
@@ -7163,7 +7172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.43.4, sass@npm:^1.48.0":
+"sass@npm:^1.43.4":
   version: 1.48.0
   resolution: "sass@npm:1.48.0"
   dependencies:
@@ -7173,6 +7182,19 @@ __metadata:
   bin:
     sass: sass.js
   checksum: 0fa57d17a9ac9eff914719a3c9cf986cb81c6714cc09214ace65e9f1af0bd47f750793dfc39bbd1b199c9b8c12b1e4aba669ba08dfbd649cfb581c55d20a839f
+  languageName: node
+  linkType: hard
+
+"sass@npm:^1.49.0":
+  version: 1.49.0
+  resolution: "sass@npm:1.49.0"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 7cd60868594fb0b6fed87bf4870ad5a7da7e3746cb5127f3ede2565380f3e30ba2de72d64e9083f2d55d0de81f756894fe6d9314c97acb704cf9fc97fbbafd0c
   languageName: node
   linkType: hard
 
@@ -8511,9 +8533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.7.12":
-  version: 2.7.12
-  resolution: "vite@npm:2.7.12"
+"vite@npm:^2.7.13":
+  version: 2.7.13
+  resolution: "vite@npm:2.7.13"
   dependencies:
     esbuild: ^0.13.12
     fsevents: ~2.3.2
@@ -8536,7 +8558,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 56d62ae8131b02891f2dbd81f26a3ca28a02bfe390f9cb4e0c2d8dc831c2e2f8264dd3c45b14c7dd48e79d83d323a35148f92729e1f3385fae04fcd691f3f985
+  checksum: 3d8780754974c5012b768b5394dce15a171e2f9e061f86517a9c934bfff02855439d411c6769efc0a1791f6c511e703e1ade8ac14a8030b0e62408af39eea456
   languageName: node
   linkType: hard
 
