@@ -1,4 +1,4 @@
 /*
   X-Robots-Tag: all
   Onion-Location: https://anima3oggx73rkyvtchhnadddyohs433vstpcj6kqql4kwcjzgc6onad.onion/:splat
-  Access-Control-Allow-Origin: https://static.cloudflareinsights.com
+  Content-Security-Policy: default-src 'self' https://static.cloudflareinsights.com
