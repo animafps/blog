@@ -36,6 +36,7 @@ export default /** @type {import('Astro').AstroUserConfig} */ {
               behavior: "prepend",
             },
           ],
+          "rehype-external-links",
         ],
       },
     ],

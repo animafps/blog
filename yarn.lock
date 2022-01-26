@@ -1275,6 +1275,7 @@ __metadata:
     prettier-plugin-svelte: ^2.6.0
     reading-time: ^1.5.0
     rehype-autolink-headings: ^6.1.1
+    rehype-external-links: ^1.0.1
     sass: ^1.49.0
     start-server-and-test: ^1.14.0
     tailwindcss: ^3.0.15
@@ -4278,6 +4279,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-absolute-url@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "is-absolute-url@npm:4.0.1"
+  checksum: de172a718439982a54477fdae55f21be69ec0e6a4b205db5484975d2f4ee749851fd46c28f3790dfc51a274c2ed1d0f8457b6d1fff02ab829069fd9cc761e48c
+  languageName: node
+  linkType: hard
+
 "is-alphabetical@npm:^2.0.0":
   version: 2.0.1
   resolution: "is-alphabetical@npm:2.0.1"
@@ -6840,6 +6848,20 @@ __metadata:
     unified: ^10.0.0
     unist-util-visit: ^4.0.0
   checksum: 60782fb2e505e70f75b59a3ac43cb5abfeb328485da07b604fcc73d6bc3626e9c3657d536a77c6c6c435b7b3086bae5c7f93d5ded510d74e553fd80fd91c8f97
+  languageName: node
+  linkType: hard
+
+"rehype-external-links@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "rehype-external-links@npm:1.0.1"
+  dependencies:
+    "@types/hast": ^2.0.0
+    extend: ^3.0.0
+    is-absolute-url: ^4.0.0
+    space-separated-tokens: ^2.0.0
+    unified: ^10.0.0
+    unist-util-visit: ^4.0.0
+  checksum: db83671c3c477d8c5c158880ccfa3969680895d8e59b7a358bd11baaee10d5c06d93d99cc11b044da0b8a1e6050db425f6c3910ac881b00bf407566d7449a8b4
   languageName: node
   linkType: hard
 
