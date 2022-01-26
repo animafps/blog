@@ -4,6 +4,10 @@ const { current = "" } = Astro.props;
 ---
 
 <nav>
+  <a
+    class={current === "" ? "selected sm:block hidden" : "md:block hidden"}
+    href="/">home</a
+  >
   <a class={current === "posts" ? "selected" : ""} href="/posts/">posts</a>
   <a class={current === "about" ? "selected" : ""} href="/about/">about</a>
   <ThemeToggleButton client:idle />
@@ -23,7 +27,6 @@ const { current = "" } = Astro.props;
     color: inherit;
     text-decoration: none;
     padding: 10px 5px;
-    display: block;
     position: relative;
     margin-left: 20px;
 
