@@ -10,8 +10,8 @@
     "lint:a11y:local": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace 'http://localhost:3000'",
     "lint:a11y:remote": "pa11y-ci --sitemap 'https://animafps.xyz/sitemap.xml'",
     "lint:linkcheck": "start-test 'yarn start --silent' 3000  'yarn lint:linkcheck:local'",
-    "lint:linkcheck:local": "blc -ro 'http://localhost:3000/'",
-    "lint:linkcheck:remote": "blc -ro 'https://animafps.xyz/'"
+    "lint:linkcheck:local": "blc -ro -f 'http://localhost:3000/'",
+    "lint:linkcheck:remote": "blc -ro -f 'https://animafps.xyz/' "
   },
   "packageManager": "yarn@3.1.1",
   "devDependencies": {

@@ -103,7 +103,7 @@ source or use ShareAlike compared to just not being able to use such a thing.
 
 This model might not work for every bit of my work though. Like my essays of
 opinion. Like my
-[labels essay](/labels-and-its-adhesive) which
+[labels essay](/labels-and-its-adhesive/) which
 expresses just a bit of my opinion and the issue that arises is if it gets
 modified and kind of loses its original meaning.
 Where the no derivatives clause comes in, which prohibits the distribution
