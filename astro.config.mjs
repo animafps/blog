@@ -17,7 +17,7 @@ export default /** @type {import('Astro').AstroUserConfig} */ {
     sitemap: true, // Generate sitemap (set to "false" to disable)
     drafts: false,
   },
-  renderers: ["@astrojs/renderer-svelte"],
+  renderers: ["@astrojs/renderer-svelte", "@astrojs/renderer-react"],
   vite: {
     optimizeDeps: {
       allowNodeBuiltins: true,

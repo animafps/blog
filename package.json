@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "DRAFTS=true astro dev",
-    "start": "astro build && astro preview",
-    "build": "astro build",
+    "start": "yarn build && astro preview",
+    "build": "astro build && node scripts/copy-partytown-to-dist.mjs",
     "preview": "astro preview",
     "lint:a11y": "start-test 'yarn start --silent' 3000 'yarn lint:a11y:local'",
     "lint:a11y:local": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace 'http://localhost:3000'",
@@ -16,6 +16,7 @@
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@astrojs/renderer-svelte": "^0.3.1",
+    "@builder.io/partytown": "^0.2.2",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.1",

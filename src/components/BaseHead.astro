@@ -1,4 +1,5 @@
 ---
+import { Partytown } from "@builder.io/partytown/react";
 export interface Props {
   title: string;
   description: string;
@@ -46,6 +47,14 @@ const socialUrl = Astro.site.href + "assets/social.png";
 
 <!-- Styles -->
 <link rel="stylesheet" href={Astro.resolve("../styles/global.scss")} />
+
+<!-- Partytown -->
+<Partytown />
+<script
+  type="text/partytown"
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon={'{("token": "653da2fda1e146e48250ee7d560bef2a")}'}></script>
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script>

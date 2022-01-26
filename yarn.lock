@@ -402,6 +402,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@builder.io/partytown@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@builder.io/partytown@npm:0.2.2"
+  checksum: 46d26120ad9c14b0cf2022f4d29090b7b6d9017b61d44e9ea8e15b8961c3ff8ba6267399322ef81ee203f066492d3cd9f9aa661fe63a4a0c10daee81d9fc4d33
+  languageName: node
+  linkType: hard
+
 "@emmetio/abbreviation@npm:^2.2.2":
   version: 2.2.2
   resolution: "@emmetio/abbreviation@npm:2.2.2"
@@ -1253,6 +1260,7 @@ __metadata:
   resolution: "astro-blog@workspace:."
   dependencies:
     "@astrojs/renderer-svelte": ^0.3.1
+    "@builder.io/partytown": ^0.2.2
     "@tailwindcss/aspect-ratio": ^0.4.0
     "@tailwindcss/forms": ^0.4.0
     "@tailwindcss/line-clamp": ^0.3.1
