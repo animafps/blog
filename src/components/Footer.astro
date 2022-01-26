@@ -5,7 +5,7 @@ import { socials } from "../config.json";
 <footer class="mt-auto mx-auto">
   {socials.map((val) => {
     return (
-      <a href={val.href} target="_blank" rel={val.rel ?? "noopener"}>
+      <a href={val.href} target="_blank" rel="nofollow noopener noreferrer">
         {val.name}
       </a>
     );
@@ -19,12 +19,14 @@ import { socials } from "../config.json";
       is licensed under <a
         href="http://creativecommons.org/licenses/by-sa/4.0/"
         target="_blank"
-        rel="license noopener noreferrer"
+        rel="license noopener noreferrer nofollow"
         style="display:inline-block;">CC BY-SA 4.0</a
       > unless stated otherwise.</span
     ><br />
-    Powered by <a href="https://astro.build" target="_blank" rel="noopener"
-      >Astro</a
+    Powered by <a
+      href="https://astro.build"
+      target="_blank"
+      rel="nofollow noopener noreferrer">Astro</a
     >.</small
   >
 </footer>
