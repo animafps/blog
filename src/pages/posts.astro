@@ -8,7 +8,7 @@ const description = "Latest articles.";
 let allPosts = await Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
 if (process.env["DRAFTS"]) {
   allPosts = allPosts.concat(
-    Astro.fetchContent<MarkdownFrontmatter>("../../_drafts/*.md")
+    Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
   );
 }
 allPosts = allPosts.sort(
@@ -20,7 +20,11 @@ allPosts = allPosts.sort(
   <div class="max-w-3xl mx-auto">
     <h1>Posts</h1>
     {allPosts.map((post, index) => {
-      const href = `/${post.file.pathname.split("/").pop().split(".").shift()}`;
+      const href = `/${post.file.pathname
+        .split("/")
+        .pop()
+        .split(".")
+        .shift()}/`;
       return (
         <div>
           {index !== 0 && <hr />}
