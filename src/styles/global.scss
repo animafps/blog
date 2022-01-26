@@ -16,6 +16,32 @@
   --primary-color: #d55672;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  .icon-link {
+    position: relative;
+
+    &::before {
+      content: "#";
+      position: absolute;
+      display: block;
+      left: -1em;
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      opacity: 0;
+      text-decoration: none;
+    }
+  }
+
+  &:hover .icon-link::before {
+    opacity: 1;
+  }
+}
+
 :root.theme-dark {
   .mode-dark {
     display: none;
@@ -51,6 +77,10 @@
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
 }
 
 body {

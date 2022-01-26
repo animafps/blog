@@ -23,4 +23,21 @@ export default /** @type {import('Astro').AstroUserConfig} */ {
       allowNodeBuiltins: true,
     },
   },
+  markdownOptions: {
+    render: [
+      "@astrojs/markdown-remark",
+      {
+        remarkPlugins: ["remark-smartypants", "remark-gfm"],
+        rehypePlugins: [
+          "rehype-slug",
+          [
+            "rehype-autolink-headings",
+            {
+              behavior: "prepend",
+            },
+          ],
+        ],
+      },
+    ],
+  },
 };

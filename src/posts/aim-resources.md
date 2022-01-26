@@ -129,7 +129,9 @@ For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](ht
         </tr>
     </tbody>
 </table>
-<h3>Routines(General)</h3>
+
+### Routines(General)
+
 <table>
     <thead>
         <tr>
@@ -221,7 +223,9 @@ For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](ht
         </tr>
     </tbody>
 </table>
-<h3>Routines(specific)</h3>
+
+### Routines(specific)
+
 <table>
     <thead>
         <tr>
@@ -351,7 +355,9 @@ For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](ht
         </tr>
     </tbody>
 </table>
-<h3>Vidoes</h3>
+
+### Vidoes
+
 <table>
     <thead>
         <tr>
@@ -403,7 +409,9 @@ For good Kovaak specific playlists see [ridd's kovaaks-playlists Github repo](ht
         </tr>
     </tbody>
 </table>
-<h3>Misc</h3>
+
+### Misc
+
 <table>
     <thead>
         <tr>
