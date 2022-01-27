@@ -6,7 +6,7 @@ tags:
 - guides
 description: Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best
 setup: |
-    import Youtube from "../components/Youtube.astro"
+    import Youtube from "../components/Youtube.svelte"
 ---
 
 Video version of this document is available here:

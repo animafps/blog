@@ -12,6 +12,7 @@ export interface Props {
 const { title, description, current, ogType } = Astro.props;
 ---
 
+<!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/Blog">
   <head>
     <BaseHead {title} {description} {ogType} />
@@ -20,7 +21,7 @@ const { title, description, current, ogType } = Astro.props;
     <div class="layout">
       <Header {current} />
 
-      <div class="px-10 container">
+      <div class="container">
         <slot />
       </div>
 
@@ -29,24 +30,6 @@ const { title, description, current, ogType } = Astro.props;
   </body>
 </html>
 
-<style>
-  .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    min-height: 100vh;
-    position: relative;
-  }
-
-  main {
-    flex: 1;
-    position: relative;
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 1em 2em;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+<style global lang="scss">
+  @import "../styles/global.scss";
 </style>

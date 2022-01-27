@@ -2,9 +2,9 @@
   "name": "astro-blog",
   "private": true,
   "scripts": {
-    "dev": "DRAFTS=true astro dev",
+    "dev": "DRAFTS=true astro dev --experimental-static-build --verbose",
     "start": "yarn build && astro preview",
-    "build": "astro build && node scripts/copy-partytown-to-dist.mjs",
+    "build": "astro build --experimental-static-build --verbose && node scripts/copy-partytown-to-dist.mjs",
     "preview": "astro preview",
     "lint:a11y": "start-test 'yarn start --silent' 3000 'yarn lint:a11y:local'",
     "lint:a11y:local": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace 'http://localhost:3000'",
