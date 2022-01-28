@@ -1,5 +1,6 @@
 /*
   X-Robots-Tag: all
-  Access-Control-Allow-Origin: https://cloudflareinsights.com/
+  Cross-Origin-Embedder-Policy: credentialless
+  Cross-Origin-Opener-Policy: same-origin
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
