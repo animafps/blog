@@ -7,8 +7,8 @@ on:
   pull_request:
 
 jobs:
-  LintLinks:
-    name: Lint Links
+  Links:
+    name: Broken Links
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
@@ -18,20 +18,19 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - name: Restore CI Cache
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed # renovate: tag=v2.1.7
-        id: cache-restore
+      - name: Wait for CF Pages
+        id: cf-pages
+        uses: WalshyDev/cf-pages-await@v1
         with:
-          path: node_modules
-          key: ${{ runner.os }}-16-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Dependencies if Cache Miss
-        if: ${{ !steps.cache-restore.outputs.cache-hit }}
-        run: yarn --frozen-lockfile
+          accountEmail: ${{ secrets.CF_ACCOUNT_EMAIL  }}
+          apiKey: ${{ secrets.CF_API_KEY  }}
+          accountId: '1d4cf1294df33e0483fffa84550d3052'
+          project: 'blog'
       - name: Run BLC
-        run: yarn lint:linkcheck
+        run: npx blc -ro -f '${{ steps.cf-pages.outputs.url}}'
 
-  LintA11y:
-    name: Lint A11y
+  A11y:
+    name: A11y
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
@@ -41,14 +40,13 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - name: Restore CI Cache
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed # renovate: tag=v2.1.7
-        id: cache-restore
+      - name: Wait for CF Pages
+        id: cf-pages
+        uses: WalshyDev/cf-pages-await@v1
         with:
-          path: node_modules
-          key: ${{ runner.os }}-16-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Dependencies if Cache Miss
-        if: ${{ !steps.cache-restore.outputs.cache-hit }}
-        run: yarn --frozen-lockfile
-      - name: Run BLC
-        run: yarn lint:a11y
+          accountEmail: ${{ secrets.CF_ACCOUNT_EMAIL  }}
+          apiKey: ${{ secrets.CF_API_KEY  }}
+          accountId: '1d4cf1294df33e0483fffa84550d3052'
+          project: 'blog'
+      - name: Run pa11ly-ci
+        run: npx pa11y-ci --sitemap '${{ steps.cf-pages.outputs.url}}/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace '${{ steps.cf-pages.outputs.url}}' 
