@@ -26,8 +26,9 @@ jobs:
           apiKey: ${{ secrets.CF_API_KEY  }}
           accountId: '1d4cf1294df33e0483fffa84550d3052'
           project: 'blog'
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Run BLC
-        if: ${{ !steps.cf-pages.outputs.success }}
+        if: ${{ steps.cf-pages.outputs.success }}
         run: npm exec --package=broken-link-checker -- blc -ro -f '${{ steps.cf-pages.outputs.url }}'
 
   A11y:
@@ -49,6 +50,7 @@ jobs:
           apiKey: ${{ secrets.CF_API_KEY  }}
           accountId: '1d4cf1294df33e0483fffa84550d3052'
           project: 'blog'
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Run pa11ly-ci
-        if: ${{ !steps.cf-pages.outputs.success }}
+        if: ${{ steps.cf-pages.outputs.success }}
         run: npx pa11y-ci --sitemap '${{ steps.cf-pages.outputs.url }}/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace '${{ steps.cf-pages.outputs.url }}' 
