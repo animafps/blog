@@ -35,61 +35,54 @@ main {
   flex-direction: column;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  .icon-link {
-    position: relative;
-
-    &::before {
-      content: "#";
-      position: absolute;
-      display: block;
-      left: -1em;
-      width: 1em;
-      height: 1em;
-      text-align: center;
-      opacity: 0;
-      text-decoration: none;
-    }
-  }
-
-  &:hover .icon-link::before {
-    opacity: 1;
-  }
+.icon-link {
+  position: relative;
+}
+.icon-link::before {
+  content: "#";
+  position: absolute;
+  display: block;
+  left: -1em;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  opacity: 0;
+  text-decoration: none;
+}
+h2:hover .icon-link::before,
+h3:hover .icon-link::before,
+h4:hover .icon-link::before,
+h5:hover .icon-link::before,
+h6:hover .icon-link::before {
+  opacity: 1;
 }
 
-:root.theme-dark {
-  .mode-dark {
-    display: none;
-  }
-
-  .mode-light {
-    display: block;
-  }
-
-  h1 {
-    color: #f2b3cf;
-  }
-
-  h2 {
-    color: #d2b3ff;
-  }
-
-  h3 {
-    color: #ff5582;
-  }
+:root.theme-dark .mode-dark {
+  display: none;
 }
 
-:root:not(.theme-dark) {
-  .mode-dark {
-    display: block;
-  }
-  .mode-light {
-    display: none;
-  }
+:root.theme-dark .mode-light {
+  display: block;
+}
+
+:root.theme-dark h1 {
+  color: #f2b3cf;
+}
+
+:root.theme-dark h2 {
+  color: #d2b3ff;
+}
+
+:root.theme-dark h3 {
+  color: #ff5582;
+}
+
+:root:not(.theme-dark) .mode-dark {
+  display: block;
+}
+
+:root:not(.theme-dark) .mode-light {
+  display: none;
 }
 
 *,
@@ -167,18 +160,19 @@ ul {
 li {
   margin: 1rem 0;
   list-style-type: disc;
-  p {
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-  }
+}
+
+li p {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 a {
   color: inherit;
   transition: color linear 0.15s;
-  &:hover {
-    color: var(--primary-color);
-  }
+}
+a:hover {
+  color: var(--primary-color);
 }
 
 td a,
@@ -188,10 +182,13 @@ li a {
   box-shadow: inset 0 -0.12em 0 var(--primary-color);
   -webkit-transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  &:hover {
-    box-shadow: inset 0 -1.5em 0 var(--primary-color);
-    color: #fff;
-  }
+}
+
+td a:hover,
+p a:hover,
+li a:hover {
+  box-shadow: inset 0 -1.5em 0 var(--primary-color);
+  color: #fff;
 }
 
 hr {
@@ -216,9 +213,10 @@ code {
 pre {
   border-radius: 8px !important;
   margin: 1.2em 0 !important;
-  code {
-    padding: 0;
-  }
+}
+
+pre code {
+  padding: 0;
 }
 
 blockquote {
@@ -228,13 +226,15 @@ blockquote {
   margin: 2rem 0;
   padding-left: 2rem;
   padding-right: 2rem;
-  p {
-    padding-bottom: 6px;
-  }
-  footer {
-    font-size: 1.1rem;
-    text-align: right;
-  }
+}
+
+blockquote p {
+  padding-bottom: 6px;
+}
+
+blockquote footer {
+  font-size: 1.1rem;
+  text-align: right;
 }
 
 figure {
@@ -278,23 +278,24 @@ td {
   gap: 0.6em;
   border-radius: 99em;
   background-color: var(--theme-code-inline-bg);
+}
 
-  label {
-    &:hover {
-      opacity: 70%;
-    }
-    &:focus-within {
-      outline: 2px solid transparent;
-      box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
-    }
+.theme-toggle label:hover {
+  opacity: 70%;
+}
 
-    color: var(--theme-code-inline-text);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+.theme-toggle label {
+  color: var(--theme-code-inline-text);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.theme-toggle label:focus-within {
+  outline: 2px solid transparent;
+  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
 }
 
 input[name="theme-toggle"] {

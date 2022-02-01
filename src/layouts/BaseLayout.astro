@@ -16,6 +16,9 @@ const { title, description, current, ogType } = Astro.props;
 <html lang="en" itemscope itemtype="https://schema.org/Blog">
   <head>
     <BaseHead {title} {description} {ogType} />
+    <style global>
+      @import "../styles/global.css";
+    </style>
   </head>
   <body>
     <div class="layout">
@@ -29,7 +32,3 @@ const { title, description, current, ogType } = Astro.props;
     </div>
   </body>
 </html>
-
-<style global lang="scss">
-  @import "../styles/global.scss";
-</style>
