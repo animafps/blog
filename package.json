@@ -12,11 +12,11 @@
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@astrojs/renderer-svelte": "^0.3.1",
-    "@builder.io/partytown": "^0.2.2",
+    "@builder.io/partytown": "^0.2.4",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.1",
-    "@tailwindcss/typography": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.1",
     "@types/node": "^17.0.10",
     "astro": "^0.22.20",
     "autoprefixer": "^10.4.2",
@@ -26,7 +26,7 @@
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-external-links": "^1.0.1",
-    "tailwindcss": "^3.0.15",
+    "tailwindcss": "^3.0.18",
     "typescript": "^4.5.5",
     "vite": "^2.7.13"
   }
