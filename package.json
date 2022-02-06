@@ -12,7 +12,7 @@
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@astrojs/renderer-svelte": "^0.3.1",
-    "@builder.io/partytown": "^0.2.4",
+    "@builder.io/partytown": "^0.3.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.1",

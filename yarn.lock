@@ -402,12 +402,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@builder.io/partytown@npm:^0.2.4":
-  version: 0.2.4
-  resolution: "@builder.io/partytown@npm:0.2.4"
+"@builder.io/partytown@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@builder.io/partytown@npm:0.3.1"
   bin:
     partytown: bin/partytown.cjs
-  checksum: 5598fd9eff784b7a9ff0765559d1e3c93cecc3c0a482a9c8118503c1963115d475c9bfa175a818885b1dfdd1b63d71ac06fe6aaef2287030fe6115e9427d778e
+  checksum: 03e5e7e04083826b3acbe52e4474e455a9942d6d05a4fe4efe3f7d8324f7d3653ed71849802a22a0a5334e08b2e98dd6e3276bfb4ec18135ffdb58894545902b
   languageName: node
   linkType: hard
 
@@ -1141,7 +1141,7 @@ __metadata:
   resolution: "astro-blog@workspace:."
   dependencies:
     "@astrojs/renderer-svelte": ^0.3.1
-    "@builder.io/partytown": ^0.2.4
+    "@builder.io/partytown": ^0.3.1
     "@tailwindcss/aspect-ratio": ^0.4.0
     "@tailwindcss/forms": ^0.4.0
     "@tailwindcss/line-clamp": ^0.3.1
