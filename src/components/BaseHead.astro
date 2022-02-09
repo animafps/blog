@@ -1,10 +1,21 @@
 ---
-import { Partytown } from "@builder.io/partytown/react";
 export interface Props {
   title: string;
   description: string;
   ogType?: string;
 }
+import { partytownSnippet } from "@builder.io/partytown/integration";
+const partytownSnippetHtml = partytownSnippet({
+  debug: true,
+  resolveUrl: function (url) {
+    if (url.hostname === "cloudflareinsights.com") {
+      let proxyUrl = new URL(url);
+      proxyUrl.hostname = "proxy.animadot.workers.dev";
+      return proxyUrl;
+    }
+    return url;
+  },
+});
 const { title, description, ogType } = Astro.props;
 const socialUrl = Astro.site.href + "assets/social.png";
 ---
@@ -46,11 +57,11 @@ const socialUrl = Astro.site.href + "assets/social.png";
 <meta property="twitter:image" content={socialUrl} />
 
 <!-- Partytown -->
-<Partytown />
+<script set:html={partytownSnippetHtml}></script>
 <script
   type="text/partytown"
   defer
-  src="https://static.cloudflareinsights.com/beacon.min.js"
+  src="https://proxy.animadot.workers.dev/"
   data-cf-beacon={'{"token": "f9fab12d81d54988b5316d4bca4235d8"}'}></script>
 
 <!-- This is intentionally inlined to avoid FOUC -->
