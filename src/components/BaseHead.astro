@@ -7,14 +7,6 @@ export interface Props {
 import { partytownSnippet } from "@builder.io/partytown/integration";
 const partytownSnippetHtml = partytownSnippet({
   debug: true,
-  resolveUrl: function (url) {
-    if (url.hostname === "cloudflareinsights.com") {
-      let proxyUrl = new URL(url);
-      proxyUrl.hostname = "proxy.animadot.workers.dev";
-      return proxyUrl;
-    }
-    return url;
-  },
 });
 const { title, description, ogType } = Astro.props;
 const socialUrl = Astro.site.href + "assets/social.png";
