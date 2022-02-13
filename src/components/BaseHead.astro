@@ -5,15 +5,7 @@ export interface Props {
   ogType?: string;
 }
 import { partytownSnippet } from "@builder.io/partytown/integration";
-const partytownSnippetHtml = partytownSnippet({
-  resolveUrl: function (url) {
-    if (url.hostname === "cloudflareinsights.com") {
-      url.hostname = "animafps.xyz";
-      return url;
-    }
-    return url;
-  },
-});
+const partytownSnippetHtml = partytownSnippet({});
 const { title, description, ogType } = Astro.props;
 const socialUrl = Astro.site.href + "assets/social.png";
 ---
