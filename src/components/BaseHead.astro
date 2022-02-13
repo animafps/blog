@@ -5,7 +5,9 @@ export interface Props {
   ogType?: string;
 }
 import { partytownSnippet } from "@builder.io/partytown/integration";
-const partytownSnippetHtml = partytownSnippet({});
+const partytownSnippetHtml = partytownSnippet({
+  debug: true,
+});
 const { title, description, ogType } = Astro.props;
 const socialUrl = Astro.site.href + "assets/social.png";
 ---
@@ -51,7 +53,7 @@ const socialUrl = Astro.site.href + "assets/social.png";
 <script
   type="text/partytown"
   defer
-  src="https://proxy.animafps.xyz/script.min.js"
+  src="https://animafps.xyz/script.js"
   data-cf-beacon={'{"token": "1bf51a3739c44c29990bc17a2c861d4a"}'}></script>
 
 <!-- This is intentionally inlined to avoid FOUC -->
