@@ -1190,6 +1190,7 @@ __metadata:
     "@types/node": ^17.0.10
     astro: next
     autoprefixer: ^10.4.2
+    cal-sans: ^1.0.1
     prettier: ^2.5.1
     prettier-plugin-astro: ^0.0.12
     prettier-plugin-svelte: ^2.6.0
@@ -1376,6 +1377,13 @@ __metadata:
     tar: ^6.0.2
     unique-filename: ^1.1.1
   checksum: a07327c27a4152c04eb0a831c63c00390d90f94d51bb80624a66f4e14a6b6360bbf02a84421267bd4d00ca73ac9773287d8d7169e8d2eafe378d2ce140579db8
+  languageName: node
+  linkType: hard
+
+"cal-sans@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "cal-sans@npm:1.0.1"
+  checksum: 2dc6485e7fc561bb3b505d3126f3e72794bb985fc2f24e6a88ab1ca7cd63aec4687d079ddebd5959b0487ca499e080278e936036628288c32ecd424af9e21d55
   languageName: node
   linkType: hard
 

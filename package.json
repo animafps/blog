@@ -20,6 +20,7 @@
     "@types/node": "^17.0.10",
     "astro": "next",
     "autoprefixer": "^10.4.2",
+    "cal-sans": "^1.0.1",
     "prettier": "^2.5.1",
     "prettier-plugin-astro": "^0.0.12",
     "prettier-plugin-svelte": "^2.6.0",

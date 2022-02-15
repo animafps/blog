@@ -52,10 +52,24 @@ allPosts = allPosts.sort(
 </BaseLayout>
 
 <style>
+  h1 {
+    margin-bottom: 0.2em;
+  }
+  h2 {
+    margin-top: 0;
+  }
+
   h2,
   .post-item-footer {
-    font-family: var(--font-family-sans);
     font-weight: 700;
+  }
+
+  .post-item {
+    padding: 1rem 0;
+  }
+
+  p {
+    margin: 0.5em 0;
   }
 
   .post-item-date {
@@ -63,9 +77,5 @@ allPosts = allPosts.sort(
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;
-  }
-
-  hr {
-    margin: 60px auto;
   }
 </style>

@@ -2,6 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background-body: #fff;
   --text-main: #36393b;
@@ -15,12 +63,18 @@
   --text-secondary: #ccc;
   --primary-color: #d55672;
 }
+
 .layout {
   display: flex;
   flex-direction: column;
   min-height: 100%;
   min-height: 100vh;
   position: relative;
+}
+
+html,
+body {
+  font-family: "Readex Pro";
 }
 
 main {
@@ -109,14 +163,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-sans);
+  font-family: "Cal Sans";
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 0.5em 0;
+  margin: 0 0 -0.7em 0;
 }
 
 h1 {
-  font-family: var(--font-family-serif);
   font-size: 4em;
   margin: 0 0 1em 0;
 }
