@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Cal Sans";
+  src: url("/assets/font/CalSans-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Readex Pro";
   src: url("/assets/font/ReadexPro-Light.woff2") format("woff2");
   font-weight: 300;
