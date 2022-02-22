@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.0.0":
@@ -113,7 +113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-svelte@npm:0.4.0":
+"@astrojs/renderer-svelte@npm:0.4.0, @astrojs/renderer-svelte@npm:^0.4.0":
   version: 0.4.0
   resolution: "@astrojs/renderer-svelte@npm:0.4.0"
   dependencies:
@@ -122,17 +122,6 @@ __metadata:
     svelte: ^3.46.4
     svelte-preprocess: ^4.10.2
   checksum: bbc2805a555bd1c3356b8e6439433c36dd2b296d20b0a9944d1a78d067e05c01bdd13f03adb74a38031d4817ce62cea18afcd751de6e822f40852ebe75cb2151
-  languageName: node
-  linkType: hard
-
-"@astrojs/renderer-svelte@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@astrojs/renderer-svelte@npm:0.3.1"
-  dependencies:
-    "@sveltejs/vite-plugin-svelte": 1.0.0-next.30
-    svelte: ^3.44.3
-    svelte-preprocess: ^4.9.8
-  checksum: 72815f7c26c19da611bbd29d6edf04754de81c54d7ad0c5049d4be7fca9007a8ce629019d66fa13854c31a0482789c98c9dac3c81f094833a75246fbe8eb552d
   languageName: node
   linkType: hard
 
@@ -424,12 +413,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@builder.io/partytown@npm:^0.3.5":
-  version: 0.3.5
-  resolution: "@builder.io/partytown@npm:0.3.5"
+"@builder.io/partytown@npm:^0.3.6":
+  version: 0.3.6
+  resolution: "@builder.io/partytown@npm:0.3.6"
   bin:
     partytown: bin/partytown.cjs
-  checksum: dc501c343361a2db792800b7c3920784432b4cc3d5c84815dbc15ff1c031f22b72a1444bacc6b353ec2a898ff986b521f549a2bd1c954b9d2084b049d5027bd1
+  checksum: 863c62cf6ff273933e6ddeaec24dfe381a29ba8ff4c507ff2167c2576dd8c4b56a6c8b820fa39741d616fd62dcf43b47e4dcde2df472444be9c0eda6065d2000
   languageName: node
   linkType: hard
 
@@ -564,34 +553,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.1.2":
+"@rollup/pluginutils@npm:^4.1.2":
   version: 4.1.2
   resolution: "@rollup/pluginutils@npm:4.1.2"
   dependencies:
     estree-walker: ^2.0.1
     picomatch: ^2.2.2
   checksum: 498d67e7b48c707e3e0d9f7ddaa405833d77575b2d9607cd1914be40455ed534235e0512f9d046bf0e4ed1740e7816fd32ab1c673195e897c4fa180bcbfd7283
-  languageName: node
-  linkType: hard
-
-"@sveltejs/vite-plugin-svelte@npm:1.0.0-next.30":
-  version: 1.0.0-next.30
-  resolution: "@sveltejs/vite-plugin-svelte@npm:1.0.0-next.30"
-  dependencies:
-    "@rollup/pluginutils": ^4.1.1
-    debug: ^4.3.2
-    kleur: ^4.1.4
-    magic-string: ^0.25.7
-    require-relative: ^0.8.7
-    svelte-hmr: ^0.14.7
-  peerDependencies:
-    diff-match-patch: ^1.0.5
-    svelte: ^3.44.0
-    vite: ^2.6.0
-  peerDependenciesMeta:
-    diff-match-patch:
-      optional: true
-  checksum: 1db89bd8c350c2884a9d1d2305b04e5479abf7a9918fb3c826fdbb5bc7d2ae62eda69c291cff8bf34ce253cfe39609d47979eae258849c4a3cc9bde071ca2cfc
   languageName: node
   linkType: hard
 
@@ -1205,8 +1173,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "astro-blog@workspace:."
   dependencies:
-    "@astrojs/renderer-svelte": ^0.3.1
-    "@builder.io/partytown": ^0.3.5
+    "@astrojs/renderer-svelte": ^0.4.0
+    "@builder.io/partytown": ^0.3.6
     "@tailwindcss/aspect-ratio": ^0.4.0
     "@tailwindcss/forms": ^0.4.0
     "@tailwindcss/line-clamp": ^0.3.1
@@ -1669,7 +1637,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.3":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
   dependencies:
@@ -5159,13 +5127,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"require-relative@npm:^0.8.7":
-  version: 0.8.7
-  resolution: "require-relative@npm:0.8.7"
-  checksum: f1c3be06977823bba43600344d9ea6fbf8a55bdb81ec76533126849ab4024e6c31c6666f37fa4b5cfeda9c41dee89b8e19597cac02bdefaab42255c6708661ab
-  languageName: node
-  linkType: hard
-
 "resolve-from@npm:^4.0.0":
   version: 4.0.0
   resolution: "resolve-from@npm:4.0.0"
@@ -5838,7 +5799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-hmr@npm:^0.14.7, svelte-hmr@npm:^0.14.9":
+"svelte-hmr@npm:^0.14.9":
   version: 0.14.9
   resolution: "svelte-hmr@npm:0.14.9"
   peerDependencies:
@@ -5847,7 +5808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^4.10.2, svelte-preprocess@npm:^4.9.8":
+"svelte-preprocess@npm:^4.10.2":
   version: 4.10.3
   resolution: "svelte-preprocess@npm:4.10.3"
   dependencies:
@@ -5896,7 +5857,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^3.44.3, svelte@npm:^3.46.4":
+"svelte@npm:^3.46.4":
   version: 3.46.4
   resolution: "svelte@npm:3.46.4"
   checksum: 929e6790cdd6d94c123b4b8a7b5a541164dbea6d4f4ed311f4e65cde60caa1c704e531bbf2e63519d1a96163cd3f812c6e5be5b2fd05f72d0177af5fd8ca8637
@@ -5904,8 +5865,8 @@ __metadata:
   linkType: hard
 
 "tailwindcss@npm:^3.0.22":
-  version: 3.0.22
-  resolution: "tailwindcss@npm:3.0.22"
+  version: 3.0.23
+  resolution: "tailwindcss@npm:3.0.23"
   dependencies:
     arg: ^5.0.1
     chalk: ^4.1.2
@@ -5934,7 +5895,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 52ec8c4e635d65b708ce762e93d327b3bed9e100db43749bb515e19d4b1af4fe1b0752b57a09939074c265ff63e5ee3451b6ceb7ab7e0da9aa02584cb33eef29
+  checksum: 2e7fdd11561e619770f656821c4b6850fdef633777c1f56fc815e566fc3fe6ec707df0966e90764ef9f452be0d0ee54daa0541002918eada590def3788a30f08
   languageName: node
   linkType: hard
 
@@ -6057,11 +6018,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"
+  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c05c318d79c690f101d7ffb34cd6c7d6bbd884d3af9cefe7749ad0cd6be43c7082f098280982ca945dcba23fde34a08fed9602bb26540936baf8c0520727d3ba
+  checksum: 858c61fa63f7274ca4aaaffeced854d550bf416cff6e558c4884041b3311fb662f476f167cf5c9f8680c607239797e26a2ee0bcc6467fbc05bfcb218e1c6c671
   languageName: node
   linkType: hard
 
