@@ -37,9 +37,9 @@
     params.append("autoplay", "1");
 
     const iframeEl = document.createElement("iframe");
-    iframeEl.width = "560";
-    iframeEl.height = "315";
-    iframeEl.title = "Play";
+    iframeEl.title = "Youtube Video";
+    iframeEl.style =
+      "z-index: 10;position: relative;width: 100%;height: 100%;position: absolute;top: 0;left: 0;border: 0;";
     iframeEl.allow =
       "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
     iframeEl.allowFullscreen = true;

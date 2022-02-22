@@ -14,12 +14,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "@astrojs/compiler@npm:0.10.1"
+"@astrojs/compiler@npm:^0.11.3":
+  version: 0.11.3
+  resolution: "@astrojs/compiler@npm:0.11.3"
   dependencies:
     typescript: ^4.3.5
-  checksum: 9b6aef8686802369430bd2868c77a4358b075f123565cf833f714daec8ad022cabd5ce20879f50fee4e61edb048411193db3a1472fb310fa0e6dc7cbf6a89187
+  checksum: 090db73d98840fdadebb008a65051c30e88325281a26a8aea9f932d82cd2bd2f835b4ff4bff69403adb17dcb58b71b1b66ebda57642a16c2eac10a56082518d8
   languageName: node
   linkType: hard
 
@@ -45,9 +45,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^0.6.1-next.2":
-  version: 0.6.1-next.2
-  resolution: "@astrojs/markdown-remark@npm:0.6.1-next.2"
+"@astrojs/markdown-remark@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@astrojs/markdown-remark@npm:0.6.1"
   dependencies:
     "@astrojs/prism": ^0.4.0
     assert: ^2.0.0
@@ -69,7 +69,7 @@ __metadata:
     unified: ^10.1.1
     unist-util-map: ^3.0.0
     unist-util-visit: ^4.1.0
-  checksum: 383a13751f5f44f47c5dc0cb03c79ad7fa30439ac964bafcc7dda3aaa895e4cfb5680b9f813d838b54bfd21d005997e2e367bf59ed9a6d5063b1f79f33ebfdf4
+  checksum: aedb0830c54d0e818958a28be5af275c53d120f4c19e59253e191c0bcf6669e3bc0ce6da0c493ecaa035ed82b1164d8fbc62580242c1ddee9b4407a1adbf7ed4
   languageName: node
   linkType: hard
 
@@ -91,37 +91,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-preact@npm:^0.5.0-next.0":
-  version: 0.5.0-next.0
-  resolution: "@astrojs/renderer-preact@npm:0.5.0-next.0"
+"@astrojs/renderer-preact@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@astrojs/renderer-preact@npm:0.5.0"
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.16.7
     preact: ^10.6.5
     preact-render-to-string: ^5.1.19
-  checksum: 0572e3eb6f71d849288d076a2cda1897b2737a2dbafe3eee68dedfbdbedaf1c27c97e4a355fe2c0a4ba711f125deb7c0770307b195883bc8e258f0be25cccef4
+  checksum: 9c9a59e8f21f101082780be5d3ae0444b401bcf962b867ed4c8f1502b09dffa38a8eedc35163a582b7274e24c863ff9503fdd96ed35221a8edbf2a574e081a58
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-react@npm:0.5.0-next.0":
-  version: 0.5.0-next.0
-  resolution: "@astrojs/renderer-react@npm:0.5.0-next.0"
+"@astrojs/renderer-react@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@astrojs/renderer-react@npm:0.5.0"
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.16.7
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 7b27c1c4f628677fbbe761a40c31e45cceed8968746c1b615ec3e4e70a0c2872e598949d45546ba3ec920eae31e0a8107ddb015eb391f36d2501012de14ba570
+  checksum: f0298712775d86976f66c9d58eca017dcb4e3baaeec3d12c7f3ccda943603334654d1476d9ab33af94d58cc0def117dba0274617c5acdb571cc62819511f0e60
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-svelte@npm:0.4.0-next.0":
-  version: 0.4.0-next.0
-  resolution: "@astrojs/renderer-svelte@npm:0.4.0-next.0"
+"@astrojs/renderer-svelte@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@astrojs/renderer-svelte@npm:0.4.0"
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.0.0-next.37
     postcss-load-config: ^3.1.1
     svelte: ^3.46.4
     svelte-preprocess: ^4.10.2
-  checksum: 88f349d3261438d40f34000d2e4c3135c948b53782497003230c031326d6767a0f8953cc080fd1d6fe45f54aac3df4875fceb2029d743979299f0b3c3d0db742
+  checksum: bbc2805a555bd1c3356b8e6439433c36dd2b296d20b0a9944d1a78d067e05c01bdd13f03adb74a38031d4817ce62cea18afcd751de6e822f40852ebe75cb2151
   languageName: node
   linkType: hard
 
@@ -136,13 +136,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/renderer-vue@npm:0.4.0-next.0":
-  version: 0.4.0-next.0
-  resolution: "@astrojs/renderer-vue@npm:0.4.0-next.0"
+"@astrojs/renderer-vue@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@astrojs/renderer-vue@npm:0.4.0"
   dependencies:
     "@vitejs/plugin-vue": ^2.2.0
     vue: ^3.2.30
-  checksum: ca7a41b54a514d14f9ba03e9c15dfc972f02a9b4d2506b8202175bbf44bc6d3c0596943d01170f8ffd86f3d7b48881a6e5860862b26e3485aa9b8c73112be123
+  checksum: 36195d75e9cd2afd0f85a90525b1b350c846c7db439c077bf8df40c76c38508caa16d826c3ff74a86027e50280a492c62b70054e28dcfc653c750293b56ce483
   languageName: node
   linkType: hard
 
@@ -1212,7 +1212,7 @@ __metadata:
     "@tailwindcss/line-clamp": ^0.3.1
     "@tailwindcss/typography": ^0.5.2
     "@types/node": ^17.0.10
-    astro: next
+    astro: ^0.23.0
     autoprefixer: ^10.4.2
     prettier: ^2.5.1
     prettier-plugin-astro: ^0.0.12
@@ -1220,24 +1220,24 @@ __metadata:
     reading-time: ^1.5.0
     rehype-autolink-headings: ^6.1.1
     rehype-external-links: ^1.0.1
+    sass: ^1.49.8
     tailwindcss: ^3.0.22
     typescript: ^4.5.5
-    vite: ^2.8.2
   languageName: unknown
   linkType: soft
 
-"astro@npm:next":
-  version: 0.23.0-next.6
-  resolution: "astro@npm:0.23.0-next.6"
+"astro@npm:^0.23.0":
+  version: 0.23.0
+  resolution: "astro@npm:0.23.0"
   dependencies:
-    "@astrojs/compiler": ^0.10.1
+    "@astrojs/compiler": ^0.11.3
     "@astrojs/language-server": ^0.8.6
-    "@astrojs/markdown-remark": ^0.6.1-next.2
+    "@astrojs/markdown-remark": ^0.6.1
     "@astrojs/prism": 0.4.0
-    "@astrojs/renderer-preact": ^0.5.0-next.0
-    "@astrojs/renderer-react": 0.5.0-next.0
-    "@astrojs/renderer-svelte": 0.4.0-next.0
-    "@astrojs/renderer-vue": 0.4.0-next.0
+    "@astrojs/renderer-preact": ^0.5.0
+    "@astrojs/renderer-react": 0.5.0
+    "@astrojs/renderer-svelte": 0.4.0
+    "@astrojs/renderer-vue": 0.4.0
     "@astropub/webapi": ^0.10.1
     "@babel/core": ^7.15.8
     "@babel/traverse": ^7.15.4
@@ -1267,7 +1267,6 @@ __metadata:
     rehype-slug: ^5.0.0
     resolve: ^1.20.0
     rollup: ^2.64.0
-    sass: ^1.49.0
     semver: ^7.3.5
     send: ^0.17.1
     serialize-javascript: ^6.0.0
@@ -1285,7 +1284,7 @@ __metadata:
     zod: ^3.8.1
   bin:
     astro: astro.js
-  checksum: 6e5662b051515ac6ea316c47bba5367c54483e4b71477ef52c9f245dceaf15f29477f7676bab86f6f3ec4f99747f626bcac8616c2d42e2e8605fb22780ec1077
+  checksum: 2c280f8a5c869526d5ebae515012a53e7f84895c830b24936e638554d593927490cd1572a780d4246ff17a223d1439f9f84d4190f9c5ba26a627bca728a314aa
   languageName: node
   linkType: hard
 
@@ -5365,16 +5364,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.49.0":
-  version: 1.49.7
-  resolution: "sass@npm:1.49.7"
+"sass@npm:^1.49.8":
+  version: 1.49.8
+  resolution: "sass@npm:1.49.8"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 514d1abff594aa56afdc9eb7e40d1cbd9cf1ed6954c4e0ef494266d18965151c6f936e137cd118a138f7677a7bb98f2bbf2d1a485a3f5f66c78be0007506cc9b
+  checksum: ff4051c11223cb6e56ae62fa71448ed65b402949facfbd831f9781244eece9f1d22be45e61af8e0d0fbe186857de2613b07d9247b036ac2326c24e6ebd19bbbe
   languageName: node
   linkType: hard
 
@@ -6320,7 +6319,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.8.0, vite@npm:^2.8.2":
+"vite@npm:^2.8.0":
   version: 2.8.2
   resolution: "vite@npm:2.8.2"
   dependencies:

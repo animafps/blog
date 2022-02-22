@@ -11,7 +11,7 @@ setup: |
 
 Video version of this document is available here:
 
-<Youtube videoId="exExQstfhsE"/>
+<Youtube videoId="exExQstfhsE" client:idle/>
 
 but does have some outdated information so reading may be a better format
 
