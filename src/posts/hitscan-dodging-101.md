@@ -4,9 +4,9 @@ date: '2020-11-09 09:07:00'
 tags:
 - gaming
 - guides
+description: AD strafe spamming is old and there is better
 setup: |
     import Youtube from "../components/Youtube.svelte"
-description: AD strafe spamming is old and there is better
 ---
 
 Dodging is a very important skill that can be applied to most modern games and
@@ -60,12 +60,12 @@ Just going to touch on some bad things that are quite obvious but you should sti
 I am just going to leave some examples of good dodging  
 As an example, I got from [pumpkin](https://twitter.com/Pumpkin60LG):
 
-<Youtube videoId="bx3A3pCO7eo" client:idle/>
+<Youtube videoId="bx3A3pCO7eo"/>
 
 with an LG thunderstruck which this dodging is most prominent  
 And the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-<Youtube videoId="LRMxq4qY46g" client:idle/>
+<Youtube videoId="LRMxq4qY46g"/>
 
 * * *
 
@@ -77,4 +77,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-<Youtube videoId="SGhsap8TjD4" client:idle/>
+<Youtube videoId="SGhsap8TjD4"/>

@@ -34,4 +34,5 @@ We look at this as the jerk required to start moving your mouse.
 
 ## Fast versus Slow
 
-Now that we have the two parts of mouse pad speed why do they matter
+Now that we have the two parts of mouse pad speed why do they matter?
+Well

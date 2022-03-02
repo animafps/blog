@@ -1,12 +1,8 @@
-<script lang="ts">
+<script>
   export let videoId;
   export let componentParams = "modestbranding=1&rel=0";
 
-  function addPrefetch(
-    kind: "preconnect" | "prefetch",
-    url: string,
-    as?: string
-  ) {
+  function addPrefetch(kind, url, as) {
     const linkElem = document.createElement("link");
     linkElem.rel = kind;
     linkElem.href = url;

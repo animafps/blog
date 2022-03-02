@@ -3,13 +3,15 @@ title: Diabotical 3v3 Playbook
 tags:
 - gaming
 - guides
+setup: |
+    import Youtube from "../components/Youtube.svelte"
 ---
 
 ## MacGuffin
 
 My Own Video with basic strats
 
-<outube videoId="_LG0uAQTcwk" />
+<Youtube videoId="_LG0uAQTcwk" />
 
 Thanks to Blindlight for the basics of this part
 

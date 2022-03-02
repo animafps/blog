@@ -1,11 +1,16 @@
 ---
-title: How Make Smooth Gaming Videos With Frame Interpolation
+title: Smooth Gaming Videos with Frame Interpolation & Bluring
+date:
+setup: |
+    import Youtube from "../components/Youtube.svelte"
 ---
 
-ReelSmart Motion Blur also known as RSMB is almost 12 years old and it shows
-with artifacts, inconsistencies arround ui elements and transparent things.
-On top its slow and lacks the propper controls for tweaking for certain use cases.
-It has become the standard for motion blur effects in video game montages and fragmovies
-but maybe its time to retire the old software for the new stuff.
+Frame interpolation and blending has been used for a long time in video productions
+but the standard software is reaching 12 years old and no real replacement.
+It shows with its results with often issues with artifacts and smudging
+arround transparent ui and hud elements which is a real issue with
+when working on gaming montages/fragmovies
 
 ##
+
+<Youtube videoId="K5yWZWD6Zas"/>
