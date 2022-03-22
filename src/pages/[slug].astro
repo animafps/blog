@@ -4,11 +4,11 @@ import getPostData from "../utils/getPostData";
 import Comments from "../components/Comments.astro";
 import type { MarkdownFrontmatter } from "../types";
 
-export function getStaticPaths({ rss }) {
-  let posts = Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
+export async function getStaticPaths({ rss }) {
+  let posts = await Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
   if (process.env["DRAFTS"]) {
     posts = posts.concat(
-      Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
+      await Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
     );
   }
   const sortedPosts = posts.sort(

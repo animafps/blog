@@ -4,22 +4,19 @@
   "scripts": {
     "dev": "DRAFTS=true astro dev --experimental-static-build --verbose",
     "start": "yarn build && astro preview",
-    "build": "astro build --experimental-static-build --verbose && partytown copylib dist/~partytown",
+    "build": "astro build --experimental-static-build --verbose",
     "preview": "astro preview",
     "lint:a11y:local": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://animafps.xyz' --sitemap-replace 'http://localhost:3000'",
     "lint:linkcheck:remote": "blc -ro -f 'https://animafps.xyz/' "
   },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
-    "@astrojs/renderer-svelte": "0.3.1",
-    "@builder.io/partytown": "^0.4.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.4.0",
-    "@tailwindcss/line-clamp": "^0.3.1",
     "@tailwindcss/typography": "^0.5.2",
-    "@types/node": "^17.0.10",
-    "astro": "^0.23.3",
-    "autoprefixer": "^10.4.2",
+    "@types/node": "^17.0.22",
+    "astro": "0.24.3",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.8",
     "prettier": "^2.5.1",
     "prettier-plugin-astro": "^0.0.12",
     "prettier-plugin-svelte": "^2.6.0",
@@ -27,6 +24,7 @@
     "rehype-autolink-headings": "^6.1.1",
     "rehype-external-links": "^1.0.1",
     "sass": "^1.49.9",
+    "svelte": "^3.46.4",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.6.2"
   }
