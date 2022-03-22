@@ -2,6 +2,6 @@
   X-Robots-Tag: all
   Cross-Origin-Embedder-Policy: credentialless
   Cross-Origin-Opener-Policy: same-origin
-  Referer-Policy: strict-origin-when-cross-origin
+  Referer-Policy: no-referrer-when-downgrade
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
