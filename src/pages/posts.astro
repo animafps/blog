@@ -8,7 +8,7 @@ const description = "Latest articles.";
 let allPosts = await Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
 if (process.env["DRAFTS"]) {
   allPosts = allPosts.concat(
-    Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
+    await Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
   );
 }
 allPosts = allPosts.sort(
