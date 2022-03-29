@@ -29,6 +29,9 @@ module.exports = {
       16: "16",
     },
   },
+  corePlugins: {
+    preflight: false,
+  },
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),

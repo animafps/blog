@@ -5,6 +5,8 @@
 @font-face {
   font-family: "Cal Sans";
   src: url("/assets/font/CalSans-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -25,6 +27,14 @@
 
 @font-face {
   font-family: "Readex Pro";
+  src: url("/assets/font/ReadexPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Readex Pro";
   src: url("/assets/font/ReadexPro-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
@@ -35,14 +45,6 @@
   font-family: "Readex Pro";
   src: url("/assets/font/ReadexPro-Medium.woff2") format("woff2");
   font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-Regular.woff2") format("woff2");
-  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -169,7 +171,6 @@ h4,
 h5,
 h6 {
   font-family: "Cal Sans";
-  font-weight: 700;
   line-height: 1.2;
   margin: 0 0 -0.7em 0;
 }
@@ -178,7 +179,6 @@ h1 {
   font-size: 4em;
   margin: 0 0 1em 0;
 }
-
 h2 {
   margin: 1.6em 0 0 0;
   font-size: 1.8em;
@@ -226,6 +226,7 @@ li p {
 }
 
 a {
+  text-decoration: none;
   color: inherit;
   transition: color linear 0.15s;
 }
@@ -281,7 +282,7 @@ blockquote {
   border-left: 4px solid #cccccc;
   font-size: 1.4em;
   font-style: italic;
-  margin: 2rem 0;
+  margin: 2rem 0 !important;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -309,7 +310,7 @@ figure {
 table {
   border-collapse: collapse;
   font-size: 1.125em;
-  margin: 2em 0;
+  margin: 2em 0 !important;
 }
 
 th {
@@ -387,4 +388,40 @@ input[name="theme-toggle"] {
     font-size: 1.2rem;
     margin: 1em 0;
   }
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
 }
