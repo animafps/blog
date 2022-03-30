@@ -20,7 +20,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Wait for CF Pages
         id: cf-pages
-        uses: WalshyDev/cf-pages-await@3c88b7e43ce22a3cefadabc6a828d4622c8f6862 # renovate: tag=v1
+        uses: WalshyDev/cf-pages-await@1a57fcdab04811dfbccb89c31294099151c31546 # tag=v1
         with:
           accountEmail: ${{ secrets.CF_ACCOUNT_EMAIL  }}
           apiKey: ${{ secrets.CF_API_KEY  }}
@@ -44,7 +44,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Wait for CF Pages
         id: cf-pages
-        uses: WalshyDev/cf-pages-await@3c88b7e43ce22a3cefadabc6a828d4622c8f6862 # renovate: tag=v1
+        uses: WalshyDev/cf-pages-await@1a57fcdab04811dfbccb89c31294099151c31546 # tag=v1
         with:
           accountEmail: ${{ secrets.CF_ACCOUNT_EMAIL  }}
           apiKey: ${{ secrets.CF_API_KEY  }}
