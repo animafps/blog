@@ -5,10 +5,10 @@ import type { MarkdownFrontmatter } from "../types";
 const title = "Anima's Stuff";
 const description = "Latest articles.";
 
-let allPosts = await Astro.fetchContent<MarkdownFrontmatter>("../posts/*.md");
+let allPosts = await Astro.glob<MarkdownFrontmatter>("../posts/*.md");
 if (process.env["DRAFTS"]) {
   allPosts = allPosts.concat(
-    await Astro.fetchContent<MarkdownFrontmatter>("../drafts/*.md")
+    await Astro.glob<MarkdownFrontmatter>("../drafts/*.md")
   );
 }
 allPosts = allPosts.sort(
