@@ -9,7 +9,7 @@ import svelte from "@astrojs/svelte"; // Full Astro Configuration API Documentat
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import astroImagePlugin from "astro-imagetools/plugin";
+import { astroImageTools } from "astro-imagetools";
 import turbolinks from "@astrojs/turbolinks";
 
 // https://astro.build/config
@@ -29,6 +29,7 @@ export default defineConfig(
       sitemap(),
       turbolinks(),
       tailwind({ config: "./tailwind.config.js" }),
+      astroImageTools()
     ],
     vite: {
       plugins: [],
