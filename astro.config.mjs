@@ -29,7 +29,7 @@ export default defineConfig(
       sitemap(),
       turbolinks(),
       tailwind({ config: "./tailwind.config.js" }),
-      astroImageTools()
+      astroImageTools
     ],
     vite: {
       plugins: [],
