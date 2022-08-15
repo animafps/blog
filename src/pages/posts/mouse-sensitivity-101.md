@@ -114,7 +114,7 @@ wrist or arm with the range while this can’t be perfect because
 it is **SUPER generalized** on the angles of movement and
 other factors like knowing how to use the parts etc.
 
-![Sensitivity vs Body usage](/assets/img/sensitivity_vs_bodyusage.png)
+![Sensitivity vs Body usage](/img/sensitivity_vs_bodyusage.png)
 
 Now with this, you can see that the 25–35cm range is right in the middle so
 that they should use equal amounts of wrist and arm.

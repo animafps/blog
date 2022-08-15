@@ -62,19 +62,19 @@ if (date) {
 	<body>
 		<Header />
 		<main>
+			{heroImageAsset && (
+				<Image
+					width={720}
+					height={360}
+					src={heroImageAsset.default}
+					alt=""
+				/>
+			)}
+			<h1 class="title">{title}</h1>
+			{formatted_date && <time>{formatted_date}</time>}
+			{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
+			<hr/>
 			<article>
-				{heroImageAsset && (
-					<Image
-						width={720}
-						height={360}
-						src={heroImageAsset.default}
-						alt=""
-					/>
-				)}
-				<h1 class="title">{title}</h1>
-				{formatted_date && <time>{formatted_date}</time>}
-				{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
-				<hr/>
 				<slot />
 			</article>
 		</main>
