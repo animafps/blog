@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Focal Length vs Turn Circumference for ADS Sensitivity
 date: '2021-07-15 09:23:21'
 tags:

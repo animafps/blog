@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: 'Arena FPS: The Final Death of the Genre'
 date: '2020-11-18 00:00:00'
 tags:

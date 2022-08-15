@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: The Technologies I am Learning in 2022
 date: 01/09/2022
 description: The world of programming is growing so quick so here is my short list of tech that I want to learn in the new year

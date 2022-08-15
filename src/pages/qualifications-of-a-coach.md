@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Qualifications of a Gaming Coach
 date: '2021-08-25 04:40:00'
 tags:

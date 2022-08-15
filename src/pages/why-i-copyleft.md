@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Why I CopyLeft
 date: 'October 12 2021'
 tags:

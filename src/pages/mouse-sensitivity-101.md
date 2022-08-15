@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: How to Find the Best Sensitivity
 date: '2020-06-22 09:00:00'
 tags:

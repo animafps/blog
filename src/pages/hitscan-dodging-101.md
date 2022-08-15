@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Hitscan Dodging 101
 date: '2020-11-09 09:07:00'
 tags:

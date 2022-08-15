@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Why Higher CPI is Always Better
 date: '2021-06-04 00:00:00'
 tags:

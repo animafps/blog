@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Labels and its Adhesive
 date: "2021-09-04 01:24:27"
 tags:

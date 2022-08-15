@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Aggregated Aiming Resources
 date: '2021-07-15'
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Aim Coaching 101
 date: '2020-05-21 09:00:00'
 tags:

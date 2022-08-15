@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: The Issue with Forcing a Mouse Grip
 date: '2021-07-15 09:26:01'
 tags:

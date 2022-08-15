@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../layouts/BlogPost.astro"
 title: Has Game Specificity in Aim Training Gone Too Far
 date: '2021-07-15 05:31:39'
 tags:
