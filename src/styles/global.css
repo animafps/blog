@@ -1,244 +1,129 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
 
-@font-face {
-  font-family: "Cal Sans";
-  src: url("/assets/font/CalSans-SemiBold.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+ @font-face {
+    font-family: 'cal-sans';
+    src: url('/font/calsans-semibold-webfont.woff2') format('woff2'),
+         url('/font/calsans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-ExtraLight.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Readex Pro";
-  src: url("/assets/font/ReadexPro-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-:root {
-  --background-body: #fff;
-  --text-main: #36393b;
-  --text-secondary: #6b6f72;
-  --primary-color: #d55672;
-}
-
-:root.theme-dark {
-  --background-body: #121212;
-  --text-main: #fff;
-  --text-secondary: #ccc;
-  --primary-color: #d55672;
-}
-
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  min-height: 100vh;
-  position: relative;
-}
-
-html,
-body {
-  font-family: "Readex Pro";
-}
-
-main {
-  flex: 1;
-  position: relative;
-  margin: 0 auto;
-  max-width: 1400px;
-  padding: 1em 2em;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.icon-link {
-  position: relative;
-}
-.icon-link::before {
-  content: "#";
-  position: absolute;
-  display: block;
-  left: -1em;
-  width: 1em;
-  height: 1em;
-  text-align: center;
-  opacity: 0;
-  text-decoration: none;
-}
-h2:hover .icon-link::before,
-h3:hover .icon-link::before,
-h4:hover .icon-link::before,
-h5:hover .icon-link::before,
-h6:hover .icon-link::before {
-  opacity: 1;
-}
-
-:root.theme-dark .mode-dark {
-  display: none;
-}
-
-:root.theme-dark .mode-light {
-  display: block;
-}
-
-:root.theme-dark h1 {
-  color: #f2b3cf;
-}
-
-:root.theme-dark h2 {
-  color: #d2b3ff;
-}
-
-:root.theme-dark h3 {
-  color: #ff5582;
-}
-
-:root:not(.theme-dark) .mode-dark {
-  display: block;
-}
-
-:root:not(.theme-dark) .mode-light {
-  display: none;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-* {
-  scrollbar-width: thin;
+    font-family: 'readex-pro';
+    src: url('/font/readexpro-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/font/readexpro-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.6;
-  background-color: var(--background-body);
-  color: var(--text-main);
+	font-family: 'readex-pro', Verdana, sans-serif;
+	margin: auto;
+	padding: 20px;
+	max-width: 65ch;
+	text-align: left;
+	background-color: #121212;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: #fff;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Cal Sans";
-  line-height: 1.2;
-  margin: 0 0 -0.7em 0;
+h6,
+strong,
+b {
+	color: #ccc;
+}
+nav a {
+	margin-right: 10px;
+}
+textarea {
+	width: 100%;
+	font-size: 16px;
+}
+input {
+	font-size: 16px;
+}
+content {
+	line-height: 1.6;
+}
+table {
+	width: 100%;
+}
+img {
+	max-width: 100%;
+}
+code {
+	padding: 2px 5px;
+	background-color: #555;
+}
+pre {
+	padding: 1rem;
+}
+pre > code {
+	all: unset;
+}
+blockquote {
+	border: 1px solid #999;
+	padding: 2px 0px 2px 20px;
+	margin: 0px;
+	font-style: italic;
 }
 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'cal-sans';
+}
+
+
+.transition-fade {
+	transition: 0.1s;
+	opacity: 1;
+	transition-timing-function: ease-in-out;
+}
+  
+html.is-animating .transition-fade {
+	opacity: 0;
+}
+  
+.swup-progress-bar {
+	height: 4px;
+	background-color: #2f73e0;
+}
+  
 h1 {
-  font-size: 4em;
-  margin: 0 0 1em 0;
+	color: #f2b3cf;
 }
+  
 h2 {
-  margin: 1.6em 0 0 0;
-  font-size: 1.8em;
+	color: #d2b3ff;
 }
-
+  
 h3 {
-  font-size: 1.5em;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
-h5 {
-  font-size: 1.3em;
-}
-
-h6 {
-  font-size: 1.2em;
-}
-
-p,
-ul,
-ol {
-  font-size: 1.3rem;
-  line-height: 1.75em;
-  margin: 1.2em 0;
-}
-
-ol,
-ul {
-  padding-left: 2rem;
-  -webkit-padding-start: 5%;
-  -webkit-padding-end: 5%;
-}
-
-li {
-  margin: 1rem 0;
-  list-style-type: disc;
-}
-
-li p {
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+	color: #ff5582;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
-  transition: color linear 0.15s;
+	text-decoration: none;
+	color: inherit;
+	transition: color linear 0.15s;
 }
 a:hover {
-  color: var(--primary-color);
+	color: #d55672;
 }
 
 td a,
 p a,
 li a {
   text-decoration: none;
-  box-shadow: inset 0 -0.12em 0 var(--primary-color);
+  box-shadow: inset 0 -0.12em 0 #d55672;
   -webkit-transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -246,182 +131,10 @@ li a {
 td a:hover,
 p a:hover,
 li a:hover {
-  box-shadow: inset 0 -1.5em 0 var(--primary-color);
+  box-shadow: inset 0 -1.5em 0 #d55672;
   color: #fff;
 }
 
-hr {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-bottom: 0;
-  border-style: solid;
-  border-color: var(--primary-color);
-}
-
-code {
-  font-family: "SF Mono", menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
-  color: #555;
-  background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
-  border-radius: 2px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-pre {
-  border-radius: 8px !important;
-  margin: 1.2em 0 !important;
-}
-
-pre code {
-  padding: 0;
-}
-
-blockquote {
-  border-left: 4px solid #cccccc;
-  font-size: 1.4em;
-  font-style: italic;
-  margin: 2rem 0 !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-blockquote p {
-  padding-bottom: 6px;
-}
-
-blockquote footer {
-  font-size: 1.1rem;
-  text-align: right;
-}
-
-figure {
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  margin: 0 0 3em 0;
-}
-
-table {
-  border-collapse: collapse;
-  font-size: 1.125em;
-  margin: 2em 0 !important;
-}
-
-th {
-  border-bottom: 2px solid #cccccc;
-  padding: 0.4em 0.8em;
-}
-
-td {
-  padding: 0.4em 0.8em;
-}
-
-.content h1 {
-  font-size: 3em;
-  margin: 1em 0;
-}
-
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  height: 100%;
-  padding: 0.33em 0.67em;
-  padding-top: 8px;
-  margin-left: 10px;
-  gap: 0.6em;
-  border-radius: 99em;
-  background-color: var(--theme-code-inline-bg);
-}
-
-.theme-toggle label:hover {
-  opacity: 70%;
-}
-
-.theme-toggle label {
-  color: var(--theme-code-inline-text);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.theme-toggle label:focus-within {
-  outline: 2px solid transparent;
-  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
-}
-
-input[name="theme-toggle"] {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
-@media (max-width: 1020px) {
-  h1 {
-    font-size: 3em;
-  }
-
-  .content h1 {
-    font-size: 2.4em;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  p,
-  ul,
-  ol {
-    font-size: 1.2rem;
-    margin: 1em 0;
-  }
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: inherit; /* 1 */
-  color: inherit; /* 1 */
-  margin: 0; /* 2 */
-  padding: 0; /* 3 */
-}
-
-/*
-Remove the inheritance of text transform in Edge and Firefox.
-*/
-
-button,
-select {
-  text-transform: none;
-}
-
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
-*/
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; /* 1 */
-  background-color: transparent; /* 2 */
-  background-image: none; /* 2 */
+a:visited {
+	color: inherit !important;
 }

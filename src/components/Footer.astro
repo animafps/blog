@@ -1,17 +1,9 @@
 ---
-import { socials } from "../config.json";
+const today = new Date();
 ---
 
-<footer class="mt-auto mx-auto">
-  {socials.map((val) => {
-    return (
-      <a href={val.href} target="_blank" rel="nofollow noopener noreferrer">
-        {val.name}
-      </a>
-    );
-  })}
-  <br />
-  <small>
+<footer>
+	<small>
     <span
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dct="http://purl.org/dc/terms/"
@@ -27,21 +19,11 @@ import { socials } from "../config.json";
       href="https://astro.build"
       target="_blank"
       rel="nofollow noopener noreferrer">Astro</a
-    >.</small
-  >
+    >.</small>
 </footer>
-
-<style lang="scss">
-  footer {
-    color: var(--text-secondary);
-    font-size: 1em;
-    max-width: 1400px;
-    padding: 1em 2em;
-    text-align: center;
-    width: 100%;
-    a:not(small *) {
-      text-decoration: none;
-      margin: 1em 0.2em;
-    }
-  }
+<style>
+	footer {
+		padding: 25px;
+		text-align: center;
+	}
 </style>

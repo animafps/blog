@@ -1,81 +1,58 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import type { MarkdownFrontmatter } from "../types";
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
-const title = "Anima's Stuff";
-const description = "Latest articles.";
-
-let allPosts = await Astro.glob<MarkdownFrontmatter>("../posts/*.md");
-if (process.env["DRAFTS"]) {
-  allPosts = allPosts.concat(
-    await Astro.glob<MarkdownFrontmatter>("../drafts/*.md")
-  );
-}
-allPosts = allPosts.sort(
-  (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+	(a, b) =>
+		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
 );
 ---
 
-<BaseLayout {title} {description} current="posts">
-  <div class="max-w-3xl mx-auto">
-    <h1>Posts</h1>
-    {allPosts.map((post, index) => {
-      const href = `/${post.file.pathname
-        .split("/")
-        .pop()
-        .split(".")
-        .shift()}/`;
-      return (
-        <div>
-          {index !== 0 && <hr />}
-          <div class="post-item">
-            <h2>
-              <a href={href}>{post.title}</a>
-            </h2>
-            <p>{post.description}</p>
-            <div class="post-item-footer">
-              <span class="post-item-date">
-                —{" "}
-                {new Date(post.date).toLocaleString("en", {
-                  day: "numeric",
-                  month: "short",
-                  year: "numeric",
-                })}
-              </span>
-            </div>
-          </div>
-        </div>
-      );
-    })}
-    <hr />
-  </div>
-</BaseLayout>
-
-<style>
-  h1 {
-    margin-bottom: 0.2em;
-  }
-  h2 {
-    margin-top: 0;
-  }
-
-  h2,
-  .post-item-footer {
-    font-weight: 700;
-  }
-
-  .post-item {
-    padding: 1rem 0;
-  }
-
-  p {
-    margin: 0.5em 0;
-  }
-
-  .post-item-date {
-    color: var(--text-secondary);
-    text-align: left;
-    text-transform: uppercase;
-    margin-right: 16px;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			ul {
+				list-style-type: none;
+				padding: unset;
+			}
+			ul li {
+				display: flex;
+			}
+			ul li time {
+				flex: 0 0 130px;
+				font-style: italic;
+				color: #888;
+			}
+			ul li a:visited {
+				color: #8e32dc;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<content>
+				<ul>
+					{posts.map((post) => (
+						<li>
+							<time datetime={post.frontmatter.date}>
+								{new Date(post.frontmatter.date).toLocaleDateString('en-us', {
+									year: 'numeric',
+									month: 'short',
+									day: 'numeric',
+								})}
+							</time>
+							<a href={post.url}>{post.frontmatter.title}</a>
+						</li>
+					))}
+				</ul>
+			</content>
+			<Footer />
+		</main>
+	</body>
+</html>

@@ -1,25 +1,12 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-
-const title = "Anima's Stuff";
-const description =
-  "A random 18 y/o writing about gaming, aiming, philosophy, queer theory, comp sci, and mathematics";
-const permalink = Astro.site.href;
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 ---
 
-<BaseLayout {title} {description} {permalink} current="">
-  <div class="mx-8 mt-24  md:mx-32">
-    <h1 class="mb-10">Welcome to Anima's Stuff</h1>
-    <p>
-      A place where I write about gaming, aiming, comp sci, mathematics,
-      philosophy and some queer theory
-    </p>
-    <br />
-    <a href="/posts" class="hover:text-inherit"
-      ><button
-        class="rounded py-2 px-5 transition ease-in-out delay-100 hover:-translate-y-1 bg-teal-500 hover:scale-110 shadow duration-300"
-        >READ POSTS</button
-      ></a
-    >
-  </div>
-</BaseLayout>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<meta http-equiv="Refresh" content="0; URL=/posts">
+	</head>
+</html>
