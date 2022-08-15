@@ -10,6 +10,7 @@
          url('/font/calsans-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -18,6 +19,7 @@
          url('/font/readexpro-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+	font-display: swap;
 }
 
 body {
