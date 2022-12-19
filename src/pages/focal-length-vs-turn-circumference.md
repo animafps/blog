@@ -4,7 +4,7 @@ title: Focal Length vs Turn Circumference for ADS Sensitivity
 date: '2021-07-15 09:23:21'
 tags:
 - gaming
-- math
+- maths
 ---
 
 Why is there a debate between ads focal length scaling and

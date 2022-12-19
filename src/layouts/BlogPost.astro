@@ -11,11 +11,12 @@ export interface Props {
 		date?: string;
 		updatedDate?: string;
 		heroImage?: string;
+		tags: string[];
 	};
 }
 
 const {
-	content: { title, description, date, updatedDate, heroImage },
+	content: { title, description, date, updatedDate, heroImage, tags },
 } = Astro.props as Props;
 
 
@@ -73,6 +74,8 @@ if (date) {
 			<h1 class="title">{title}</h1>
 			{formatted_date && <time>{formatted_date}</time>}
 			{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
+			<br/>
+			Tags: {tags.map((tag) => <a href={`/tags/${tag}`}>{tag} </a> )}
 			<hr/>
 			<article>
 				<slot />
