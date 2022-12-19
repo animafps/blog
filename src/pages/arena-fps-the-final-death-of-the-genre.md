@@ -1,0 +1,143 @@
+---
+layout: "../layouts/BlogPost.astro"
+title: 'Arena FPS: The Final Death of the Genre'
+date: '2020-11-18 00:00:00'
+tags:
+- gaming
+description: The player numbers for Arena FPS's have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
+---
+
+I am a new player and person in the arena fps scene and have been playing at
+the top level in the team modes.
+So my perspective of the scene is different to most who are in the same place.
+
+The new release of Diabotical by the GD studio is claimed to be the saviour
+of this old genre,
+to be a new quake and to be the next big flagship esports title.
+But this time was 15 years too late.
+
+Well not entirely the start and release of this game has been relatively smooth
+with only minor bugs and issues mostly around the netcode and
+hit registration but the small dev team at the good studio have been
+working day in and day out fixing these and adding new features every day with
+their goal of 100 patches in 100 days already underway.
+Even the release esports scene is thriving with two hundred thousand dollars
+being put into the first esports season,
+within that they are supporting both duel and 3v3 team modes for
+small regional tournaments across the world.
+
+So the free advertising out of the way that sounds is amazing,
+right so the game and content around it should be thriving. Well not quite.
+The game averages around 30–300 viewers on twitch and
+only like 1 video a week for youtube as well the queues extending up to
+almost 2 hours (with most of the game modes selected right before peak time).
+
+So that by itself is not so fantastic,
+especially with my content around the game not performing compared to
+my other video but that’s just a different audience.
+So why is this the case for the game not doing well even with
+ the amazing support from the devs and the esports community?
+
+Well, first we need to see what makes a game popular.
+To make a game popular you need people so you need to get people playing then
+retain them.
+While this sounds simple enough it goes against the designs of arena fps.
+You can ask anyone what they know about quake and
+why they are not interested in playing it, and
+weirdly enough they have the same reasoning being “it's too hard” and
+this is just the killer of every game in this genre.
+This just leads to a repeating cycle of people not playing because
+it’s too hard to start which then is further pushed by that the only new players
+is if they are curious which is a small amount compared to the veterans so
+they are always against them. This just loops and thins the new players out.
+
+Now, why is this game so hard compared to other games?
+The 3 major things are the mechanics, gamesense aspects and then the modes.
+Let’s start first with the mechanics;
+to even start having a chance to enjoy the game you need to learn the
+basics of strafe jumping, circle jumping, dodging, weapon selection,
+how to use each weapon, item timing, map control which are a lot and
+take like around 30hours just to learn them which are made harder by the
+fact that they are not really intuitive or well documented that
+are available to the new player and they raise the skill ceiling so
+players with a tiny bit more experience are much better.
+Now for modes that are even more ludicrous cause, there are so many modes and
+so many different mechanics that are specifically tied to a single mode.
+Now for diabotical specifically you have to learn 3–4 separate modes if you
+want to get into the major esports circuit and for the casual player base,
+there are over 10 different modes to choose from.
+This in itself is good so you can play the game you want to play
+in the mode that you want but to figure that out you need to learn and
+play the modes which are even harder cause it just splits the
+player base more between these modes because people play the modes they like and
+nothing else so the proportion of players is too thin for even the main modes.
+This leads to long time and makes a lot of new players avoid the game modes that
+they enjoy because they cant play them and are forced into modes
+where veterans have so much more of an advantage.
+So from this, it takes so long to start to play the game and
+when you do you just get stomped by vets who have mastered the mechanics and
+the modes. This is especially apparent in the extreme modes of TDM and duel
+where people have been playing this for hundreds of hours and
+the skill limit has never been reached and they have never significantly been
+changed and will deny the proper change in the genre.
+
+Now no one wants to play a game like that but there still exist games that can
+exist with a high skill ceiling/ highly competitive and still succeed.
+Let’s look at something like counter strike which has many mechanics you have to
+learn to enjoy the game but they are mechanics which are intuitive and
+are very common among all games like the guns(even if they act slightly different),
+the basic movement and that’s pretty much it’s simple and provides depth
+just within its mode which is a single-mode which has been exclusively tweaked
+over many years.
+As well there is only one major mode that is very intuitive.
+So compared to AFPS it is simple and intuitive to pick up and
+enjoy at all levels with its depth in the single-mode.
+
+Now that is good for the comp scene for the mode side,
+the way we can create a game with a casual player base is to provide enjoyment
+even if it’s a loss in a mode which is simple like what I said above.
+Look at something super popular like Fortnite and
+its mode while it’s straightforward it can harbour all levels by
+providing something for everyone to do from just exploring the map to
+do challenges with your friends to fragging out to get 30-bombs in the
+same mode and that’s the depth you need. But this is pretty hard for the
+arena fps platform as it’s stuck to this mould and within a small area and
+the current modes you can’t achieve that kind of depth.
+
+So what is the future of arena fps and diabotical? Well,
+it will never be back to its peak in the early 2000s as these new games like cs,
+and now BR’s exist but we can try and make the best things from this and
+redefine the genre. While that is my opinion to bring enjoyment to parts that
+I enjoy it’s hard to make work and we have to work with what we have and
+what that is right now is diabotical so it has to be simplified and
+create depth that is intuitive so change things like the modes to
+have max 4 or so which are the main modes for both esports and
+casual which again can be still enjoyed even if you are not winning
+through learning things, making a fun gameplay loop and other things.
+Then to change things like the movement to make it like all of the
+other games like CSGO, Valorant, COD and stuff,
+so it’s much easier to be picked up because of peoples previous knowledge and
+because it’s intuitive or holds value in playing with friends.
+
+While these changes will help the game it’s unlikely to happen because
+the development is stuck in this mentality to be just like quake 3 arena but
+then somehow be better and still achieve which never works and
+never will without fundamental changes.
+And this will upset a lot of fans of the Quake franchise and style who have
+played for 15+ years but it’s dead. Quake was popular when there was
+nothing better to play so it was a monopoly on games and
+LAN parties were popular so it’s the only thing people knew about which had
+nothing to do with how the game was played and
+how good it was in terms of that so we need to let go and take the best bits
+like the weapon play and parts of the modes and
+redefine a genre built for the current times.
+
+Polished games can hold a player base but a good game can create a player base.
+
+Diabotical is polished and to an extent but the popularity will never come.
+I will probably stop playing which is unfortunate,
+but the fundamental genre is dead and is too hard for people to pick up.
+(hint. I did pretty quickly after the initial release of this article)
+
+[Another great article](https://www.esportsearnings.com/articles/the-problem-with-influencers-negatively-affecting-the-arena-fps-community-and-how-diabotical-will-revive-arena-shooters)
+by esports earnings covers more of how influencers can help

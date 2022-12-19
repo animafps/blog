@@ -1,25 +1,55 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
-const title = "Anima's Stuff";
-const description =
-  "A random 18 y/o writing about gaming, aiming, philosophy, queer theory, comp sci, and mathematics";
-const permalink = Astro.site.href;
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob('./**.{md,mdx}')).filter((el) => el.frontmatter.title != "About Me").sort(
+	(a, b) =>
+		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
 ---
 
-<BaseLayout {title} {description} {permalink} current="">
-  <div class="mx-8 mt-24  md:mx-32">
-    <h1 class="mb-10">Welcome to Anima's Stuff</h1>
-    <p>
-      A place where I write about gaming, aiming, comp sci, mathematics,
-      philosophy and some queer theory
-    </p>
-    <br />
-    <a href="/posts" class="hover:text-inherit"
-      ><button
-        class="rounded py-2 px-5 transition ease-in-out delay-100 hover:-translate-y-1 bg-teal-500 hover:scale-110 shadow duration-300"
-        >READ POSTS</button
-      ></a
-    >
-  </div>
-</BaseLayout>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			ul {
+				list-style-type: none;
+				padding: unset;
+			}
+			ul li {
+				display: flex;
+			}
+			ul li time {
+				flex: 0 0 130px;
+				font-style: italic;
+				color: #888;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<content>
+				<ul>
+					{posts.map((post) => (
+						<li>
+							<time datetime={post.frontmatter.date}>
+								{new Date(post.frontmatter.date).toLocaleDateString('en-us', {
+									year: 'numeric',
+									month: 'short',
+									day: 'numeric',
+								})}
+							</time>
+							<a href={post.url}>{post.frontmatter.title}</a>
+						</li>
+					))}
+				</ul>
+			</content>
+			<Footer />
+		</main>
+	</body>
+</html>

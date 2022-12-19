@@ -1,16 +1,22 @@
 ---
+// Import the global.css file here so that it is included on
+// all pages through the use of the <BaseHead /> component.
+
+import 'normalize.css/normalize.css'
+import '../styles/global.css';
+
 export interface Props {
-  title: string;
-  description: string;
-  ogType?: string;
+	title: string;
+	description: string;
+	image?: string;
 }
-const { title, description, ogType } = Astro.props;
-const socialUrl = Astro.site.href + "assets/social.png";
+
+const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1" />
@@ -21,39 +27,24 @@ const socialUrl = Astro.site.href + "assets/social.png";
 <link rel="sitemap" href="/sitemap.xml" />
 <link rel="manifest" href="/manifest.json" />
 <meta name="theme-color" content="#202122" />
-<meta name="monetization" content="$ilp.uphold.com/9JN3mhreZDQD" />
+
+<meta name="generator" content={Astro.generator} />
 
 <!-- Primary Meta Tags -->
-
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-<link rel="canonical" href={Astro.request.canonicalURL} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content={ogType ?? "website"} />
-<meta property="og:url" content={Astro.request.canonicalURL} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={socialUrl} />
+<meta property="og:image" content={new URL(image, Astro.url)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.request.canonicalURL} />
+<meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={socialUrl} />
-
-<!-- This is intentionally inlined to avoid FOUC -->
-<script>
-  const root = document.documentElement;
-  const theme = localStorage.getItem("theme");
-  if (
-    theme === "dark" ||
-    (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)
-  ) {
-    root.classList.add("theme-dark");
-  } else {
-    root.classList.remove("theme-dark");
-  }
-</script>
+<meta property="twitter:image" content={new URL(image, Astro.url)} />
