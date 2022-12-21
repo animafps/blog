@@ -6,6 +6,7 @@ date: "August 08 2022"
 heroImage: "/assets/placeholder-about.jpg"
 tags:
 -
+nocomments: true
 ---
 
 Hey my nickname is Anima and I am an 18y/o student from a small country of 
