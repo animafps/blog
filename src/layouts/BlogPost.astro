@@ -12,11 +12,12 @@ export interface Props {
 		updatedDate?: string;
 		heroImage?: string;
 		tags: string[];
+		nocomments?: boolean;
 	};
 }
 
 const {
-	content: { title, description, date, updatedDate, heroImage, tags },
+	content: { title, description, date, updatedDate, heroImage, tags, nocomments },
 } = Astro.props as Props;
 
 
@@ -68,19 +69,38 @@ if (date) {
 					width={720}
 					height={360}
 					src={heroImageAsset.default}
-					alt=""
+					alt="Hero image"
 				/>
 			)}
 			<h1 class="title">{title}</h1>
 			{formatted_date && <time>{formatted_date}</time>}
 			{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
 			<br/>
-			Tags: {tags.map((tag) => <a href={`/tags/${tag}`}>{tag} </a> )}
+			Tags: {tags.map((tag) => <a class="tag" href={`/tags/${tag}`}>{tag} </a> )}
 			<hr/>
 			<article>
 				<slot />
 			</article>
 		</main>
+		{!nocomments && 
+			<hr />
+			<script src="https://giscus.app/client.js"
+			data-repo="animafps/blog"
+			data-repo-id="R_kgDOGXvqXg"
+			data-category="Page Comments"
+			data-category-id="DIC_kwDOGXvqXs4CBEoO"
+			data-mapping="title"
+			data-strict="0"
+			data-reactions-enabled="1"
+			data-emit-metadata="0"
+			data-input-position="bottom"
+			data-theme="transparent_dark"
+			data-lang="en"
+			data-loading="lazy"
+			crossorigin="anonymous"
+			async>
+			</script>
+		}
 		<Footer />
 	</body>
 </html>
