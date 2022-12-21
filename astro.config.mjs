@@ -6,10 +6,12 @@ import prefetch from "@astrojs/prefetch";
 import critters from "astro-critters";
 import compress from "astro-compress";
 
+import svelte from "@astrojs/svelte";
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://animafps.xyz',
-  integrations: [image(), mdx(), sitemap(), prefetch(), critters(), compress()],
+  integrations: [image(), mdx(), sitemap(), prefetch(), critters(), compress(), svelte()],
   markdown: {
     shikiConfig: {
       theme: 'nord'
