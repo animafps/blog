@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "^1.2.1",
-    "@astrojs/svelte": "^1.0.2",
+    "@astrojs/svelte": "^2.1.0",
     "@giscus/svelte": "^2.2.6",
     "normalize.css": "^8.0.1",
     "rollup": "^3.9.0",
