@@ -11,8 +11,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@astrojs/rss':
-    specifier: ^1.2.1
-    version: 1.2.1
+    specifier: ^2.3.2
+    version: 2.3.2
   '@astrojs/sitemap':
     specifier: ^1.0.0
     version: 1.0.0
@@ -184,10 +184,11 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/rss@1.2.1:
-    resolution: {integrity: sha512-ZgCunS6ECuPpxBznBYE+ONf23rcp+OWZ5IyDKFAcVZCWEq8Bh0rVYa9p8u6cU9WOTK56JRQTuwcVZYndmExNtw==}
+  /@astrojs/rss@2.3.2:
+    resolution: {integrity: sha512-R/nKOY7O48RQhD8d2i7yJBMS4sTHEHp17zFQIlrGfGXBHYKOOdyeF36UyjECSN3oglKwpi+vdGzQW/UGwJcNHg==}
     dependencies:
       fast-xml-parser: 4.1.3
+      kleur: 4.1.5
     dev: false
 
   /@astrojs/sitemap@1.0.0:
