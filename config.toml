@@ -5,6 +5,14 @@ title = "anima"
   [module.hugoVersion]
     extended=true
 
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 [params]
   [params.theme_config]
     appearance = "auto"
