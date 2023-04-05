@@ -1,0 +1,12 @@
+languageCode = 'en-us'
+title = "anima"
+
+[module]
+  [module.hugoVersion]
+    extended=true
+
+[params]
+  [params.theme_config]
+    appearance = "auto"
+    back_home_text = ".."
+    date_format = "2006-01-02"

@@ -1,0 +1,21 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+
+  [[entries.entries]]
+  title = "source"
+  url = "https://github.com/animafps/blog"
+  
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"

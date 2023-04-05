@@ -1,3 +1,3 @@
-# animafps.xyz / Anima's Stuff
+# My blog/personal site
 
-Personal blog/place for my articles and essays
+theme: https://github.com/Masellum/hugo-theme-nostyleplease
