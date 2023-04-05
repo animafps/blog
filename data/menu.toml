@@ -2,11 +2,10 @@
 title = "info"
 
   [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+  title = "a blog/website for my ramblings"
 
   [[entries.entries]]
-  title = "source"
-  url = "https://github.com/animafps/blog"
+  title = "<a href='https://github.com/animafps/blog'>source</a>"
   
 [[entries]]
 title = "all posts"
