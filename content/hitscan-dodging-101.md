@@ -55,15 +55,11 @@ Just going to touch on some bad things that are quite obvious but you should sti
 
 ## Examples of this in action
 
-I am just going to leave some examples of good dodging  
-As an example, I got from [pumpkin](https://twitter.com/Pumpkin60LG):
+I am just going to leave some examples of good dodging,
 
-bx3A3pCO7eo
+From the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-with an LG thunderstruck which this dodging is most prominent  
-And the upper final of the Mechanics cup shaft tournament in Diabotical:
-
-LRMxq4qY46g
+[MechaniCup Shaft Arena Diabotical vf serious vs zellfps Winners Bracket Final](https://www.youtube.com/watch?v=LRMxq4qY46g)
 
 * * *
 
@@ -75,4 +71,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-SGhsap8TjD4
+[Have Better Accuracy and Take Less Damage With JUST Movement](https://www.youtube.com/watch?v=SGhsap8TjD4)
