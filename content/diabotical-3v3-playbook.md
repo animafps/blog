@@ -1,16 +1,16 @@
 ---
 title: Diabotical 3v3 Playbook
+date: '2020-09-10 09:00:00'
 tags:
 - gaming
 - guides
-draft: true
 ---
 
 ## MacGuffin
 
-My Own Video with basic strats
+My Own Video with basic strats:
 
-_LG0uAQTcwk
+[How to Play and Win MacGuffin in Diabotical](https://www.youtube.com/watch?v=_LG0uAQTcwk)
 
 Thanks to Blindlight for the basics of this part
 
