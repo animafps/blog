@@ -4,7 +4,7 @@ date: '2020-06-22 09:00:00'
 tags:
 - aiming
 - guides
-description: Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best
+summary: Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best
 ---
 
 ## What are Sensitivities
@@ -113,7 +113,7 @@ wrist or arm with the range while this can’t be perfect because
 it is **SUPER generalized** on the angles of movement and
 other factors like knowing how to use the parts etc.
 
-![Sensitivity vs Body usage](/img/sensitivity_vs_bodyusage.png)
+![Sensitivity vs Body usage](sensitivity_vs_bodyusage.png)
 
 Now with this, you can see that the 25–35cm range is right in the middle so
 that they should use equal amounts of wrist and arm.

@@ -8,7 +8,6 @@ baseURL = 'https://anima.nz/'
     extended=true
 
 
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

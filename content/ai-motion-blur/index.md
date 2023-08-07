@@ -1,7 +1,10 @@
 ---
 title: How AI Can Make Video Game Footage Smoother
 date: '2023-08-06 09:00:00'
-description: "Realistic motion blur with the help of AI for video game footage."
+images:
+- demo_blur.gif
+tags: ["AI","Interpolation","Video", "Film", "Motion Blur", "YouTube", "Gaming"]
+summary: "Realistic motion blur with the help of AI for video game footage."
 ---
 
 | Before | After |
@@ -76,11 +79,18 @@ Some examples of the algorithms that have popped up in the past year:
 Which do a great job of interpolating frames at the cost of processing power/time during post-production, which can be improved 
 by also recording at >60fps/ultra-high frame rate (UHFR).
 
+This also allows for slow motion without sacrificing final framerate.
+
 ## Tying Together
 
 So can record at the highest framerate, then interpolate using these neural network algorithms then frame blend the excess.
 
 The latter two steps can be easily integrated into one program, which was first done by tekno with his [blur](https://github.com/f0e/blur) program, and improving on that is my personal project built with rust [teres(WIP)](https://github.com/animafps/teres) and CTT's [smoothie](https://github.com/couleur-tweak-tips/smoothie) and its rust cousin [smoothie-rs(WIP)](https://github.com/couleur-tweak-tips/smoothie-rs)
+
+### Examples
+
+- [7680 FPS pvp ft. @jooonah - Couleur](https://www.youtube.com/watch?v=57qF5kbTuM0)
+- more examples coming soon
 
 ## The Future
 
