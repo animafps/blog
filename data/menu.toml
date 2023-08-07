@@ -6,6 +6,10 @@ title = "info"
 
   [[entries.entries]]
   title = "<a href='https://github.com/animafps/blog'>source</a>"
+
+  [[entries.entries]]
+  title = "tags"
+  url = "tags"
   
 [[entries]]
 title = "all posts"

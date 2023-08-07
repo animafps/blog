@@ -12,7 +12,19 @@
 
     {{ .Content }}
 </article>
+
 <hr/>
+{{ $taxonomy := "tags" }}
+{{ with .GetTerms $taxonomy }}
+  <p>
+    {{ (site.GetPage $taxonomy).LinkTitle }}:
+    {{ range $k, $_ := . -}}
+      {{ if $k }}, {{ end }}
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+  </p>
+{{ end }}
+
 <script src="https://giscus.app/client.js"
     data-repo="animafps/blog"
     data-repo-id="R_kgDOGXvqXg"
