@@ -6,6 +6,11 @@
 
     &.ioda { filter: invert(0); }
   }
+  video {
+    filter: invert(1);
+
+    &.ioda { filter: invert(0); }
+  }
 }
 
 body[a="dark"] { @include dark-appearance; }
