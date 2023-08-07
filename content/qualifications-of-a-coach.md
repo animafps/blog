@@ -3,7 +3,7 @@ title: Qualifications of a Gaming Coach
 date: '2021-08-25 04:40:00'
 tags:
 - gaming
-- opinon
+- opinion
 ---
 
 Gaming coaches especially aim coaches popping up in the

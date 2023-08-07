@@ -5,7 +5,7 @@ tags:
 - periphirals
 - aiming
 - gaming
-- opinon
+- opinion
 ---
 
 The methodology pushed by many faces in the gaming comunity that help choose certain in game settings or
