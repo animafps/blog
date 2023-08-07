@@ -7,9 +7,7 @@ title = "info"
   [[entries.entries]]
   title = "<a href='https://github.com/animafps/blog'>source</a>"
 
-  [[entries.entries]]
-  title = "tags"
-  url = "tags"
+  
   
 [[entries]]
 title = "all posts"
@@ -18,6 +16,10 @@ title = "all posts"
   show_more = true
   show_more_text = "See archive..."
   show_more_url = "posts"
+
+[[entries]]
+title = "tags"
+url = "tags"
 
 [[entries]]
 title = "rss"
