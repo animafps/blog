@@ -1,6 +1,8 @@
 ---
 title: "Labels and its Adhesive"
 date: 2021-09-04 01:24:27
+tags:
+- philosophy
 ---
 
 Labels are a direct extension of someone's perception, often used to supplement and explain common traits about a person and how they should be perceived as their default. Now while this is looking at only queer labels and my analysis of its application and its fundamental ideas, this can be applied to such a range of things.
