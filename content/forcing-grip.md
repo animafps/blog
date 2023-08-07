@@ -4,6 +4,7 @@ date: '2021-07-15 09:26:01'
 tags:
 - aiming
 - periphirals
+- opinion
 ---
 
 While you can theorise about certain mouse grips and their range of movement

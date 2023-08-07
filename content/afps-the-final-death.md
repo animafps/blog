@@ -3,6 +3,8 @@ title: 'Arena FPS: The Final Death of the Genre'
 date: '2020-11-18 00:00:00'
 tags:
 - gaming
+- arena-fps
+- opinion
 summary: The player numbers for Arena FPS's have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
 ---
 

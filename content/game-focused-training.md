@@ -4,6 +4,7 @@ date: '2021-07-15 05:31:39'
 tags:
 - aiming
 - gaming
+- opinon
 ---
 
 The range and applicability of generalized training are definitely not

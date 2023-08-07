@@ -4,6 +4,7 @@ date: '2020-09-10 09:00:00'
 tags:
 - gaming
 - guides
+- arena-fps
 ---
 
 ## MacGuffin
