@@ -1,7 +1,7 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
-  video, img, .giscus{
+  video, img, .giscus {
     filter: invert(1);
 
     &.ioda { filter: invert(0); }
@@ -49,11 +49,6 @@ li { margin: 0.4rem 0; }
   max-width: 640px;
   margin: 0 auto;
   padding: 3rem 2rem;
-}
-
-.giscus {
-  max-width: 640px;
-  margin: 0 auto;
 }
 
 hr {
