@@ -5,6 +5,8 @@ tags:
 - aiming
 - guides
 summary: Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best
+images:
+- mouse-sensitivity-101/sensitivity_vs_bodyusage.png
 ---
 
 ## What are Sensitivities

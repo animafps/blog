@@ -2,7 +2,7 @@
 title: How AI Can Make Video Game Footage Smoother
 date: '2023-08-06 09:00:00'
 images:
-- demo_blur.gif
+- ai-motion-blur/demo_blur.gif
 tags: ["AI","Interpolation","Video", "Film", "Motion Blur", "YouTube", "Gaming"]
 summary: "Realistic motion blur with the help of AI for video game footage."
 ---
