@@ -81,8 +81,21 @@ The latter two steps can be easily integrated into one program, which was first 
 
 ### Examples
 
-- [7680 FPS pvp ft. @jooonah - Couleur](https://www.youtube.com/watch?v=57qF5kbTuM0)
-- more examples coming soon
+Below is some examples using the methods above to create the smooth motion blur effect in video game footage:
+
+Apex clip by zazk from CTT
+
+<video width="640" controls>
+  <source src="grenade.mp4" type="video/mp4">
+</video>
+
+Overwatch by 10 from CTT
+
+<video width="640"  controls>
+  <source src="09-09-00.mp4" type="video/mp4">
+</video>
+
+Further details and configuration for these clips are found in the [Coulour Tech Tips discord(CTT)](http://discord.gg/CTT)
 
 ## The Future
 
