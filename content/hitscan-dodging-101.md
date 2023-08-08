@@ -1,5 +1,5 @@
 ---
-title: Hitscan Dodging 101
+title: How to Dodge in Every FPS
 date: '2020-11-09 09:07:00'
 tags:
 - gaming
