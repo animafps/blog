@@ -83,17 +83,13 @@ The latter two steps can be easily integrated into one program, which was first 
 
 Below is some examples using the methods above to create the smooth motion blur effect in video game footage:
 
-Apex clip by zazk from CTT
-
-<video width="640" controls>
-  <source src="grenade.mp4" type="video/mp4">
-</video>
-
 Overwatch by 10 from CTT
 
 <video width="640"  controls>
   <source src="09-09-00.mp4" type="video/mp4">
 </video>
+
+more to come...
 
 Further details and configuration for these clips are found in the [Coulour Tech Tips discord(CTT)](http://discord.gg/CTT)
 
