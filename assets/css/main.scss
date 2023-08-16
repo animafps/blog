@@ -3,12 +3,17 @@
   filter: invert(1);
   video, img, .giscus {
     filter: invert(1);
-
+    &:fullscreen { filter:invert(0);}
     &.ioda { filter: invert(0); }
   }
 }
 
 body[a="dark"] { @include dark-appearance; }
+
+video {
+  width: 100%;
+  height: auto;
+}
 
 
 @media (prefers-color-scheme: dark) {

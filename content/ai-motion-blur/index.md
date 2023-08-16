@@ -85,7 +85,7 @@ Below is some examples using the methods above to create the smooth motion blur 
 
 Overwatch by 10 from CTT
 
-<video width="640"  controls>
+<video controls>
   <source src="09-09-00.mp4" type="video/mp4">
 </video>
 
