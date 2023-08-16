@@ -9,7 +9,7 @@
         </li>
 
         {{- if $item.entries }}
-            {{ partial "menu_item.html" (dict "context" . "collection" $item.entries) }}
+            <li class="nested">{{ partial "menu_item.html" (dict "context" . "collection" $item.entries) }}</li>
         {{- end -}}
 
         {{- if $item.post_list -}}

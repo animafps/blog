@@ -25,6 +25,7 @@
     {{- if .limit }}
         {{ $posts = (first .limit $posts ) }}
     {{ end }}
+    <li class="nested">
     <ul>
         {{- range $post := $posts -}}
         <li>
@@ -36,4 +37,5 @@
             <li><a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "Show more..." }}</a></li>
         {{ end }}
     </ul>
+    </li>
 {{ end }}
