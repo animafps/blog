@@ -2,18 +2,19 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
-  <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", "}}{{ end }}" />
+  {{ if .IsPage }}
+  <meta name="description" content="{{ .Summary }}"> {{ end }}
+  <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , "}}{{ end }}" />
   <link rel="canonical" href="{{ .Permalink | absURL }}" />
-  <meta name="twitter:site" content="@ani1ma"/>
+  <meta name="twitter:site" content="@ani1ma" />
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
 
   <title>
     {{ if not .IsHome }}
-      {{ .Title }}
+    {{ .Title }}
     {{ else }}
-      {{ $.Site.Title }}
+    {{ $.Site.Title }}
     {{ end }}
   </title>
 
@@ -21,7 +22,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
-  {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+  {{ $style := $sass | resources.ToCSS $options | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel="preload" href="{{ $style.Permalink | relURL }}" as="style" />
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -29,6 +30,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <script data-goatcounter="https://anima.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+  {{ $built := resources.Get "js/gc.js" | js.Build | resources.Minify }}
+  <link rel="preload" href="{{ $built.RelPermalink }}" as="script" />
+  <script data-goatcounter="https://stats.anima.nz/count" async src="{{ $built.RelPermalink }}"></script>
 </head>
