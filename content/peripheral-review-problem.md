@@ -3,7 +3,7 @@ title: The Perfect Mouse and Sensitivity Problem
 date: '2020-11-22 00:00:00'
 tags:
 - periphirals
-- aiming
+- aim training
 - gaming
 - opinion
 ---

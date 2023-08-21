@@ -4,6 +4,7 @@ date: '2021-06-04 00:00:00'
 tags:
 - periphirals
 - guides
+- gaming
 description: "As more and more people pick up a gaming mouse it's important to understand what all the settings mean for your mouse and if 400 DPI or 800 DPI is good enough or is there better"
 ---
 

@@ -2,8 +2,9 @@
 title: Guide to Aim Coaching
 date: '2020-05-21 09:00:00'
 tags:
-- aiming
+- aim training
 - guides
+- gaming
 ---
 
 The primary purpose of this is to show what aim coaches are, which services are available,

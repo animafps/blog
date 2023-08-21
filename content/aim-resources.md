@@ -2,7 +2,9 @@
 title: Aggregated Aiming Resources
 date: '2021-07-15'
 tags:
-- aiming
+- aim training
+- guide
+- gaming
 summary: Everything you need related to the training of aim. From routines to videos and everything in between
 ---
 

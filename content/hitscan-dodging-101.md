@@ -4,6 +4,7 @@ date: '2020-11-09 09:07:00'
 tags:
 - gaming
 - guides
+- arena-fps
 description: AD strafe spamming is old and there is better
 ---
 

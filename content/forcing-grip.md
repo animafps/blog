@@ -2,9 +2,10 @@
 title: The Issue with Forcing a Mouse Grip
 date: '2021-07-15 09:26:01'
 tags:
-- aiming
+- aim training
 - periphirals
 - opinion
+- gaming
 ---
 
 While you can theorise about certain mouse grips and their range of movement
