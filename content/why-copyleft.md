@@ -1,5 +1,5 @@
 ---
-title: Why I CopyLeft
+title: Why I CopyLeft Not Copyright
 date: '2021-10-19'
 tags:
 - philosophy
