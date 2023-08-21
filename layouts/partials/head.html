@@ -33,4 +33,18 @@
   {{ $built := resources.Get "js/gc.js" | js.Build | resources.Minify }}
   <link rel="preload" href="{{ $built.RelPermalink }}" as="script" />
   <script data-goatcounter="https://stats.anima.nz/count" async src="{{ $built.RelPermalink }}"></script>
+
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BlogPosting",
+      "headline": "{{ .Title }}",
+      "author": {
+        "name": "Anima"
+      },
+      "datePublished": "{{ .Date | time.Format site.Params.theme_config.date_format }}"
+    }
+  </script>
+  {{ end }}
 </head>
