@@ -8,7 +8,7 @@ summary: "Realistic motion blur with the help of AI for video game footage and g
 In cinema, they use a low shutter speed to create an 
 aesthetic level of motion blur but this standard, especially 
 in the modern digital age is showing its flaws. 
-Most TV shows, movies, and broadcasts use this old standard  
+Most TV shows, movies, and broadcasts use this old standard
 from film framerates and the shutter speed required, but we are no longer 
 tied to this old equipment and formatting. Now with modern techniques and tools,
 we can make higher-quality productions with better motion blur.
