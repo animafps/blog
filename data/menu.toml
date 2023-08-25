@@ -1,21 +1,23 @@
 [[entries]]
 title = "info"
 
-  [[entries.entries]]
-  title = "a blog/website for my ramblings"
+[[entries.entries]]
+title = "a blog/website for my ramblings"
 
-  [[entries.entries]]
-  title = "<a href='https://github.com/animafps/blog'>source</a>"
+[[entries.entries]]
+title = "About me: a 20y/o math and computer science student from Aotearoa New Zealand who sometimes plays some video games"
 
-  
-  
+[[entries.entries]]
+title = "<a href='https://github.com/animafps/blog'>source</a>"
+
+
 [[entries]]
 title = "all posts"
 
-  [entries.post_list]
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
+[entries.post_list]
+show_more = true
+show_more_text = "See archive..."
+show_more_url = "posts"
 
 [[entries]]
 title = "tags"
