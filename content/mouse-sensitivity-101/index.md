@@ -2,7 +2,7 @@
 title: How to Find the Best Sensitivity
 date: '2020-06-22 09:00:00'
 tags:
-- aiming
+- aim training
 - guides
 summary: Contrary to popular beliefs, there is no perfect sensitivity. Still, you can have an excellent sensitivity that has the benefits to you and the game/ aim style that you want to optimize for, but there will never be the best sensitivity that will be able to do everything the best
 images:

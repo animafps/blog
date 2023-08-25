@@ -2,43 +2,42 @@
 {{ partial "back_link.html" .}}
 
 <article>
-    <p class="post-meta">
-        <time datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format }}
-        </time>
-    </p>
+  <p class="post-meta">
+    <time datetime="{{ .Date }}">
+      {{ .Date | time.Format site.Params.theme_config.date_format }}
+    </time>
+  </p>
 
-    <h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 
-    {{ .Content }}
+  {{ .Content }}
 </article>
 
-<hr/>
+<hr />
 {{ $taxonomy := "tags" }}
 {{ with .GetTerms $taxonomy }}
-  <p>
-    {{ (site.GetPage $taxonomy).LinkTitle }}:
-    {{ range $k, $_ := . -}}
-      {{ if $k }}, {{ end }}
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    {{- end }}
-  </p>
+<p>
+  {{ (site.GetPage $taxonomy).LinkTitle }}:
+  {{ range $k, $_ := . -}}
+  {{ if $k }}, {{ end }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{- end }}
+</p>
 {{ end }}
 
-<script src="https://giscus.app/client.js"
-    data-repo="animafps/blog"
-    data-repo-id="R_kgDOGXvqXg"
-    data-category="Page Comments"
-    data-category-id="DIC_kwDOGXvqXs4CBEoO"
-    data-mapping="pathname"
-    data-strict="1"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h4>See Also</h4>
+<ul>
+  {{ range . }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+
+<script src="https://giscus.app/client.js" data-repo="animafps/blog" data-repo-id="R_kgDOGXvqXg"
+  data-category="Page Comments" data-category-id="DIC_kwDOGXvqXs4CBEoO" data-mapping="pathname" data-strict="1"
+  data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+  data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+  </script>
 {{ end }}
