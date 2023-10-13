@@ -19,7 +19,7 @@ unsafe = true
 [params.theme_config]
 appearance = "auto"
 back_home_text = ".."
-date_format = "2006-01-02"
+date_format = "02-01-2006"
 
 [related]
 includeNewer = true
@@ -52,3 +52,7 @@ pattern = ''
 toLower = false
 type = 'basic'
 weight = 100
+
+[permalinks]
+    [permalinks.page]
+        posts = '/:slug'
