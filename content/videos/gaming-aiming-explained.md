@@ -1,0 +1,15 @@
+---
+title: Gaming and Aiming Explained Series
+date: 2021-01-20
+---
+
+## Mouse Control
+{{< youtube V_pQtmlmiAU>}}
+
+
+## Tracking
+{{< youtube LTbe9JSV794>}}
+
+## Reading Skills
+
+{{< youtube XPcR9_AvpK8>}}

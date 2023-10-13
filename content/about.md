@@ -1,5 +1,5 @@
 ---
 title: About Me
-date: 2023-10-13
 ---
 
+a 20y/o math and computer science student from Aotearoa New Zealand who sometimes plays some video games
