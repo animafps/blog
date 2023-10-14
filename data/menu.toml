@@ -12,7 +12,7 @@ url = "about"
 title = "<a href='https://github.com/animafps/blog'>source</a>"
 
 [[entries]]
-title = "all posts"
+title = "posts"
 
   [entries.post_list]
   section = "posts"
