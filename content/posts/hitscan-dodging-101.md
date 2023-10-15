@@ -60,7 +60,7 @@ I am just going to leave some examples of good dodging,
 
 From the upper final of the Mechanics cup shaft tournament in Diabotical:
 
-[MechaniCup Shaft Arena Diabotical vf serious vs zellfps Winners Bracket Final](https://www.youtube.com/watch?v=LRMxq4qY46g)
+{{< youtube LRMxq4qY46g >}}
 
 * * *
 
@@ -72,4 +72,4 @@ They both can be applied to different situations to maximize your damage output(
 
 For further discussion around movement see my video on this topic:
 
-[Have Better Accuracy and Take Less Damage With JUST Movement](https://www.youtube.com/watch?v=SGhsap8TjD4)
+{{< youtube SGhsap8TjD4 >}}

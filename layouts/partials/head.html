@@ -51,4 +51,8 @@
   {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+  {{ with .HasShortcode "youtube" }}
+    {{ $liteyt := resources.Get "js/lite-yt.js" | js.Build | resources.Minify }}
+    <script async src="{{ $liteyt.RelPermalink }}"></script>
+  {{ end }}
 </head>

@@ -11,7 +11,7 @@ tags:
 
 My Own Video with basic strats:
 
-[How to Play and Win MacGuffin in Diabotical](https://www.youtube.com/watch?v=_LG0uAQTcwk)
+{{< youtube _LG0uAQTcwk >}}
 
 Thanks to Blindlight for the basics of this part
 
