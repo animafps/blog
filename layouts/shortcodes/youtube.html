@@ -36,15 +36,15 @@
       {{- with resources.Copy (printf "assets/img/%s.jpg" $id) $remoteThumb -}}
         {{- $remoteThumbnail = . -}}
       {{ end -}}
+      {{- $remoteUrl := "https://youtube.com/watch?v=%s"}}
       <div class="shortcode--youtube {{ with $class -}}{{- . -}}{{- end -}}">
-          <lite-youtube
-              videoid="{{- $id -}}" {{ with $title -}}
+        <lite-youtube videoid="{{- $id -}}" {{ with $title -}}
               playlabel="{{- . -}}"{{- end -}}
               params="{{- $params -}}"
               style="background-image: url('{{- $remoteThumbnail.Permalink -}}');">
-              <button type="button" class="lty-playbtn" aria-label="Play video">
-                  {{- with $title -}}<span class="lyt-visually-hidden">{{- . -}}</span>{{- end -}}
-              </button>
-          </lite-youtube>
+            <a href="{{- $remoteUrl -}}" class="lty-playbtn" title="Play Video">
+              <span class="lyt-visually-hidden">Play Video</span>
+            </a>
+        </lite-youtube>
       </div>
   {{- end -}}
