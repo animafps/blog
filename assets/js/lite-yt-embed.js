@@ -27,9 +27,6 @@ class LiteYTEmbed extends HTMLElement {
        *       - When doing this, apply referrerpolicy (https://github.com/ampproject/amphtml/pull/3940)
        * TODO: Consider using webp if supported, falling back to jpg
        */
-      if (!this.style.backgroundImage) {
-        this.style.backgroundImage = `url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`;
-      }
 
       // Set up play button, and its visually hidden label
       if (!playBtnEl) {
