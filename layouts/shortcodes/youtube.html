@@ -37,15 +37,11 @@
         {{- $remoteThumbnail = . -}}
       {{ end -}}
       {{- $remoteUrl := "https://youtube.com/watch?v=%s"}}
-      <style>
-      #{{- $id -}}, lite-youtube {
-        background-image: url('{{- $remoteThumbnail.Permalink -}}');
-      }
-      </style>
       <div class="shortcode--youtube {{ with $class -}}{{- . -}}{{- end -}}">
-        <lite-youtube id="{{- $id -}}" videoid="{{- $id -}}" {{ with $title -}}
+        <lite-youtube videoid="{{- $id -}}" {{ with $title -}}
               playlabel="{{- . -}}"{{- end -}}
-              params="{{- $params -}}">
+              params="{{- $params -}}"
+              style="background-image: url('{{- $remoteThumbnail.Permalink -}}');">
             <a href="{{- $remoteUrl -}}" class="lty-playbtn" title="Play Video">
               <span class="lyt-visually-hidden">Play Video</span>
             </a>
