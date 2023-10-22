@@ -109,7 +109,7 @@ table {
 table,
 th,
 td {
-  border: thin solid var(--gray);
+  border: thin solid var(--fg);
   border-collapse: collapse;
   padding: 0.4rem;
 }
@@ -122,7 +122,7 @@ code {
 
 blockquote {
   font-style: italic;
-  border: thin solid var(--gray);
+  border: thin solid var(--fg);
   padding: 1rem;
 
   p {
