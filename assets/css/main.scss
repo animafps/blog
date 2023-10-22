@@ -1,39 +1,10 @@
 @import "./_lite-yt-embed.scss";
 @import "asciidoctor";
 @import "syntax";
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-
-  video,
-  img,
-  .giscus {
-    filter: invert(1);
-
-    &:fullscreen {
-      filter: invert(0);
-    }
-
-    &.ioda {
-      filter: invert(0);
-    }
-  }
-}
-
-body[a="dark"] {
-  @include dark-appearance;
-}
 
 video {
   width: 100%;
   height: auto;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] {
-    @include dark-appearance;
-  }
 }
 
 // -------------------------------------------- //
@@ -43,7 +14,7 @@ video {
 // see: https://stackoverflow.com/a/61265706
 html,
 body {
-  background: white;
+  background-color: var(--bg);
 }
 
 html {
@@ -56,9 +27,9 @@ html {
 }
 
 body {
-  color: black;
+  color: var(--fg);
   font-family: monospace;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -69,12 +40,14 @@ body {
   text-align: right;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin-top: 3rem;
+  color: var(--fg0);
+  margin-top: 2rem;
 }
 
 hr {
@@ -90,13 +63,17 @@ li {
 }
 
 *:target {
-  background: yellow;
+  background: var(--purple1);
 }
 
 .w {
   max-width: 640px;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  padding: 2rem;
+}
+
+footer {
+  padding-bottom: 2rem;
 }
 
 hr {
@@ -113,10 +90,16 @@ hr {
 }
 
 pre {
-  background: black;
+  background: var(--gray1);
   padding: 1em;
   overflow-x: auto;
   /* Fix pre content overflowing parent without scroll bar */
+}
+
+
+*::selection {
+  color: var(--fg0);
+  background: var(--bg4);
 }
 
 table {
@@ -126,7 +109,7 @@ table {
 table,
 th,
 td {
-  border: thin solid black;
+  border: thin solid var(--gray);
   border-collapse: collapse;
   padding: 0.4rem;
 }
@@ -139,7 +122,7 @@ code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid var(--gray);
   padding: 1rem;
 
   p {
@@ -160,4 +143,85 @@ figcaption {
 
 footer {
   text-align: center;
+}
+
+
+:root {
+  font-size: 1rem;
+  --bg: var(--bg0_h );
+  --bg0: #282828;
+  --bg0_h: #1d2021;
+  --bg0_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+  --fg: var(--fg1);
+  --fg0: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+  --gray1: var(--fg4);
+  --gray2: #928374;
+  --red1: #cc241d;
+  --red2: #fb4934;
+  --green1: #98971a;
+  --green2: #b8bb26;
+  --yellow1: #d79921;
+  --yellow2: #fabd2f;
+  --blue1: #458588;
+  --blue2: #83a598;
+  --purple1: #b16286;
+  --purple2: #d3869b;
+  --aqua1: #689d6a;
+  --aqua2: #8ec07c;
+  --orange1: #d65d0e;
+  --orange2: #fe8019;
+}
+
+/* make sure the scrollbar is always shown so
+   the width doesnt change between pages */
+html {
+  overflow-y: scroll
+}
+
+a img {
+  display: block;
+  border-bottom: none;
+}
+
+a:hover {
+  color: var(--green2);
+  border-bottom: 1.5px solid var(--green2);
+}
+
+a {
+  color: var(--green1);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--green1);
+}
+
+sub a {
+	border-bottom: none;
+}
+
+#header {
+  font-family: monospace;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.termfont {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.datefont {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.7rem;
 }
