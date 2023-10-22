@@ -6,7 +6,7 @@ title = "a blog/website for my ramblings"
 
 [[entries.entries]]
 title = "about me"
-url = "about"
+url = "about/"
 
 [[entries.entries]]
 title = "<a href='https://github.com/animafps/blog'>source</a>"
@@ -19,11 +19,11 @@ title = "posts"
   limit = 5
   show_more = true
   show_more_text = "See archive..."
-  show_more_url = "posts"
+  show_more_url = "posts/"
 
 [[entries]]
 title = "tags"
-url = "tags"
+url = "tags/"
 
 [[entries]]
 title = "videos"
@@ -32,7 +32,7 @@ title = "videos"
     limit = 3
     show_more = true
     show_more_text = "See archive..."
-    show_more_url = "videos"
+    show_more_url = "videos/"
 
 [[entries]]
 title = "projects"
