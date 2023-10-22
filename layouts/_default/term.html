@@ -3,6 +3,10 @@
 
 <h1>{{ .Title }}</h1>
 
+{{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<a href=%q>rss</a>` .Permalink | safeHTML }}
+{{ end }}
+
 {{ .Content }}
 {{ partial "post_list.html" (dict "context" .)}}
 {{ end }}
