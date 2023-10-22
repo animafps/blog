@@ -1,4 +1,6 @@
 @import "./_lite-yt-embed.scss";
+@import "asciidoctor";
+@import "syntax";
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
@@ -56,7 +58,7 @@ html {
 body {
   color: black;
   font-family: monospace;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -131,16 +133,8 @@ td {
 
 code {
   color: white;
-  background: black;
   font-size: 80%;
   font-size: 90%;
-}
-
-code.has-jax {
-  -webkit-font-smoothing: antialiased;
-  background: inherit !important;
-  border: none !important;
-  font-size: 100%;
 }
 
 blockquote {

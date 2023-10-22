@@ -1,46 +1,50 @@
 ---
 title: glicko2.ts
 date: 2022-08-18
-description: Implementation of the Glicko-2 rating system in Typescript
 ---
+= glicko2.ts
+:revdate: 2022-08-18
 
 Repo: https://github.com/animafps/glicko2.ts
 
-## About
+== About
 
-An Implementation of the Glicko-2 rating system in typescript. The Glicko-2 rating system is a method for assessing a player's strength in games of skill, such as chess and go. The algorithm is explained by its author, Mark E. Glickman, on <http://glicko.net/glicko.html>.
+An Implementation of the Glicko-2 rating system in typescript. The Glicko-2 rating system is a method for assessing a player’s strength in games of skill, such as chess and go. The algorithm is explained by its author, Mark E. Glickman, on http://glicko.net/glicko.html.
 
 Each player begins with a rating, a rating deviation (accuracy of the rating) and a volatility (speed of rating evolution). These values will evolve according to the outcomes of matches with other players.
 
 This implementation is fully typed and written in Typescript.
 
-It also includes things that where not in the base Glicko-2 system including [races](https://glicko2.js.org/classes/Race.html) and [teams](https://glicko2.js.org/classes/Team.html) for games that have more than two players.
+It also includes things that where not in the base Glicko-2 system including https://glicko2.js.org/classes/Race.html[races] and https://glicko2.js.org/classes/Team.html[teams] for games that have more than two players.
 
-## Installing
+== Installing
 
-### Node(npm/yarn)
+=== Node(npm/yarn)
 
-```sh
+[source,sh]
+----
 npm i glicko2.ts
-```
+----
 
 or
 
-```sh
+[source,sh]
+----
 yarn add glicko2.ts
-```
+----
 
-### Deno
+=== Deno
 
 To install in a Deno environment you can use the package hosted at
 
-<https://deno.land/x/glicko2/deno_dist/mod.ts>
+https://deno.land/x/glicko2/deno_dist/mod.ts
 
-## Usage
+== Usage
 
 First we initiate a ranking manager and create players with initial ratings, rating deviations and volatilities.
 
-```ts
+[source,ts]
+----
 import { Player, Glicko2 } from 'glicko2.ts'
 
 const ranking = new Glicko2({
@@ -59,31 +63,33 @@ const ranking = new Glicko2({
 const Player1 = ranking.makePlayer()
 const Player2 = ranking.makePlayer(1400, 30, 0.06)
 const Player3 = ranking.makePlayer(1500, 100, 0.06)
-```
+----
 
 Afterwards we can create a simple match or matches and calculate the ratings
 
-```ts
+[source,ts]
+----
 const matches = []
 matches.push([Player1, Player2, 1]) //Player1 won over Player2
 matches.push([Player1, Player3, 0.5]) //A draw between Player1 and Player3
 ranking.updateRatings(matches)
-```
+----
 
-### When to update rankings
+=== When to update rankings
 
 You should not update the ranking after each match.
 The typical use of glicko is to calculate the ratings after each tournament (ie collection of matches in a period of time).
 A player rating will evolve after a tournament has finished, but not during the tournament.
 
-Here is what says Mark E. Glickman about the number of matches in a tournament or rating period (cf. <http://www.glicko.net/glicko/glicko2.pdf> ) :
+Here is what says Mark E. Glickman about the number of matches in a tournament or rating period (cf. http://www.glicko.net/glicko/glicko2.pdf ) :
 > The Glicko-2 system works best when the number of games in a rating period is moderate to large, say an average of at least 10-15 games per player in a rating period.
 
-### Races
+=== Races
 
-Another function that is included in this library is for multiple competitor matches called "Races" where they are competing at the same time.
+Another function that is included in this library is for multiple competitor matches called "`Races`" where they are competing at the same time.
 
-```ts
+[source,ts]
+----
 const race = raking.makeRace(
     [
         [Player1], //Player1 won the race
@@ -92,8 +98,8 @@ const race = raking.makeRace(
 )
 
 ranking.updateRatings(race)
-```
+----
 
-## API Documentation
+== API Documentation
 
-The API documentation is hosted at <https://glicko2.js.org>
+The API documentation is hosted at https://glicko2.js.org

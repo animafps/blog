@@ -1,12 +1,11 @@
 ---
-title: 'Arena FPS: The Final Death of the Genre'
-date: '2020-11-18 00:00:00'
-tags:
-- gaming
-- arena-fps
-- opinion
-summary: The player numbers for Arena FPS's have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
+title: "Arena FPS: The Final Death of the Genre"
+date: 2020-11-18 00:00:00
+tags: ['gaming', 'arena-fps', 'opinion']
+summary: The player numbers for Arena FPS’s have been decreasing for years but can new games help revive this 15-year dead genre or is this the final nail in the coffin.
 ---
+= Arena FPS: The Final Death of the Genre
+:revdate: 2020-11-18 00:00:00
 
 I am a new player and person in the arena fps scene and have been playing at
 the top level in the team modes.
@@ -37,7 +36,7 @@ So that by itself is not so fantastic,
 especially with my content around the game not performing compared to
 my other video but that’s just a different audience.
 So why is this the case for the game not doing well even with
- the amazing support from the devs and the esports community?
+the amazing support from the devs and the esports community?
 
 Well, first we need to see what makes a game popular.
 To make a game popular you need people so you need to get people playing then
@@ -45,7 +44,7 @@ retain them.
 While this sounds simple enough it goes against the designs of arena fps.
 You can ask anyone what they know about quake and
 why they are not interested in playing it, and
-weirdly enough they have the same reasoning being “it's too hard” and
+weirdly enough they have the same reasoning being "`it’s too hard`" and
 this is just the killer of every game in this genre.
 This just leads to a repeating cycle of people not playing because
 it’s too hard to start which then is further pushed by that the only new players
@@ -140,5 +139,5 @@ I will probably stop playing which is unfortunate,
 but the fundamental genre is dead and is too hard for people to pick up.
 (hint. I did pretty quickly after the initial release of this article)
 
-[Another great article](https://www.esportsearnings.com/articles/the-problem-with-influencers-negatively-affecting-the-arena-fps-community-and-how-diabotical-will-revive-arena-shooters)
+https://www.esportsearnings.com/articles/the-problem-with-influencers-negatively-affecting-the-arena-fps-community-and-how-diabotical-will-revive-arena-shooters[Another great article]
 by esports earnings covers more of how influencers can help

@@ -1,12 +1,10 @@
 ---
 title: The Perfect Mouse and Sensitivity Problem
-date: '2020-11-22 00:00:00'
-tags:
-- periphirals
-- aim training
-- gaming
-- opinion
+date: 2020-11-22 00:00:00
+tags: ['periphirals', 'aim training', 'gaming', 'opinion']
 ---
+= The Perfect Mouse and Sensitivity Problem
+:revdate: 2020-11-22 00:00:00
 
 The methodology pushed by many faces in the gaming comunity that help choose certain in game settings or
 equipment use a technique that changes then will immediately test for improvement. This seen in things like this or
@@ -25,7 +23,7 @@ Another flaw with this is the variability of testing where it is often done
 quickly which neglects long time use in different situations and
 growth of skills and hand size and such.
 
-## PSA Method
+== PSA Method
 
 Now that we have that out of the way for the basics of them let’s start in the
 details to the first of the 2 examples that I introduced at the start.
@@ -47,11 +45,11 @@ you have to remove bias which is your familiarity with
 each sensitivity so only useful if you are comfortable with a
 large range of sens’s or test each one for a long period.
 
-## Mouse Review Methodology
+== Mouse Review Methodology
 
 The second example just like the first is choosing something based on testing
-and this being a [mouse methodology](https://twitter.com/VoltaicHQ/status/1322661735006875650?s=20)
-popularized by [Voltaic](https://twitter.com/VoltaicHQ)
+and this being a https://twitter.com/VoltaicHQ/status/1322661735006875650?s=20[mouse methodology]
+popularized by https://twitter.com/VoltaicHQ[Voltaic]
 (previously Sparky, which is an aiming community for improvement and advice)
 which runs the user through some Kovaaks scenarios for multiple mice and
 rating them as such.
@@ -68,9 +66,9 @@ an issue if the benefit of choosing a mouse shape per your hand and
 experience influences the results to promote a mouse that may not have the
 same effect on everyone.
 
-* * *
+'''''
 
-## The Solution
+== The Solution
 
 While these 2 methods can be used to help in some regard alternatives should
 be more popularized.
@@ -80,7 +78,7 @@ improved. For choosing the sensitivity I have worked on making and
 refining a method to get the theoretical benefits of each range of
 sensitivities and then choosing based on multiple factors.
 Now the way that we do this per my
-[document and video](/mouse-sensitivity-101)
+link:/mouse-sensitivity-101[document and video]
 we use the benefits of the ranges of low and of high sens which are control and
 speed respectively and then apply it to the situation that it’s needed for which
 is done by using the comfortable speed of humans arm and

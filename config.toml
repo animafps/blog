@@ -3,9 +3,40 @@ title = "anima"
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 baseURL = 'https://anima.nz/'
 enableGitInfo = true
-
-[markup.goldmark.renderer]
+[markup]
+[[goldmark.renderer]]
 unsafe = true
+[markup.asciidocext]
+    extensions = ["asciidoctor-diagram", "asciidoctor-html5s"]
+    workingFolderCurrent = true
+    trace = true
+    failureLevel = "fatal"
+
+    preserveTOC = false # for debug
+
+    [markup.asciidocext.attributes]
+        "toc" = ""
+        "docinfo" = "shared"
+        "nofooter" = ""
+        "skip-front-matter" = ""
+        "library" = "asciidoctor-ruby"
+        "icons" = "font"
+        "sectanchors" = ""
+        "figure-caption!" = ""
+        "source-highlighter" = "rouge"
+        "rouge-style" = "gruvbox"
+        "experimental" = "true"
+#        "toc-title!" = ""
+        "plantuml-format" = "svg" # https://github.com/asciidoctor/asciidoctor-diagram/commit/642f17283834405088d6784e95d8b8dac62c17dc
+        "ditaa-format" = "svg"
+        "diagram-svg-type" = "inline"
+        "image-assets" = "/assets"
+#        "imagesoutdir" = ""
+#        "diagram-imagesdir" = ".asciidoctor/diagram"
+#        "cachedir" = ".asciidoctor/diagram"
+#        "diagram-autoimagesdir" = ""
+#        "imagesdir" = "/"
+        "allow-uri-read" = "" # Enable link includes
 
 [module]
 [module.hugoVersion]
@@ -52,3 +83,10 @@ weight = 100
 [permalinks]
     [permalinks.page]
         posts = '/:filename'
+
+[security.exec]
+allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+
+[frontmatter]
+  date = [':date', ':default']
+

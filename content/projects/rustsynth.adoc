@@ -1,0 +1,10 @@
+---
+title: rustsynth
+date: 2023-10-13
+---
+= rustsynth
+:revdate: 2023-10-13
+
+a safe wrapper for VapourSynth, written in Rust
+
+https://github.com/animafps/rustsynth

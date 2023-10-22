@@ -1,0 +1,479 @@
+---
+title: Aggregated Aiming Resources
+date: 2021-07-15
+tags: ['aim training', 'guides', 'gaming']
+summary: Everything you need related to the training of aim. From routines to videos and everything in between
+---
+= Aggregated Aiming Resources
+:revdate: 2021-07-15
+
+* *Bold* are recommended resources
+* This project is deprecated and no longer maintained as of August 2021, some
+information may be missing and will not be updated but if you want to manage
+and maintain this list or port it to another format or website
+please contact me at animafps@protonmail.com
+and I will be happy to help out.
+For good Kovaak specific playlists see https://github.com/riddbtw/kovaaks-playlists[ridd’s kovaaks-playlists Github repo]
+
+== Documents/Benchmarks
+
+Title/Link
+
+Description
+
+Author(s)
+
+Voltaic’s Aim Journey
+
+All about aim theory and basics to aim training. a really good place to start for
+new people
+
+Voltaic/Sini
+
+Voltaic
+Advice FAQ
+
+Common questions and answers from sparky advice channel
+
+Voltaic
+Benchmarks
+
+The best way to test and measure improvement
+
+Mindset
+and attitude
+
+Simple resources to help with improving your mindset and attitude to get the most
+out of training and perform
+
+Strafe Aiming 101
+
+Theory of strafe aiming also includes routines
+
+Aimer7
+
+Aimer7’s
+Original Aim Workout/ Guide
+
+Very much outdated for the routines but the theory is good
+
+Aim
+Coaching 101
+
+All about what aim coaching is and why its bad and good. start here if you want aim
+coaching
+
+Anima
+
+Mouse Sensitivity
+101
+
+All about sensitivities and the benefits and downsides of different sens as well as
+how to choose a range to play in
+
+Ins
+Aiming FAQ
+
+Also a good starting place for new people with common questions and answers
+
+Ins
+
+Aim
+Improvement Guide
+
+Simple improvement techniques
+
+Coach Bitey
+
+Aimbot.EXE Guide
+
+Kinda outdated but still good for low level people as a beginner guide
+
+Aimbot.exe
+
+Plateaus
+by krascsi
+
+What plateaus are and how to overcome them when training
+
+krascsi
+
+Aim
+Training Scheduling
+
+A guide on when and how long to aim train for maximum efficiency
+
+Prosper
+
+Aim
+training guide by Fallen
+
+Great introductory document about the basics of aim training and some simple
+starting resource
+
+Fallen
+
+Beginner’s Guide to Aim Lab benchmarks
+
+revosect
+
+revosect’s Aim Lab Benchmarks
+
+Aim
+Training Experiments, General Information and Routines
+
+A document packed full of good aim training theory, techniques, tips and even some really good routines
+
+sdk
+
+=== Routines(General)
+
+Title/Link
+
+Description
+
+Author(s)
+
+Voltaic
+Fundamental aim routines 2.0
+
+The best basic routine with the benchmarks built in. My recommendation for a simple
+routine for all levels
+
+Voltaic
+
+Voltaic
+recommended scenarios
+
+Good basis to make a personalized routine and find new scenarios
+
+Tammas’
+Routine Addendum
+
+Updated Aimer7s routine to remove outdate scenarios and with newer techniques and
+progression
+
+Tammas
+
+Zeeq’s Advanced
+Playlists
+
+Really good clicking routines for advanced players
+
+Zeeq
+
+sdk’s Routines
+and general guides
+
+A lot of good scenarios and you can find some golden routines and includes specific
+routines like: Reactivity, CPS training, Speed, Ult smoothness and some good aim theory
+
+sdk
+
+7 day overkill routine for
+grinders
+
+For advanced. Each day is 2+ hours and covers almost all raw aiming aspects.
+
+Cowser
+
+Laizirz’s
+Routine
+
+A routine for experienced aimers or future crackheads. just a simple complete
+routine with some good unknown scenarios
+
+Laizirz
+
+Routine
+Generator Sheet
+
+Creates a new routine everyday
+
+Fallen, Daan
+
+Krascsi’s Kovaak’s
+playlists
+
+Covering most aiming styles/problems players might have. The names of playlists
+should speak for themselves, like what they are for
+
+Krascsi
+
+wA
+Playlist Compilation
+
+A List of Individual .plo/ .json (playlist) files for Kovaaks includes some of the
+routines on this list
+
+wow Aims
+
+Collection of
+playlists for Kovaaks
+
+Another Collection of .json files for playlists for a lot of resources in this list
+for kovaak’s inbuilt playlist feature
+
+ridd
+
+Lapu4’s Playlists
+
+A collection of 7 different playlist files created by lapu4 with a focus on static
+targets
+
+Lapu4
+
+=== Routines(specific)
+
+Title/Link
+
+Description
+
+Author(s)
+
+PureRoutines
+
+Three amazing routines at the moment; PureSmoothness and PureSmoothness 1by1,
+Target switching, Movement and a game specific routine for Fortnite as well as some good advice for
+issue specific scenarios
+
+PureG and many
+contributors
+
+Pure
+Apex Routine
+
+A fantastic new routine using 1b1 method and a great set of specifically made
+scenarios for a hard training routine for Apex Legends but it maybe too hard for new players
+
+Voltaic
+Game Specific aim training
+
+Many game specific routines which include: CS/Val, Fortnite, AFPS, R6, Hyperscape,
+Apex, LG 1v1(AFPS), COD: Warzone
+
+Voltaic
+
+Voltaic Issue specific aim
+training 2.0
+
+A more updated and natural issue specific set of routines with two levels of
+difficulty. Routines: Smoothness and Precision, Static Target Acquisition, Speed, Reactivity
+
+Fusha’s cs/val Routines
+
+Basic but good cs/ val routine with warmup
+
+Fusha
+
+Diabotical/Quake
+Routine
+
+Covers everything you need for diabotical and all afps aiming needs
+
+Anima
+
+Cowser Low TTK routine
+
+For low ttk games (Valorant, csgo, COD and ect.)
+
+cowsur
+
+xen0’s
+Hyperscape routine
+
+Real quick and simple routine for the new hyperscape game
+
+xen0
+
+Valorant
+routine for G2 Pyth
+
+A valorant playlist made by Zeeq for G2 Pyth
+
+Zeeq
+
+sdk’s Hyperscape
+routine
+
+Good hyperscape routine with applied scenarios
+
+sdk
+
+Tunez’s
+Aimgod CS/Val
+
+Good routine for cs/val for aimbeast aim trainer
+
+Tunez
+
+Fallen’s
+Fortnite Guide
+
+Simple Fortnite specific routine with 2 tiers and information around aim trainer
+settings
+
+Fallen
+
+Fallen’s
+Tac FPS Routine
+
+Simple cs/ val routine with 2 tiers
+
+Chiri’s
+OW Tracer Routine
+
+Game specific routine for Overwatch Tracer by a God tracer player
+
+Chiriseong,
+Mana
+
+steadegy
+Valorant Routine
+
+Simple Valorant specific routine with 2 tiers of difficulty
+
+steadegy
+
+drekes4’s
+Fortnite KovaaKs scenarios V1
+
+A collection of recommended scenarios for Fortnite with tiers and categories
+
+drekes4
+
+Aim
+Training by DrUninstall
+
+A set of game specific advice and KovaaKs routines for Warzone/COD, a complete
+playlist, tacfps and Fortnite
+
+DrUninstall
+
+rA x Strahfe Warzone
+Routine
+
+revosect, Strahfe
+
+=== Vidoes
+
+Title/Link
+
+Description
+
+Author(s)
+
+How to: x series
+
+A good series covering major aiming categories & scenarios and their techniques, how to improve and
+perform well
+with them
+
+ChristmasIsCancelled
+
+Which aim
+trainer is the best
+
+Understand what each aim trainer offers.
+
+Prosper
+
+Properly Using
+KovaaK’s to Improve series
+
+A good and basic series introduction into aiming and kovaaks concepts with videos
+including(Setting up Kovaaks, Training Properly, Benchmarks and Routines, Sensitivities)
+
+DragonAims
+
+Gaming and Aiming
+Explained Series
+
+Series of small videos explaining the basics of everything aiming and gaming
+related There are not many videos but there are many in the works with 1 or 2 a week being released
+
+Anima
+
+Stop Losing Fights: How to Apply Aim Training to
+FPS Games
+
+An indepth video on why and how to apply aim training to real games and why there is a difference
+
+riddBTW
+
+bardOZ’s Static Aiming Guide
+
+Created by the top static player. A great explaination and guide to tips, tricks and techniques to do
+the best with everything static and one-shotable
+
+bardOZ
+
+=== Misc
+
+Title/Link
+
+Description
+
+Author(s)
+
+Wrist stretch
+and posture guide
+
+Important to keep your health and stretches good when aiming and gaming
+
+Kastor
+
+Benchmark score tracking
+sheet
+
+A semi-automated script to record and track how close you are to the voltaic scores
+
+Voltaic
+
+Auto Progress Update Tool for
+Benchmarks
+
+A fully automated Script to import your kovaaks scores for the voltaic benchmarks
+to the above tracking sheet in real time
+
+Health
+and improvement routines
+
+Daily and life style routine to improve health and improvement
+
+Voltaic Discord
+
+Helpful discord with advice and coaching and benchmark ranking system
+
+revosect Discord
+
+Helpful discord with many resources and a benchmark ranking system
+
+revosect
+
+Mousepad
+Mastersheet
+
+Big sheet for all about mousepad speed, durabilities and recommendations
+
+Hoya
+
+FPSMath discord bot
+
+A Discord bot designed to convert video game sensitivities, fovs, mouse feel across
+themselves and preset games
+
+Anima
+
+Lapu4’s Library
+
+Lapu4’s routines, playlists, other resources, documents, links to useful websites
+and videos, etc. are all in one place. Primarily for Japanese speakers but has also been translated.
+
+Lapu4
+
+Pumpkin’s Routine Finder
+
+A website to find and upload KovaaK specific playlist files
+
+Pumpkin

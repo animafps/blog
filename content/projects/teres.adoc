@@ -1,0 +1,73 @@
+---
+title: teres
+date: 2023-10-13
+---
+= teres
+:revdate: 2023-10-13
+
+Repo: https://github.com/animafps/teres
+
+_Teres_ is a utility for realistic motion blur through frame intepolation and blending
+
+'''''
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|Before |After Teres
+|image:https://github.com/animafps/teres/blob/main/docs/demo.gif?raw=true[without] |image:https://github.com/animafps/teres/blob/main/docs/demo_blur.gif?raw=true[with teres]
+|===
+
+_60fps => 960fps(rife) => 60fps (blur amount 1)_
+
+== Features
+
+* Interpolate video to higher framerate
+* Blur frames together for motion blur
+* Both CLI and a minimal GUI usage
+* Supports multiple videos simultatiously
+* Progress bar
+* Global configuration file
+* Multiple file queue
+
+== 🎈 Usage
+
+https://discord.gg/5z3YhWstQr[*Support and development Discord*]
+
+Teres can be run from the command line or seperately
+
+=== Non CLI
+
+You can run the program and follow the instructions or use the "`open with`" function in explorer
+
+=== CLI
+
+[source,man]
+----
+USAGE:
+    teres [OPTIONS] [INPUT]...
+
+ARGS:
+    [INPUT]...    Input file name(s) (space separated) or glob pattern
+
+OPTIONS:
+    -n, --noui       Disable user interface (CLI only)
+    -v, --verbose... More output per occurence
+    -q, --quiet...   Less output per occurence
+    -h, --help       Print help information
+    -V, --version    Print version information
+----
+
+For configuration options see https://animafps.github.io/teres/docs/configuration[the docs]
+
+== 🎉 Acknowledgements
+
+* https://github.com/f0e/blur[foe’s blur] - Was the basis for the entire code base
+* https://github.com/couleur-tweak-tips/Smoothie[Smoothie] - Couleur and the ctt team helped create more inovation and colaboration with similar goals
+* https://github.com/couleurm/vs-frameblender[vs-frameblender] - Plugin used for blending the resulting frames of interpolation
+* https://ffmpeg.org/[ffmpeg] - The program used for encoding the interpreted frames
+* https://www.vapoursynth.com[vapoursynth] - Program for manipulating and interpolating videos
+* https://github.com/FFMS/ffms2[ffms2] - Plugin for inputting the video file
+* https://github.com/HomeOfVapourSynthEvolution/havsfunc[havsfunc] - Plugin that provides the svp interpolation function
+* https://github.com/HomeOfVapourSynthEvolution/mvsfunc[mvsfunc] - Plugin that provides colour manipulation
+* https://github.com/HolyWu/vs-rife[vs-rife] - Vapoursynth implementation of the interpolation algorithm RIFE
+* https://github.com/HomeOfVapourSynthEvolution/VapourSynth-RIFE-ncnn-Vulkan[VapourSynth-RIFE-ncnn-Vulkan] - Vulkan implementation of RIFE
