@@ -2,6 +2,7 @@
 title: Issues With FoV Based Yaw
 date: 
 tags: ['math', 'gaming', 'coding']
+draft: true
 ---
 = Issues With FoV Based Yaw
 
