@@ -176,17 +176,15 @@ footer {
   --purple2: #d3869b;
   --aqua1: #689d6a;
   --aqua2: #8ec07c;
-  --orange1: #d65d0e;
-  --orange2: #fe8019;
+  --orange1: rgb(231,138,78);
+  --orange2: rgb(195,94,10);
 }
 
 a:hover {
-  color: var(--green2);
-  border-bottom: 1.5px solid var(--green2);
+  color: var(--orange2);
 }
 
 a {
-  color: var(--green1);
+  color: var(--orange1);
   text-decoration: none;
-  border-bottom: 1.5px solid var(--green1);
 }
