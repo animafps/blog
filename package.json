@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "postcss": "^8.4.31"
-  },
-  "dependencies": {
-    "postcss-cli": "^10.1.0"
-  }
-}

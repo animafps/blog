@@ -40,7 +40,10 @@ body {
   font-style: italic;
 }
 
-h1,
+h1 {
+  color: var(--fg0);
+}
+
 h2,
 h3,
 h4,
@@ -90,7 +93,7 @@ hr {
 }
 
 pre {
-  background: var(--gray1);
+  background-color: var(--bg1);
   padding: 1em;
   overflow-x: auto;
   /* Fix pre content overflowing parent without scroll bar */
@@ -103,7 +106,17 @@ pre {
 }
 
 table {
-  width: 100%;
+  width: 70vw;
+  position: relative;
+  left: calc(-35vw + 50%);
+}
+
+@media only screen and (max-width: 800px) {
+  table {
+    width: 90vw;
+    position: relative;
+    left: calc(-45vw + 50%);
+}
 }
 
 table,
@@ -114,10 +127,11 @@ td {
   padding: 0.4rem;
 }
 
-code {
-  color: white;
-  font-size: 80%;
+code:not(:where(.highlight *)) {
+  background-color: var(--bg1);
   font-size: 90%;
+  padding: 2px 5px;
+  color: var(--blue2);
 }
 
 blockquote {
@@ -164,7 +178,7 @@ footer {
   --fg4: #a89984;
   --gray1: var(--fg4);
   --gray2: #928374;
-  --red1: #cc241d;
+  --red1: #cd5854;
   --red2: #fb4934;
   --green1: #98971a;
   --green2: #b8bb26;
@@ -178,6 +192,13 @@ footer {
   --aqua2: #8ec07c;
   --orange1: rgb(231,138,78);
   --orange2: rgb(195,94,10);
+}
+
+.imageblock .title {
+  text-align: center;
+  font-size: medium;
+  margin-top: 5px;
+  opacity: 0.5;
 }
 
 a:hover {

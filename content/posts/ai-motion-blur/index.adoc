@@ -85,8 +85,8 @@ The latter two steps can be easily integrated into one program, which was first 
 
 Below is some examples using the methods above to create the smooth motion blur effect in video game footage:
 
-video::09-09-00.mp4[]
-Overwatch by 10 from CTT
+.Overwatch by 10 from CTT
+video::09-09-00.mp4[Overwatch by 10 from CTT]
 
 more to come…
 

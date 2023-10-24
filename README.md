@@ -1,3 +1,3 @@
 # My blog/personal site
 
-theme: https://github.com/Masellum/hugo-theme-nostyleplease
+theme based on https://github.com/Masellum/hugo-theme-nostyleplease with gruvbox stlying

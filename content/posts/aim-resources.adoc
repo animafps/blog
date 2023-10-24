@@ -76,7 +76,7 @@ For good Kovaak specific playlists see https://github.com/riddbtw/kovaaks-playli
             <td>All about sensitivities and the benefits and downsides of different sens as well as
                 how to choose a range to play in</td>
         </tr>
-        <tr>###<td><a target="_blank" rel="nofollow noopener noreferrer" href="https://docs.google.com/document/d/1GhTDVWNHWOiHhN_izTypImaVSUfsSjAKZw5dzRq1-xI/edit">Aim
+        <tr><td><a target="_blank" rel="nofollow noopener noreferrer" href="https://docs.google.com/document/d/1GhTDVWNHWOiHhN_izTypImaVSUfsSjAKZw5dzRq1-xI/edit">Aim
                     Improvement Guide</a></td>
             <td>Simple improvement techniques</td>
             <td><a target="_blank" rel="nofollow noopener noreferrer" href="https://twitter.com/CoachBitey">Coach Bitey</a></td>
