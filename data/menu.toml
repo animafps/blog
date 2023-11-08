@@ -39,6 +39,16 @@ title = "projects"
     [entries.post_list]
     section  = "projects"
     description = true
+[[entries]]
+title = "services"
+  [[entries.entries]]
+  title = "<a href='https://tracker.anima.nz'>tracker</a>"
+  [[entries.entries]]
+  title = "<a href='https://search.anima.nz'>searXNG</a>"
+  [[entries.entries]]
+  title = "<a href='https://0x0.anima.nz'>nullpointer postbin</a>"
+  [[entries.entries]]
+  title = "<a href='https://git.anima.nz'>git mirror</a>"
 
 [[entries]]
 title = "rss"
