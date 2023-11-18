@@ -7,7 +7,7 @@ tags: ['philosophy']
 :revdate: 2021-10-15 06:35:45
 
 ____
-What are you doing?"`,`"oh, _nothing_”. _it wasn’t nothing_ it’s not something important or interesting for me to tell them, they are looking to gain something.
+"What are you doing?","oh, _nothing_". _it wasn’t nothing_ it’s not something important or interesting for me to tell them, they are looking to gain something.
 ____
 
 Utility in the context of this post is a philosophical value that looks at how important something is by the value of its effects/use often is the pleasure that is measured or gained by the subject. Of course in the situation they are doing something, but what is its utility? Clearly not important nor useful to tell someone else.
