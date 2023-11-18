@@ -6,47 +6,6 @@ video {
   height: auto;
 }
 
-@mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color) {
-  background-color: $--bg-color;
-
-  color: $--primary-text-color;
-
-  a {
-    color: $--link-color;
-    text-decoration: none;
-
-    &:visited { color: $--visited-link-color; }
-    &:hover { text-decoration: underline; }
-  }
-
-  code:not(pre > code) {
-    background-color: $--primary-text-color;
-    color: $--bg-color;
-  }
-
-  figcaption { color: $--secondary-text-color; }
-}
-
-@mixin dark-appearance {
-  @include theme(#212121, #fafafa, #eeeeee, #0071bc, #a359e9);
-}
-
-@mixin light-appearance {
-  @include theme(#ffffff, #212121, #666666, #1e70bf, #921292);
-}
-
-body[a="dark"] { @include dark-appearance; }
-body[a="light"] { @include light-appearance; }
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-}
-
-@media (prefers-color-scheme: light) {
-  body[a="auto"] { @include light-appearance; }
-}
-
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -54,7 +13,7 @@ body[a="light"] { @include light-appearance; }
 // see: https://stackoverflow.com/a/61265706
 html,
 body {
-  background-color: white;
+  background-color: var(--bg);
 }
 
 html {
@@ -67,6 +26,7 @@ html {
 }
 
 body {
+  color: var(--fg);
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -75,11 +35,22 @@ body {
   overflow-wrap: break-word;
 }
 
-*:target { background: yellow; }
-
 .post-meta {
   text-align: right;
   font-style: italic;
+}
+
+h1 {
+  color: var(--fg0);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--fg0);
+  margin-top: 2rem;
 }
 
 hr {
@@ -92,6 +63,10 @@ p {
 
 li {
   margin: 0.4rem 0;
+}
+
+*:target {
+  background: var(--purple1);
 }
 
 .w {
@@ -118,10 +93,16 @@ hr {
 }
 
 pre {
-  background-color: black;
+  background-color: var(--bg1);
   padding: 1em;
   overflow-x: auto;
   /* Fix pre content overflowing parent without scroll bar */
+}
+
+
+*::selection {
+  color: var(--fg0);
+  background: var(--bg4);
 }
 
 table {
@@ -141,21 +122,21 @@ table {
 table,
 th,
 td {
-  border: thin solid black;
+  border: thin solid var(--fg);
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code:not(:where(.highlight *)) {
-  background-color: black;
+  background-color: var(--bg1);
   font-size: 90%;
   padding: 2px 5px;
-  color: darkblue;
+  color: var(--blue2);
 }
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid var(--fg);
   padding: 1rem;
 
   p {
@@ -178,9 +159,53 @@ footer {
   text-align: center;
 }
 
+
+:root {
+  font-size: 1rem;
+  --bg: var(--bg0);
+  --bg0: #282828;
+  --bg0_h: #1d2021;
+  --bg0_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+  --fg: var(--fg1);
+  --fg0: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+  --gray1: var(--fg4);
+  --gray2: #928374;
+  --red1: #cd5854;
+  --red2: #fb4934;
+  --green1: #98971a;
+  --green2: #b8bb26;
+  --yellow1: #d79921;
+  --yellow2: #fabd2f;
+  --blue1: #458588;
+  --blue2: #83a598;
+  --purple1: #b16286;
+  --purple2: #d3869b;
+  --aqua1: #689d6a;
+  --aqua2: #8ec07c;
+  --orange1: rgb(231,138,78);
+  --orange2: rgb(195,94,10);
+}
+
 .imageblock .title {
   text-align: center;
   font-size: medium;
   margin-top: 5px;
   opacity: 0.5;
+}
+
+a:hover {
+  color: var(--orange2);
+}
+
+a {
+  color: var(--orange1);
+  text-decoration: none;
 }
