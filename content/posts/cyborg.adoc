@@ -25,7 +25,7 @@ You can also argue along the same lines as the examples above is something like 
 
 === Neuralink - A Clear Bridge
 
-Neuralink founded by the internet's current favourite billionaire Elon Musk in 2016 with the goal to develop implantable brain-computer interfaces (BCIs). Their first goal was to make devices that can treat serious brain diseases in the short-term, with the eventual goal of human enhancement.
+Founded by tech mogul Elon Musk in 2016, Neuralink aims to establish implantable brain-computer interfaces (BCIs) <<Musk>>. Initially targeting medical applications, such as treating severe neurological disorders, Neuralink ultimately seeks long-term human enhancement possibilities. Despite facing skepticism regarding practical outcomes thus far, Neuralink demonstrates substantial efforts dedicated to pushing the frontiers of human-computer interactions involving intricate neural networks.
 
 While the idea coming from the fictional universe in The Culture of a "neural lace" has grown some fruit to be not much more than a high definition set of electrodes.
 
@@ -42,9 +42,9 @@ Similarly, entrusting cognitive tasks to the vast digital landscape and the vari
 
 === Artificial Intelligence
 
-Artificial intelligence is the buzz word of the year (2023) with new programs and algorithms popping up left, right, and centre have created ways and interfaces to automate tasks such as text generation, image synthesis and more advanced with such things as self-driving technologies. Just like the above this has reach an ability of the data available to it, like for example the image generation has been in discourse about its ethical generation being nothing new rather an interpretation of other peoples work. But humans will always be ahead in this current state because without input it will not evolve rather train on itself and repeat. So in its current state this symbiosis just improves the small repetitive tasks without innovation. So the level of human ability has not been passed rather it will always match.
+In 2023, artificial intelligence emerges as the talk of the town, spurred by novel applications across industries and fields. Newly devised algorithms facilitate automated processes ranging from generating texts and images to propelling autonomous vehicles <<AIIndex>>. Although critics question whether contemporary AI truly innovates independently, these developments significantly boost efficiency levels by handling monotonous tasks.
 
-The point in which AI can become more than the collective past human is if it reaches the singularity point and can be developed into an artificial general intelligence (AGI).
+However, AI only matches human capacity when trained adequately based on existing datasets, failing to generate groundbreaking insights beyond predefined parameters. Currently, AGI remains elusive, requiring further breakthroughs enabling adaptability and autonomy surpassing human limitations.
 
 == Transhumanism
 
@@ -62,3 +62,5 @@ So technology is here to stay and the cyborg has become human.
 
 * [[[ck]]] http://web.mit.edu/digitalapollo/Documents/Chapter1/cyborgs.pdf[Cyborgs and Space], in Astronautics (September 1960), by Manfred E. Clynes and American scientist and researcher Nathan S. Kline.
 * [[[th]]] Bostrom N. https://nickbostrom.com/papers/history.pdf[A History of Transhumanist Thought.]
+* [[[musk]]] https://www.theverge.com/interface/2020/8/28/21404438/elon-musk-neurallink-brain-machine-interface-timeline
+* [[[AIIndex]]] https://aiindex.stanford.edu/
