@@ -1,0 +1,64 @@
+---
+title: Humans as Cyborgs
+date: 2023-12-19
+tags: ['philosophy', 'ai', 'opinion']
+---
+= Humans as Cyborgs
+:revdate: 2023-12-19
+:doctype: article
+
+Cyborgs are often misunderstood as mere humans with metallic skin or head-up displays in their visions. However, the true essence of cyborgs lies in embedding tools within oneself, thereby augmenting and influencing personal skills. Surprisingly enough, humans have been unknowingly embracing cyborganization for millennia through basic inventions such as clothing, serving as individual shelters against harsh weather conditions. Let's delve deeper into understanding the fascinating history and how we are closer to the machine than man.
+
+== Brief History of the Cyborg
+
+The term cyborg was coined by Manfred Clynes and Nathan S. Kline in 1960 <<ck>> 
+to be a portmanteau of **cyb**ernetic and **org**anism.
+Cyborg is not a separate organism or automaton but rather a living organism that has restored function or enhanced abilities due to the integration of some artificial component or technology that relies of feed back.
+
+The idea of a man & machine mixture was not new in 1960 but has been widespread in sci-fi before WW2. As early as 1843, Edgar Allan Poe wrote a short story called "The Man That Was Used Up" which described a man with extensive prostheses.
+
+== Prostheses and Medical Augmentation
+
+The common idea of one type of cyborg always revolves around the implementation of foreign technology to restore previously functioning organs or to implement to reach "normal" function like for example prostheses like a prosthetic leg to restore "normal" walking ability and a cardiac pacemaker to enforce consistent cardiac function.
+
+You can also argue along the same lines as the examples above is something like wearable technology like a watch that can improve the ability to tell the time and even more advanced in things like smart watches to enhance multiple functions especially around exercise.
+
+=== Neuralink - A Clear Bridge
+
+Neuralink founded by the internet's current favourite billionaire Elon Musk in 2016 with the goal to develop implantable brain-computer interfaces (BCIs). Their first goal was to make devices that can treat serious brain diseases in the short-term, with the eventual goal of human enhancement.
+
+While the idea coming from the fictional universe in The Culture of a "neural lace" has grown some fruit to be not much more than a high definition set of electrodes.
+
+While we are yet to see something promising they are still trying which is the main thing here that there is a huge amount of effort to push the boundaries of human-computer interaction to be apart of the most important and complex organ of us humans. 
+
+== Technological Symbiosis
+
+> Daily commute, oh no you are running late so you jump into the car and speed out of the driveway nearly missing the rubbish bin on the kerb without looking out the side but off intuition of the cars size, then jump onto the freeway swerving between lanes because this meeting this morning cannot be missed, you can feel the road beneath you and how its moving and how the suspension is swaying with each lane change  
+
+This is the car becoming another sense, you can feel how big it is and how it can manoeuvre without thinking too hard. Is this a cybernetic enhancement? 
+Or even a form of embodied vehicular symbiosis?
+
+Similarly, entrusting cognitive tasks to the vast digital landscape and the various smart devices constitutes another aspect of cyborganization; harnessing search engines, GPS navigation, calculators, and countless other software solutions allows us to perform intellectual feats otherwise impossible or incredibly challenging for unassisted minds. Thus, blurring the line between human ingenuity and technological prowess becomes increasingly indistinguishable, leading us toward unprecedented realms where the distinctions separating man and machine cease to exist entirely.
+
+=== Artificial Intelligence
+
+Artificial intelligence is the buzz word of the year (2023) with new programs and algorithms popping up left, right, and centre have created ways and interfaces to automate tasks such as text generation, image synthesis and more advanced with such things as self-driving technologies. Just like the above this has reach an ability of the data available to it, like for example the image generation has been in discourse about its ethical generation being nothing new rather an interpretation of other peoples work. But humans will always be ahead in this current state because without input it will not evolve rather train on itself and repeat. So in its current state this symbiosis just improves the small repetitive tasks without innovation. So the level of human ability has not been passed rather it will always match.
+
+The point in which AI can become more than the collective past human is if it reaches the singularity point and can be developed into an artificial general intelligence (AGI).
+
+== Transhumanism
+
+This brings me to this point, transhumanism is the movement to enhance the human condition by developing and making advanced technologies that can enhance longevity and cognition <<th>>. While this goal of achieving such a feat would in its nature improve the lives of humans do we lose the nature of humans and even push to the point of https://en.wikipedia.org/wiki/Posthumanism[posthumanism]. But this is not the point of this article to speculate on the future. Rather see where we are and see that we have already begun the process to become more than human with the enhancements of our own design.
+
+
+== Cyborgs as Humans
+
+We have reach the point where the horse and carriage is being phased out by the motor car but for the cognitive and physical tasks, which in my books is not a bad thing to assist humans with repetitive and non-creative tasks to give time for things that can fulfil our lives. We should embrace this but always keep in mind the implications of giving technology power over our lives. Because in some instances what seems helpful can be but also at the same time deceive and manipulate (see social media algorithms which improve and create engagement but also create an incentive for unhealthy use while collecting complex data on the user).
+
+So technology is here to stay and the cyborg has become human.
+
+[bibliography]
+== References
+
+* [[[ck]]] http://web.mit.edu/digitalapollo/Documents/Chapter1/cyborgs.pdf[Cyborgs and Space], in Astronautics (September 1960), by Manfred E. Clynes and American scientist and researcher Nathan S. Kline.
+* [[[th]]] Bostrom N. https://nickbostrom.com/papers/history.pdf[A History of Transhumanist Thought.]
