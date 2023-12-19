@@ -25,7 +25,7 @@ You can also argue along the same lines as the examples above is something like 
 
 === Neuralink - A Clear Bridge
 
-Founded by tech mogul Elon Musk in 2016, Neuralink aims to establish implantable brain-computer interfaces (BCIs) <<Musk>>. Initially targeting medical applications, such as treating severe neurological disorders, Neuralink ultimately seeks long-term human enhancement possibilities. Despite facing skepticism regarding practical outcomes thus far, Neuralink demonstrates substantial efforts dedicated to pushing the frontiers of human-computer interactions involving intricate neural networks.
+Founded by tech mogul Elon Musk in 2016, Neuralink aims to establish implantable brain-computer interfaces (BCIs). Initially targeting medical applications, such as treating severe neurological disorders, Neuralink ultimately seeks long-term human enhancement possibilities. Despite facing skepticism regarding practical outcomes thus far, Neuralink demonstrates substantial efforts dedicated to pushing the frontiers of human-computer interactions involving intricate neural networks.
 
 While the idea coming from the fictional universe in The Culture of a "neural lace" has grown some fruit to be not much more than a high definition set of electrodes.
 
@@ -62,5 +62,4 @@ So technology is here to stay and the cyborg has become human.
 
 * [[[ck]]] http://web.mit.edu/digitalapollo/Documents/Chapter1/cyborgs.pdf[Cyborgs and Space], in Astronautics (September 1960), by Manfred E. Clynes and American scientist and researcher Nathan S. Kline.
 * [[[th]]] Bostrom N. https://nickbostrom.com/papers/history.pdf[A History of Transhumanist Thought.]
-* [[[musk]]] https://www.theverge.com/interface/2020/8/28/21404438/elon-musk-neurallink-brain-machine-interface-timeline
 * [[[AIIndex]]] https://aiindex.stanford.edu/
