@@ -1,7 +1,10 @@
 ---
 title: Humans as Cyborgs
-date: 2023-12-19
+date: 2023-12-19T00:00:00Z
+categories: ['philosophy']
 tags: ['philosophy', 'ai', 'opinion']
+images: ['social/cyborg.png']
+author: Anima
 ---
 = Humans as Cyborgs
 :revdate: 2023-12-19
@@ -38,7 +41,7 @@ While we are yet to see something promising they are still trying which is the m
 This is the car becoming another sense, you can feel how big it is and how it can manoeuvre without thinking too hard. Is this a cybernetic enhancement? 
 Or even a form of embodied vehicular symbiosis?
 
-Similarly, entrusting cognitive tasks to the vast digital landscape and the various smart devices constitutes another aspect of cyborganization; harnessing search engines, GPS navigation, calculators, and countless other software solutions allows us to perform intellectual feats otherwise impossible or incredibly challenging for unassisted minds. Thus, blurring the line between human ingenuity and technological prowess becomes increasingly indistinguishable, leading us toward unprecedented realms where the distinctions separating man and machine cease to exist entirely.
+Similarly, entrusting cognitive tasks to the vast digital landscape and the various smart devices constitutes another aspect of cyborganization; harnessing search engines, GPS navigation, calculators, and countless other software solutions allows us to perform intellectual feats otherwise impossible or incredibly challenging for unassisted minds. Thus, blurring the line between human ingenuity and technological prowess becomes increasingly indistinguishable, leading us toward unprecedented realms where the distinctions separating man a for your blog posts. Supported front-matters are title, author, categories, tags, and date. Also, both toml and yaml formats are supported.nd machine cease to exist entirely.
 
 === Artificial Intelligence
 
