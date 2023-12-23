@@ -63,3 +63,5 @@ So technology is here to stay and the cyborg has become human.
 * [[[ck]]] http://web.mit.edu/digitalapollo/Documents/Chapter1/cyborgs.pdf[Cyborgs and Space], in Astronautics (September 1960), by Manfred E. Clynes and American scientist and researcher Nathan S. Kline.
 * [[[th]]] Bostrom N. https://nickbostrom.com/papers/history.pdf[A History of Transhumanist Thought.]
 * [[[AIIndex]]] https://aiindex.stanford.edu/
+
+https://news.ycombinator.com/item?id=38694237[Discuss on HackerNews]
