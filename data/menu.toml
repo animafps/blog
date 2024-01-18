@@ -51,3 +51,6 @@ title = "services"
 [[entries]]
 title = "rss"
 url = "index.xml"
+
+[[entries]]
+title = "<a href='https://stats.anima.nz'>site analytics</a>"
