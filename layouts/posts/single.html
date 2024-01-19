@@ -1,16 +1,16 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article>
+<article class="h-entry">
   <p class="post-meta">
-    <time datetime="{{ .Date }}">
+    <time datetime="{{ .Date }}" class="dt-published">
       {{ .Date | time.Format site.Params.theme_config.date_format }}
     </time>
   </p>
 
-  <h1>{{ .Title }}</h1>
+  <h1 class="p-name">{{ .Title }}</h1>
 
-  {{ .Content }}
+  <div class="e-content">{{ .Content }}</div>
 </article>
 
 <hr />
