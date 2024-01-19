@@ -66,6 +66,8 @@
       "lyt-visually-hidden",
       "nested",
       "olist",
+      "p-author",
+      "p-category",
       "p-name",
       "page-content",
       "paragraph",

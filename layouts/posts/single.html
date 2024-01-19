@@ -6,6 +6,7 @@
     <time datetime="{{ .Date }}" class="dt-published">
       {{ .Date | time.Format site.Params.theme_config.date_format }}
     </time>
+    <a rel="author" class="p-author h-card" href="/about">Anima</a>
   </p>
 
   <h1 class="p-name">{{ .Title }}</h1>
@@ -20,7 +21,7 @@
   {{ (site.GetPage $taxonomy).LinkTitle }}:
   {{ range $k, $_ := . -}}
   {{ if $k }}, {{ end }}
-  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  <a href="{{ .RelPermalink }}" class="p-category">{{ .LinkTitle }}</a>
   {{- end }}
 </p>
 {{ end }}
