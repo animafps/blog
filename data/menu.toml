@@ -49,7 +49,7 @@ title = "services"
   title = "<a href='https://git.anima.nz'>git mirror</a>"
 
 [[entries]]
-title = "recipis"
+title = "recipes"
 [entries.post_list]
 section = "recipes"
 show_date = false
