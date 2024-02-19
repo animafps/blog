@@ -8,7 +8,7 @@ Most people don't know but apart from studing my job is a bar manager and head b
 
 and a couple of weeks back we got some amazing rum from the Rum Co. of Fiji so wanted to do something different
 
-## Recipie
+## Recipe
 
 ### Ingredients
 

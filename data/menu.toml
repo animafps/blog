@@ -49,9 +49,9 @@ title = "services"
   title = "<a href='https://git.anima.nz'>git mirror</a>"
 
 [[entries]]
-title = "recipies"
+title = "recipis"
 [entries.post_list]
-section = "recipies"
+section = "recipes"
 show_date = false
 
 

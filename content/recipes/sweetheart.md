@@ -14,7 +14,7 @@ focusing on the raspberry notes from our rose on hand.
 
 **Review**: Fruity, sweet and lightly pink in colour
 
-## Recipie
+## Recipe
 
 ### Ingredients
 
