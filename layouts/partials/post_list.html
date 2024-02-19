@@ -28,8 +28,10 @@
     <li class="nested">
     <ul>
         {{- range $post := $posts -}}
-        <li>
-            <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
+	<li>
+	    {{- if eq $post.Section "posts" "videos" }}
+	    	<span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
+	    {{ end }}
             <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
         </li>
         {{ end }}

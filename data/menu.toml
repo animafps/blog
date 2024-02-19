@@ -49,6 +49,13 @@ title = "services"
   title = "<a href='https://git.anima.nz'>git mirror</a>"
 
 [[entries]]
+title = "recipies"
+[entries.post_list]
+section = "recipies"
+show_date = false
+
+
+[[entries]]
 title = "rss"
 url = "index.xml"
 
