@@ -39,14 +39,6 @@ title = "projects"
     [entries.post_list]
     section  = "projects"
     description = true
-[[entries]]
-title = "services"
-  [[entries.entries]]
-  title = "<a href='https://tracker.anima.nz'>tracker</a>"
-  [[entries.entries]]
-  title = "<a href='https://search.anima.nz'>searXNG</a>"
-  [[entries.entries]]
-  title = "<a href='https://git.anima.nz'>git mirror</a>"
 
 [[entries]]
 title = "recipes"
@@ -58,6 +50,3 @@ show_date = false
 [[entries]]
 title = "rss"
 url = "index.xml"
-
-[[entries]]
-title = "<a href='https://stats.anima.nz'>site analytics</a>"
