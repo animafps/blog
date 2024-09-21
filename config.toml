@@ -12,7 +12,7 @@ enableGitInfo = true
 [[goldmark.renderer]]
 unsafe = true
 [markup.asciidocext]
-    extensions = ["asciidoctor-diagram", "asciidoctor-html5s"]
+    extensions = ["asciidoctor-html5s"]
     workingFolderCurrent = true
     trace = true
     failureLevel = "fatal"
@@ -90,7 +90,7 @@ weight = 100
         posts = '/:filename'
 
 [security.exec]
-allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^asciidoctor$', '^git$']
 
 [frontmatter]
   date = [':date', ':default']

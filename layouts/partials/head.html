@@ -22,7 +22,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
-  {{ $sass = $sass | resources.ToCSS $options }}
+  {{ $sass = $sass | css.Sass $options }}
   {{ $sass := $sass | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel="preload" href="{{ $sass.Permalink | relURL }}" as="style" />
   <link rel="stylesheet" href="{{ $sass.Permalink | relURL }}" integrity="{{ $sass.Data.Integrity }}" />
@@ -55,7 +55,7 @@
   {{ with .HasShortcode "youtube" }}
     {{ $liteyt := resources.Get "js/lite-yt-embed.js" | js.Build | resources.Minify }}
     <script defer src="{{ $liteyt.RelPermalink }}"></script>
-    {{ $litecss := resources.Get "css/_lite-yt-embed.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint "sha512" }}
+    {{ $litecss := resources.Get "css/_lite-yt-embed.scss" | css.Sass $options | resources.Minify | resources.Fingerprint "sha512" }}
     <link rel="preload" href="{{ $litecss.Permalink | relURL }}" as="style" />
     <link rel="stylesheet" href="{{ $litecss.Permalink | relURL }}" integrity="{{ $litecss.Data.Integrity }}" />
   {{ end }}
