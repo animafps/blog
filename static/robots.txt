@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://anima.nz/sitemap.xml
