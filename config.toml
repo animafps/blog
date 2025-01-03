@@ -12,7 +12,6 @@ enableGitInfo = true
 [[goldmark.renderer]]
 unsafe = true
 [markup.asciidocext]
-    extensions = ["asciidoctor-html5s"]
     workingFolderCurrent = true
     trace = true
     failureLevel = "fatal"

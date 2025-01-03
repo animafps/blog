@@ -4,5 +4,4 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "asciidoctor"
-gem "asciidoctor-html5s"
 gem "rouge"
