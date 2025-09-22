@@ -11,6 +11,9 @@ url = "about/"
 [[entries.entries]]
 title = "<a href='https://github.com/animafps/blog'>source</a>"
 
+[[entries.entries]]
+title = "<a href='https://lcam.nz'>portfolio</a>"
+
 [[entries]]
 title = "posts"
 
@@ -33,12 +36,6 @@ title = "videos"
     show_more = true
     show_more_text = "See archive..."
     show_more_url = "videos/"
-
-[[entries]]
-title = "projects"
-    [entries.post_list]
-    section  = "projects"
-    description = true
 
 [[entries]]
 title = "recipes"
