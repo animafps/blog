@@ -2,6 +2,7 @@
 title: How to Dodge in Every FPS
 date: 2020-11-09 09:07:00
 tags: ['gaming', 'guides', 'arena-fps']
+summary: Learn how to dodge in FPS games — reduce damage with unpredictable movement, proper strafe timing, and advanced techniques for hitscan combat.
 ---
 = How to Dodge in Every FPS
 :revdate: 2020-11-09 09:07:00
